@@ -95,8 +95,8 @@
 
 # 5. Upgrade to RealmeUI 3
 
-1. Go back to the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
+1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
+2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
 3. Run the payload by simply using command `python mtk payload`, It should look like this: 
    <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
