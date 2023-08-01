@@ -130,7 +130,7 @@
 
 # Special thanks
 
-> [lemoekq](https://t.me/lemonekq) - The original guide on which this is based
+> [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
 > [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
