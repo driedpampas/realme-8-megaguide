@@ -1,7 +1,3 @@
-<p align="center">
-	<img width="100%" src="https://i.ibb.co/1M3cwX8/banner.png">
-</p>
-
 # Disclaimer
 
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
