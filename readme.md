@@ -61,8 +61,8 @@
 10. Load scatter from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 <p align="center" style="color: red;">IMPORTANT: </p><p align="center">Remember to uncheck:<br>
-- opporeserve2 [IMEI] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
-- cdt_engineering [CODES??] <br><img src="https://i.imgur.com/wfAfnCn.png">
+- opporeserve2 [Signed partition] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
+- cdt_engineering [Digital warranty codes] <br><img src="https://i.imgur.com/wfAfnCn.png">
 </p>
 11. Remember to have download only mode **Without authenticator**
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
