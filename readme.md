@@ -113,6 +113,8 @@
 <p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
 
+# [BONUS] Getting fastboot [TODO]
+
 # Special thanks
 
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
