@@ -5,7 +5,7 @@
 - This method doesn't use **Deep Test**
 - I used this method on my own device so I can confirm it works.
 
-<p align="center" style="color: red;">Use this tutorial only with RUI3</p>
+<p align="center" style="color: red;">Use this tutorial <b>only with RUI3</b></p>
 
 <hr>
 
