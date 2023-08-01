@@ -47,31 +47,31 @@
    <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
    If there is any error with python, you dont have the libaries. get them using command `python -m pip install -r requirements.txt`
    
-1. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
-2. MTK Client should output something like this:
+4. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
-   7. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
-   9. Click on `Options > Option...`
-   10. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
-     <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
+6. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
+7. Click on `Options > Option...`
+8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
+   <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
+  
+9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
    
-   11. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
-   
-   12. Load scatter from Haadi's Firmware
-       <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
+10. Load scatter from Haadi's Firmware
+    <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 <p align="center" style="color: red;">IMPORTANT: </p><p align="center">Remember to uncheck:<br>
 - opporeserve2 [IMEI] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
 - cdt_engineering [CODES??] <br><img src="https://i.imgur.com/wfAfnCn.png">
 </p>
-12. Remember to have download only mode **Without authenticator**
+11. Remember to have download only mode **Without authenticator**
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
-13. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes, to get A.24 on your phone, click `Download`
+12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes, to get A.24 on your phone, click `Download`
     <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
-14. If anything will not fail, it should look like this
+13. If anything will not fail, it should look like this
     <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
 
-15. Before doing anything, remember to **WIPE down your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
+14. Before doing anything, remember to **WIPE down your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
 
 # 4. Unlocking the bootloader - MTK Client
 1. Install [USBDk](https://github.com/daynix/UsbDk/releases/)
@@ -79,17 +79,17 @@
 4. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
 5. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
    <p align="center"><img src="https://i.imgur.com/olGdWYp.png"></p>
-   6. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
-      <p align="center"><img src="https://i.imgur.com/qezn6Af.png"></p>
+6. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
+   <p align="center"><img src="https://i.imgur.com/qezn6Af.png"></p>
       
-      **After this, unlock your phone. First boot will take up to 5-20 minutes. Don't panic.
+   **After this, unlock your phone. First boot will take up to 5-20 minutes. Don't panic.**
       
-      Bootloader is unlocked, **When you will boot your device, press one time power button to skip dm-verity**, there also will be a 5-second orange-state indicator
+   Bootloader is unlocked, **When you will boot your device, press one time power button to skip dm-verity**, there also will be a 5-second orange-state indicator
       
-      -  Green state means the device is locked, it shouldnt show that it's locked on-boot
-      -  Yellow state means that an alternate keystore was used to verify the boot image
-      -  Orange state indicates that the device is unlocked.
-      -  Red state means that a device in the locked or verified state had a boot image that did not verify. 
+   -  Green state means the device is locked, it shouldnt show that it's locked on-boot
+   -  Yellow state means that an alternate keystore was used to verify the boot image
+   -  Orange state indicates that the device is unlocked.
+   -  Red state means that a device in the locked or verified state had a boot image that did not verify. 
 
 7. You can boot into RUI2, in order to setup it for updating into C.18, Currently there will be three updates. `[A.24] > C.07 > C.14 > C.18` **TIP: Remove your sim card, and don't connect temporarily to any networks to avoid longer OOBE times** 
 
@@ -102,7 +102,7 @@
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
 > [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/A.19 Firmware files <br>
-> 
+> [HowWof](https://t.me/HowWof) - A few of suggestions, thanks
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖
