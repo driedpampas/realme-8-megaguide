@@ -50,12 +50,15 @@
 1. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
 2. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
+   
    7. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
-   8. Click on `Options > Option...`
-   9. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
+   9. Click on `Options > Option...`
+   10. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
      <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
+   
    10. Get [Haadi's A.24 RUI2 Firmware](https://drive.google.com/file/d/1OvT-YYBdJMBmV87C0f1ThcCKmvKvqvi7/view?usp=share_link) and unpack it
-   11. Load scatter from Haadi's Firmware
+   
+   12. Load scatter from Haadi's Firmware
        <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 <p align="center" style="color: red;">IMPORTANT: </p><p align="center">Remember to uncheck:<br>
 - opporeserve2 [IMEI] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
@@ -67,6 +70,7 @@
     <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
 14. If anything will not fail, it should look like this
     <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
+
 15. Before doing anything, remember to **WIPE down your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
 
 # 4. Unlocking the bootloader - OFP Partitions
@@ -94,6 +98,7 @@
    <p align="center"><img src="https://i.imgur.com/olGdWYp.png"></p>
    6. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
       <p align="center"><img src="https://i.imgur.com/qezn6Af.png"></p>
+      
       **After this, unlock your phone. First boot will take up to 5-20 minutes. Don't panic.
       
       Bootloader is unlocked, **When you will boot your device, press one time power button to skip dm-verity**, there also will be a 5-second orange-state indicator
