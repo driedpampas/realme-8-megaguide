@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://i.ibb.co/m9T9f00/unlock-banner-removebg-preview.png" alt="unlock-banner-removebg-preview" border="0">
-</p>
-
 # Disclaimer
 
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
