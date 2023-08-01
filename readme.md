@@ -4,7 +4,7 @@
 
 # Disclaimer
 
-- This method will **wipe your phone** and ***temporarily downgrade your phone to RUI2**
+- This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
 
