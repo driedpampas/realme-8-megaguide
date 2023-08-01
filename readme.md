@@ -56,7 +56,7 @@
    10. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
      <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
    
-   10. Get [Haadi's A.24 RUI2 Firmware](https://drive.google.com/file/d/1OvT-YYBdJMBmV87C0f1ThcCKmvKvqvi7/view?usp=share_link) and unpack it
+   10. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
    
    12. Load scatter from Haadi's Firmware
        <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
@@ -73,24 +73,7 @@
 
 15. Before doing anything, remember to **WIPE down your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
 
-# 4. Unlocking the bootloader - OFP Partitions
-1. Open the console in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-	1. Run the payload **again** by using command `python mtk payload`
-	2. Do what before:  Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
-	3. Check if output of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) was same as before, if it is then payload was sent successfully
-4. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) again [flash_tool.exe]
-5. Click on `Options > Option...`
-6. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
-
-7. Things are now getting a bit different. Download and extract [Decrypted OFP Partitions](https://mega.nz/file/UChygSgS#2LdGZ0JPD5KpIYXNbCkCvy7ZefsenBr4oU4CE8p9lDM)
-8. Select the scatter from [Decrypted OFP Partitions](https://mega.nz/file/UChygSgS#2LdGZ0JPD5KpIYXNbCkCvy7ZefsenBr4oU4CE8p9lDM)
-   <p align="center"><img src="https://i.imgur.com/gjODF8q.png"></p>
-9. These things should be only selected. If aren't, you have selected the wrong OFP/Firmware/Scatter
-   <p align="center"><img src="https://i.imgur.com/CA4f7YG.png"></p>
-10. Check if mode is `Download Only`, if so: click `Download` button. Remember to also put your phone in a stable location.
-    <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
-
-# 5. Unlocking the bootloader - MTK Client
+# 4. Unlocking the bootloader - MTK Client
 1. Install [USBDk](https://github.com/daynix/UsbDk/releases/)
 2. Open the console third time in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 4. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
@@ -118,7 +101,7 @@
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
 > [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
-> [Haadi](https://t.me/Haadi786H) - RUI2/A.24 Firmware files <br>
+> [Haadi](https://t.me/Haadi786H) - RUI2/A.19 Firmware files <br>
 > 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
