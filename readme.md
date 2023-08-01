@@ -1,7 +1,9 @@
 <p align="center">
 	<img width="100%" src="https://i.ibb.co/1M3cwX8/banner.png">
 </p>
+
 # Disclaimer
+
 - This method will **wipe your phone** and ***temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
@@ -103,16 +105,18 @@
 
 7. You can boot into RUI2, in order to setup it for updating into C.18, Currently there will be three updates. `[A.24] > C.07 > C.14 > C.18` **TIP: Remove your sim card, and don't connect temporarily to any networks to avoid longer OOBE times** 
 
-<p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><img src="https://i.imgur.com/Z90bwAU.png"></p>
+<p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
+
 # Special thanks
-> [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade
-> [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).
-> [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.
-> [Haadi](https://t.me/Haadi786H) - RUI2/A.24 Firmware files 
+
+> [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
+> [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
+> [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
+> [Haadi](https://t.me/Haadi786H) - RUI2/A.24 Firmware files <br>
 > 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖
-
+<br><br>
 <p align="center" style="color: #909090;">Tested on 8/1/2023</p>
