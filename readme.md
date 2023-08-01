@@ -56,10 +56,17 @@
    
 10. Load scatter from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
-<p align="center" style="color: red;">IMPORTANT: </p><p align="center">Remember to uncheck:<br>
-- opporeserve2 [Signed partition] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
-- cdt_engineering [Digital warranty codes] <br><img src="https://i.imgur.com/wfAfnCn.png">
-</p>
+
+<div align="center">
+	
+# <p style="color: red;">IMPORTANT:</p><p>Remember to uncheck:</p>
+	
+| opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
+| ------------------------------- | ---------------------------------------- |
+| <img src="https://i.imgur.com/sIiT7t8.png"> | <img src="https://i.imgur.com/wfAfnCn.png"> |
+
+</div><br>
+
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`
@@ -107,10 +114,15 @@
    <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
 10. Load scatter from Haadi's Firmware
-    <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
-<p align="center" style="color: red;">IMPORTANT: </p><p align="center">Remember to uncheck:<br>
-- opporeserve2 [Signed partition] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
-- cdt_engineering [Digital warranty codes] <br><img src="https://i.imgur.com/wfAfnCn.png">
+<div align="center">
+	
+# <p style="color: red;">IMPORTANT:</p><p>Remember to uncheck:</p>
+	
+| opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
+| ------------------------------- | ---------------------------------------- |
+| <img src="https://i.imgur.com/sIiT7t8.png"> | <img src="https://i.imgur.com/wfAfnCn.png"> |
+
+</div><br>
 	
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
