@@ -7,6 +7,7 @@
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
+- I used this method so I can confirm it works.
 
 <p align="center" style="color: red;">Use this tutorial only with RUI3</p>
 
@@ -90,7 +91,41 @@
    -  Orange state indicates that the device is unlocked.
    -  Red state means that a device in the locked or verified state had a boot image that did not verify. 
 
-7. You can boot into RUI2, in order to setup it for updating into C.18, Currently there will be three updates. `[A.24] > C.07 > C.14 > C.18` **TIP: Remove your sim card, and don't connect temporarily to any networks to avoid longer OOBE times** 
+7. You will boot into RealmeUI with bootloader unlocked.
+
+# 5. Upgrade to RealmeUI 3
+
+1. Go back to the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
+2. Open the console in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
+   <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
+3. Run the payload by simply using command `python mtk payload`, It should look like this: 
+   <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
+   If there is any error with python, you dont have the libaries. get them using command `python -m pip install -r requirements.txt`
+   
+4. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+5. MTK Client should output something like this:
+      <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
+   
+6. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
+7. Click on `Options > Option...`
+8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
+   <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
+9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
+
+10. Load scatter from Haadi's Firmware
+    <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
+<p align="center" style="color: red;">IMPORTANT: </p><p align="center">Remember to uncheck:<br>
+- opporeserve2 [IMEI] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
+- cdt_engineering [CODES??] <br><img src="https://i.imgur.com/wfAfnCn.png">
+</p>
+11. Remember to have download only mode **Without authenticator**
+    <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
+12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes, to get A.24 on your phone, click `Download`
+    <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
+13. If anything will not fail, it should look like this
+    <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
+
+# 6. Go into Settings and update to C.18
 
 <p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
