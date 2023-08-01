@@ -103,6 +103,7 @@
 > [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/A.19 Firmware files <br>
 > [HowWof](https://t.me/HowWof) - A few of suggestions, thanks
+> 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖
