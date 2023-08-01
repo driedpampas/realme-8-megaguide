@@ -21,36 +21,35 @@
 - A functioning brain and a emotional support after the unlock
 
 # 1. Drivers - USB2SER
-2. **Extract** and enter to the folder of [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link) driver.
+2. **Extract** and enter the folder of [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link) driver.
 	1. Find the **.inf** file, right click and press install
    <p align="center"><img src="https://i.imgur.com/BZxtj6B.png"></p>
 
 # 2. Drivers - libusb-win32
 1. Download [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) and install it
 2. Run [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) 
-3. Take actions at  [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) window, selecting install a device filter
+3. In the [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) window, select install a device filter
       <p align="center"><img src="https://i.imgur.com/f2qF7h8.png"></p>
-4. Before pressing next, Connect your phone to your computer, make sure its powered off, as it is: Hold down **Vol+, Vol-, and power button**
+4. Before pressing next, connect your phone to your computer, make sure it's powered off and hold down **Vol+, Vol-, and power button** (known as BROM buttons)
 5. Remember to not release the BROM buttons, it can be a quite hard, but with your second hand you can operate the mouse. **Click next**
 6. You should see there a `MediaTek USB Port` device, Select it and **Click Install**
    <p align="center"><img src="https://i.imgur.com/mMKRfRG.png"></p>
-7. After installing, **Leave your phone shut down**. We will get into the same state in downgrading to RUI2
+7. After installing, **Leave your phone turned off** and continue with next step.
 
 # 3. Downgrade to RUI2
-1. **Extract** and enter to the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
+1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
+2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-3. Run the payload by simply using command `python mtk payload`, It should look like this: 
+3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Then run the payload by simply using command `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
-   If there is any error with python, you dont have the libaries. get them using command `python -m pip install -r requirements.txt`
    
-4. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+4. Make sure your phone is powered off, Make sure your phone is connected to your computer, and hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
-6. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
+6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
 7. Click on `Options > Option...`
-8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
+8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
   
 9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
@@ -61,27 +60,27 @@
 - opporeserve2 [Signed partition] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
 - cdt_engineering [Digital warranty codes] <br><img src="https://i.imgur.com/wfAfnCn.png">
 </p>
-11. Remember to have download only mode **Without authenticator**
+11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
-12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes, to get A.24 on your phone, click `Download`
+12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`
     <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
-13. If anything will not fail, it should look like this
+13. If everything goes well, it should look like this
     <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
 
-14. Before doing anything, remember to **WIPE down your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
+14. Before doing anything, remember to **WIPE your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
 
 # 4. Unlocking the bootloader - MTK Client
 1. Install [USBDk](https://github.com/daynix/UsbDk/releases/)
-2. Open the console third time in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+2. Open the console third time in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 4. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
 5. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
    <p align="center"><img src="https://i.imgur.com/olGdWYp.png"></p>
 6. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
    <p align="center"><img src="https://i.imgur.com/qezn6Af.png"></p>
       
-   **After this, unlock your phone. First boot will take up to 5-20 minutes. Don't panic.**
+   **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
       
-   Bootloader is unlocked, **When you will boot your device, press one time power button to skip dm-verity**, there also will be a 5-second orange-state indicator
+   If bootloader is unlocked, **When you boot your device, yoou need to presspower button once to skip dm-verity**, there also will be a 5-second orange-state indicator
       
    -  Green state means the device is locked, it shouldnt show that it's locked on-boot
    -  Yellow state means that an alternate keystore was used to verify the boot image
@@ -93,19 +92,18 @@
 # 5. Upgrade to RealmeUI 3
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
+2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-3. Run the payload by simply using command `python mtk payload`, It should look like this: 
+3. Run the payload by simply using command `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
-   If there is any error with python, you dont have the libaries. get them using command `python -m pip install -r requirements.txt`
    
-4. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+4. Make sure your phone is powered off, Make sure your phone is connected to your computer, and hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
-6. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
+6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
 7. Click on `Options > Option...`
-8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
+8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
 10. Load scatter from Haadi's Firmware
@@ -114,11 +112,11 @@
 - opporeserve2 [Signed partition] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
 - cdt_engineering [Digital warranty codes] <br><img src="https://i.imgur.com/wfAfnCn.png">
 	
-11. Remember to have download only mode **Without authenticator**
+11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
-12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes, to get A.24 on your phone, click `Download`
+12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`
     <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
-13. If anything will not fail, it should look like this
+13. If everything goes well, it should look like this
     <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
 
 # 6. Go into Settings and update to C.18
