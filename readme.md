@@ -139,6 +139,6 @@
 > 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
-Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖
+Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖. Adapted by [me](t.me/driedpampas) also with 💗.
 <br><br>
 <p align="center" style="color: #909090;">Tested on 8/1/2023</p>
