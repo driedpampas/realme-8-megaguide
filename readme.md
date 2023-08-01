@@ -15,8 +15,7 @@
 # Requirements
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 - [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link)
-- [Decrypted OFP Partitions](https://mega.nz/file/UChygSgS#2LdGZ0JPD5KpIYXNbCkCvy7ZefsenBr4oU4CE8p9lDM)
-- [A.24 RUI2 Firmware](https://drive.google.com/file/d/1OvT-YYBdJMBmV87C0f1ThcCKmvKvqvi7/view?usp=share_link)
+- [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
 - [libusb-win32 Drivers](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download)
 - [USBDk](https://github.com/daynix/UsbDk/releases/)
 - [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
