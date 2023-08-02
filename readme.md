@@ -147,7 +147,7 @@
 # [EXTRA] Getting fastboot access
 <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
-## There are 2 ways: online and local
+## There are 2 ways: The Website or local install
 
 ## [Website](https://lkpatcher.r0rt1z2.com/) - USE INSTEAD OF STEPS 7, 8, 9 - just upload your lk.bin to the website, click upload and the `lk-patched.bin` will be downloaded automatically - move it to MTK Client folder and do STEP 10
 
