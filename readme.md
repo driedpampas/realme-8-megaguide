@@ -20,23 +20,22 @@
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - A functioning brain and a emotional support after the unlock
 
-# 1. Drivers - USB2SER
-2. **Extract** and enter the folder of [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link) driver.
-	1. Find the **.inf** file, right click and press install
+# 1. Drivers
+1. ## USB2SER
+	1. **Extract** and enter the folder of [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link) driver.
+	2. Find the **.inf** file, right click and press install
    <p align="center"><img src="https://i.imgur.com/BZxtj6B.png"></p>
 
-# 2. Drivers - libusb-win32
-1. Download [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) and install it
-2. Run [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) 
-3. In the [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) window, select install a device filter
-      <p align="center"><img src="https://i.imgur.com/f2qF7h8.png"></p>
-4. Before pressing next, connect your phone to your computer, make sure it's powered off and hold down **Vol+, Vol-, and power button** (known as BROM buttons)
-5. Remember to not release the BROM buttons, it can be a quite hard, but with your second hand you can operate the mouse. **Click next**
-6. You should see there a `MediaTek USB Port` device, Select it and **Click Install**
-   <p align="center"><img src="https://i.imgur.com/mMKRfRG.png"></p>
-7. After installing, **Leave your phone turned off** and continue with next step.
+2. ## libusb-win32
+	1. Download [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) and install it
+	2. Run [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) 
+	3.In the [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) window, select install a device filter <p align="center"><img src="https://i.imgur.com/f2qF7h8.png"></p>
+	4. Before pressing next, connect your phone to your computer, make sure it's powered off and hold down **Vol+, Vol-, and power button** (known as BROM buttons)
+	5. Remember to not release the BROM buttons, it can be a quite hard, but with your second hand you can operate the mouse. **Click next** <p align="center"><img src="https://i.imgur.com/mMKRfRG.png"></p>
+	6. You should see there a `MediaTek USB Port` device, Select it and **Click Install**
+	7. After installing, **Leave your phone turned off** and continue with next step.
 
-# 3. Downgrade to RUI2
+# 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
@@ -76,7 +75,7 @@
 
 14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
-# 4. Unlocking the bootloader - MTK Client
+# 3. Unlocking the bootloader - MTK Client
 1. Install [USBDk](https://github.com/daynix/UsbDk/releases/)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 4. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
@@ -91,7 +90,7 @@
 
 7. Your bootloader is now unlocked.
 
-# 5. Upgrade to RealmeUI 3
+# 4. Upgrade to RealmeUI 3
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
@@ -126,7 +125,7 @@
 13. If everything goes well, it should look like this
     <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
 
-# 6. Go into Settings and update to C.18
+# 5. Go into Settings and update to C.18
 
 <p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
