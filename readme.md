@@ -143,7 +143,6 @@
 <hr>
 
 # [EXTRA] Getting fastboot access
-# OPLUS-UNLOCK CURRENTLY DOESN'T WORK ON WINDOWS (PM me on telegram [@driedpampas](t.me/driedpampas) with the lk.bin file and I'll patch it for you) OR you can use a linux machine if you have one
 <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
 ## You will need [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)
@@ -158,11 +157,11 @@
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
 6. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
-7. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it.
-8. Open the console in **oplus-unlock** folder, **a tip how to do it faster below**
+7. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
+8. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-9. Move `lk.bin` to oplus-unlock folder.
-10. Run command `python oplus-unlock lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
+9. Move `lk.bin` to oplus_unlock folder.
+10. Run command `python main.py lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
 11. Run command `python mtk w lk patched.bin`
 
 ### Now flash whatever custom rom you want. 
