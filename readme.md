@@ -224,7 +224,7 @@
 7. The phone will restart and you are now rooted with Magisk!
 ##### If you want to uninstall, open MAgisk Manager and tap `Uninstall > Complete uninstall`
 
-## 2. With KernelSU
+## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS
 ## You will need
 - [KernelSU image](https://drive.google.com/file/d/1T8aQN5hf-gIY22eIaAGmhMTJcodhx3Iw/view?usp=sharing) - download on pc
 - [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/latest) - Scroll down until you see `KernelSU_XXXXXXX-release.apk` (X replaces whatever the latest version is). Download this on your phone.
@@ -238,6 +238,7 @@
 
 # Special thanks
 
+> [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8
 > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
