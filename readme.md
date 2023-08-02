@@ -179,9 +179,10 @@
 # [EXTRA] Installing  a Custom ROM
 
 ## Prerequisites
-- [platform-tools]( https://developer.android.com/studio/releases/platform-tools)
-- [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - fastboot drivers
-- [vbmeta image](https://drive.google.com/file/d/17mmQUnSQEjXR9aBLIv-oaVsrK-0NdhsP/view?usp=sharing) - vbmeta.img, i only flashed it once and didn't have to reflash it so here it is (USE WITH CAUTION, NO GUARANTEES)
+- [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
+- [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - drivers
+- [QcomMtk-Driver](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file) - also drivers
+- [vbmeta image](https://drive.google.com/file/d/17mmQUnSQEjXR9aBLIv-oaVsrK-0NdhsP/view?usp=sharing) - vbmeta.img, I only flashed it once and didn't have to reflash it so here it is (USE WITH CAUTION, NO GUARANTEES)
 - recovery image (usually `recovery.img`) - depends on the custom rom
 - a custom rom package (in this guide I used Leaf OS 2)
 
