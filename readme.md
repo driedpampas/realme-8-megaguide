@@ -56,7 +56,7 @@
   
 9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
    
-10. Load scatter from Haadi's Firmware
+10. Load `scatter.txt` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 
 <div align="center">
@@ -109,7 +109,7 @@
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
-10. Load scatter from Haadi's Firmware
+10. Load `scatter.txt` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 	
 # <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
