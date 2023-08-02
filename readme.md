@@ -48,7 +48,7 @@
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Then run the payload by simply using command `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
    
-4. Make sure your phone is powered off, Make sure your phone is connected to your computer, and hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
@@ -102,7 +102,7 @@
 3. Run the payload by simply using command `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
    
-4. Make sure your phone is powered off, Make sure your phone is connected to your computer, and hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
