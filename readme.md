@@ -133,6 +133,26 @@
 <hr>
 
 # [BONUS] Getting fastboot [COMING SOON ᵀᴹ]
+## Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)
+
+1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
+2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
+   <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
+3. Run the payload by simply using command `python mtk payload`. It should look like this: 
+   <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
+   
+4. Make sure your phone is powered off, Make sure your phone is connected to your computer, and hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+5. MTK Client should output something like this:
+      <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
+6. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
+7. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it.
+8. Open the console in **oplus-unlock** folder, **a tip how to do it faster below**
+   <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
+9. Move `lk.bin` to oplus-unlock folder.
+10. Run command `oplus-unlock lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
+11. Run command `python mtk w lk patched.bin`
+
+    ### Done
 
 # Special thanks
 
@@ -140,7 +160,8 @@
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
 > [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
-> [Haadi](https://t.me/Haadi786H) - RUI2/A.19 Firmware files <br>
+> [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) - The tool used to unlock fastboot access, made by [Roger](t.me/R0rt1z2).<br>
+> [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files <br>
 > [HowWof](https://t.me/HowWof) - A few of suggestions, thanks
 > 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
