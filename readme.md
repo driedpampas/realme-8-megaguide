@@ -197,6 +197,7 @@
 		<p align="center"><img src="https://i.ibb.co/bQ3BS4L/image.png"></p>
  	3. Run the command `fastboot flash recovery recovery.img`:
 		<p align="center"><img src="https://i.ibb.co/L9YZXdn/Screenshot-from-2023-08-02-11-41-25.png"></p>
+  	#### The phone will show `USB Transmission ok`
 	4. Now, reboot to recovery mode with the command `fastboot reboot recovery`
 		<p align="center"><img src="https://i.ibb.co/Y0B19X6/Screenshot-from-2023-08-02-11-41-34.png"></p>
 	5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
