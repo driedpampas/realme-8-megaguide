@@ -1,6 +1,9 @@
- ## Special thanks
-   > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
-   
+<div align="center">
+	
+<H1>Realme 8 MEGAGUIDE</H1>
+
+</div>
+
 # Disclaimer
 
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
@@ -192,9 +195,29 @@
 		<p align="center"><img src="https://i.ibb.co/3B0Xv7x/Screenshot-from-2023-08-02-11-38-48.png"></p>
   	7. <u>**Optional**</u> *ONLY* if  it is specified / needed to sideload a gapps package. Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
 		<p align="center"><img src="https://i.ibb.co/XXj5CVx/image.png"></p>
-	### If you get a "Signature verification error" ignore and continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
-  	9. Once finished, in the recovery go back to `Advanced > Power off`. The phone will turn off. Turn it back on and you are booting into your Custom ROM.
+	### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
+  	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
 
+# [EXTRA] Rooting (I used Lineage OS 20.0 for this)
+<p><img src="https://dummyimage.com/400x100/ffffff/FF0000?text=ONLY USE ONE METHOD"></p>
+
+
+## 1. With Magisk 
+## You will need
+- [magisk.zip](https://drive.google.com/file/d/1keLQuMiNhPFWg7pEQbvE3e3QVmSjmOMz/view?usp=sharing) - donwload on your pc
+- [Magisk Manager (apk file)](https://drive.google.com/file/d/1LsHqdNqO7zOR2vhtxVCzC-JHiCN_l3gM/view?usp=drive_link) - download on your phone
+
+1. ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
+2. In recovery select `Apply update > Apply from ADB` and run `adb sideload magisk.zip`.
+### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
+3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the Magisk apk file and install it.
+4. When opening the app you will get an error `Requires Additional Setup`. *This is normal*. Tap `OK`.
+	<p align="center"><img src="https://i.ibb.co/C0LCSc8/Screenshot-20230802-145234-Magisk.png"></p>
+5. Select `Direct Install` and tap `LET'S GO ->`
+	<p align="center"><img src="https://i.ibb.co/fS7dDp2/Screenshot-20230802-145238-Magisk.png"></p>
+6. You will see this. When it is finished tap `Reboot` (bottom-right corner)
+	<p align="center"> <img src="https://i.ibb.co/nBTcVrz/Screenshot-20230802-145245-Magisk.png"></p>
+7. The phone will restart and you are now rooted with Magisk!
 
 # Special thanks
 
