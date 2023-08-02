@@ -195,7 +195,7 @@
 
 2. ## Installing custom recovery and sideloading custom rom
    ##### If switching between custom roms skip step 2.
-   ##### If the required recovery has not changed yoou may skip step 3 as well.
+   ##### If the required recovery has not changed you may skip step 3 as well.
    
 	1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
  	2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
@@ -203,7 +203,7 @@
  	3. Run the command `fastboot flash recovery recovery.img`:
 		<p align="center"><img src="https://i.ibb.co/L9YZXdn/Screenshot-from-2023-08-02-11-41-25.png"></p>
   	#### The phone will show `USB Transmission ok`
-	4. Now, reboot to recovery mode with the command `fastboot reboot recovery` **If you get an `Device is currupt / Device will reboot` scroll down after step 9**
+	4. Now, reboot to recovery mode with the command `fastboot reboot recovery` 
 		<p align="center"><img src="https://i.ibb.co/Y0B19X6/Screenshot-from-2023-08-02-11-41-34.png"></p>
 	5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
  		<p align="center"><img src="https://i.ibb.co/znj0gVk/image.png"></p>
@@ -213,8 +213,6 @@
 		<p align="center"><img src="https://i.ibb.co/XXj5CVx/image.png"></p>
 	### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
-
-### If you get the `Device is currupt / Device will reboot` error when rebooting to recovery, flash this [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img)
 
 # [EXTRA] Rooting (I used Lineage OS 20.0 for this)
 <p><img src="https://dummyimage.com/400x100/ffffff/FF0000?text=ONLY USE ONE METHOD"></p>
