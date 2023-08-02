@@ -147,8 +147,11 @@
 # [EXTRA] Getting fastboot access
 <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
-## You will need [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)
+## There are 2 ways: online and local
 
+## [Website](https://lkpatcher.r0rt1z2.com/) - USE INSTEAD OF STEPS 7, 8, 9 - just upload your lk.bin to the website, click upload and the `lk-patched.bin` will be downloaded automatically - move it to MTK Client folder and do STEP 10
+
+## Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
@@ -164,9 +167,9 @@
  	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
 8. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-10. Run command `python main.py lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
+9. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder.
 	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
-11. Run command `python mtk w lk patched.bin`
+10. Run command `python mtk w lk patched.bin`
 
 ### Now flash whatever custom rom you want. 
 
