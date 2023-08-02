@@ -142,13 +142,15 @@
 # [EXTRA] Getting fastboot access
 <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
-1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
+## You will need [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)
+
+1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+2. Open the console again in `MTK Client` folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
 3. Run the payload by simply using command `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
    
-4. Make sure your phone is powered off, Make sure your phone is connected to your computer, and hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
 6. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
