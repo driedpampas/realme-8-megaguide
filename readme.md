@@ -18,7 +18,7 @@
 - [USBDk](https://github.com/daynix/UsbDk/releases/latest)
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-- [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link)
+- [SP Flash tool](https://drive.google.com/file/d/1McZ11On8XbxGgE-hMA_nZqErHI_QwjQT/view?usp=sharing)
 - [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
 - [C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link)
 
@@ -134,7 +134,7 @@
 <p align="center">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
 
-# [BONUS] Getting fastboot [COMING SOON ᵀᴹ]
+# [EXTRA] Getting fastboot access
 <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
@@ -156,6 +156,15 @@
 
 ### Now flash whatever custom rom you want. [Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
 
+# [EXTRA] Installing  a Custom ROM
+1. ## Preparing ADB.
+	1. Download [platform-tool]( https://developer.android.com/studio/releases/platform-tools), extract the zip, open a command prompt window in the folder.
+ 	2. Install [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - If it asks if you want to install ADB/Fastboot say **NO**. **Only say YES to the drivers.**
+  	3. Enable Developer Options on device and enable USB Debugging.
+	4. In the platform-tools folder open a command prompt and run `adb devices`. You will see something like this on phone, check `Always allow...` and hit `Allow`  
+	
+
+
 # Special thanks
 
 > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
@@ -165,7 +174,8 @@
 > [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) - The tool used to unlock fastboot access, made by [Roger](t.me/R0rt1z2).<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files <br>
 > [HowWof](https://t.me/HowWof) - A few of suggestions, thanks
-> 
+> [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer
+
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖. Adapted by [me](t.me/driedpampas) also with 💗.
