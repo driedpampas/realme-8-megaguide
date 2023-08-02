@@ -67,7 +67,7 @@
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 
 <div align="center">
-<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
+<p><img <img src="https://i.ibb.co/bgnMVdM/Caje-RNwf-OCt-Vb-DZ.png"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -94,7 +94,7 @@
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
       
-   If bootloader is unlocked, **When you boot your device, you will need to press power button once to skip dm-verity**, there also will be a 5-second orange-state indicator [**¹**](https://github.com/mattcc23/realme-8-bootloader/tree/main#Special_thanks)
+   If bootloader is unlocked, **When you boot your device, you will need to press power button once to skip dm-verity**, there also will be a 5-second orange-state indicator [**¹**]()
 
 5. Your bootloader is now unlocked.
 
@@ -119,7 +119,7 @@
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 
 <div align="center">
-<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
+<p><img <img src="https://i.ibb.co/bgnMVdM/Caje-RNwf-OCt-Vb-DZ.png"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -180,6 +180,7 @@
 
 ## Prerequisites
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
+- If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
 - [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - drivers
 - [QcomMtk-Driver](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file) - also drivers
 - [vbmeta image](https://drive.google.com/file/d/17mmQUnSQEjXR9aBLIv-oaVsrK-0NdhsP/view?usp=sharing) - vbmeta.img, I only flashed it once and didn't have to reflash it so here it is (USE WITH CAUTION, NO GUARANTEES)
@@ -202,7 +203,7 @@
  	3. Run the command `fastboot flash recovery recovery.img`:
 		<p align="center"><img src="https://i.ibb.co/L9YZXdn/Screenshot-from-2023-08-02-11-41-25.png"></p>
   	#### The phone will show `USB Transmission ok`
-	4. Now, reboot to recovery mode with the command `fastboot reboot recovery`
+	4. Now, reboot to recovery mode with the command `fastboot reboot recovery` **If you get an `Device is currupt / Device will reboot` scroll down after step 9**
 		<p align="center"><img src="https://i.ibb.co/Y0B19X6/Screenshot-from-2023-08-02-11-41-34.png"></p>
 	5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
  		<p align="center"><img src="https://i.ibb.co/znj0gVk/image.png"></p>
@@ -212,6 +213,8 @@
 		<p align="center"><img src="https://i.ibb.co/XXj5CVx/image.png"></p>
 	### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
+
+### If you get the `Device is currupt / Device will reboot` error when rebooting to recovery, flash this [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img)
 
 # [EXTRA] Rooting (I used Lineage OS 20.0 for this)
 <p><img src="https://dummyimage.com/400x100/ffffff/FF0000?text=ONLY USE ONE METHOD"></p>
@@ -247,27 +250,27 @@
 4. The app should show like this indicating thaat everything has been done correctly:
 	<p align="center"><img src="https://i.ibb.co/jRfXS5b/Screenshot-20230802-154216-Kernel-SU.png"></p>
 
-# Special thanks
+# Special thanks & credits
 
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8
 > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
-> [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
+> [MtkClient](https://github.com/bkerler/mtkclient) - the tool that made unlocking possible<br>
 > [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) - The tool used to unlock fastboot access, made by [Roger](t.me/R0rt1z2).<br>
-> [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files <br>
-> [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer
-> [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file
-> [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer
-> [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
-> [Magisk & Developers](https://github.com/topjohnwu/Magisk)
-> [KernelSU & Developers](https://github.com/tiann/KernelSU)
+> [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files<br>
+> [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer<br>
+> [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file<br>
+> [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer<br>
+> [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)<br>
+> [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
+> [KernelSU & Developers](https://github.com/tiann/KernelSU)<br>
 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
-Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖. Adapted by [me](t.me/driedpampas) also with 💗.
+Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖 and by [me](t.me/driedpampas) also with 💗.
 
-**¹** More info on the orange-state indicator and other indicators:
+#### ¹ More info on the orange-state indicator and other indicators:
    -  Green state means the device is locked, it shouldnt show that it's locked on-boot
    -  Yellow state means that an alternate keystore was used to verify the boot image
    -  Orange state indicates that the device is unlocked.
