@@ -143,6 +143,7 @@
 <hr>
 
 # [EXTRA] Getting fastboot access
+# OPLUS-UNLOCK CURRENTLY DOESN'T WORK ON WINDOWS (PM me on telegram [@driedpampas](t.me/driedpampas) with the lk file and I'll patch it for you) OR you can use a linux machine if you have one
 <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
 ## You will need [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)
