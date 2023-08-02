@@ -59,7 +59,7 @@
 
 <div align="center">
 	
-# <p style="color: red;">IMPORTANT:</p><p>Remember to uncheck:</p>
+# <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -111,7 +111,7 @@
 10. Load scatter from Haadi's Firmware
 <div align="center">
 	
-# <p style="color: red;">IMPORTANT:</p><p>Remember to uncheck:</p>
+# <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
