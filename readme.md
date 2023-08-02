@@ -15,9 +15,19 @@
 
 <hr>
 
+# Table of Contents
+
+1. [Installing Prerequisites](#1-installing-prerequisites)
+2. [Downgrade to RUI2](#2-downgrade-to-rui2)
+3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-lient)
+4. [Upgrade to RealmeUI 3](#4-upgrade-to-realemui-3)
+5. [Go into Settings and update to C.18](#5-go-into-settings-and-update-to-c18)
+6. [EXTRA: Getting fastboot access](#extra-getting-fastboot-access)
+7. [EXTRA: Installing a Custom ROM](#extra-installing--a-custom-rom)
+8. [EXTRA: Rooting](#extra-rooting-i-used-lineage-os-200-for-this)
+
 # Prerequisites
 - [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
-- [libusb-win32 Drivers](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.7.3/libusb-win32-devel-filter-1.2.7.3.exe/download)
 - [USBDk](https://github.com/daynix/UsbDk/releases/latest)
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
@@ -33,14 +43,6 @@
 	2. Find the **.inf** file, right click and press install
    <p align="center"><img src="https://i.imgur.com/BZxtj6B.png"></p>
 
-2. ## libusb-win32
-	1. Download [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) and install it
-	2. Run [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) 
-	3.In the [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) window, select install a device filter <p align="center"><img src="https://i.imgur.com/f2qF7h8.png"></p>
-	4. Before pressing next, connect your phone to your computer, make sure it's powered off and hold down **Vol+, Vol-, and power button** (known as BROM buttons)
-	5. Remember to not release the BROM buttons, it can be a quite hard, but with your second hand you can operate the mouse. **Click next** <p align="center"><img src="https://i.imgur.com/mMKRfRG.png"></p>
-	6. You should see there a `MediaTek USB Port` device, Select it and **Click Install**
-	7. After installing, **Leave your phone turned off** and continue with next step.
  3. ## Install [USBDk](https://github.com/daynix/UsbDk/releases/)
  4. ## Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 
