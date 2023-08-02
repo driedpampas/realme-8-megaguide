@@ -173,4 +173,7 @@ Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖. Adap
    -  Orange state indicates that the device is unlocked.
    -  Red state means that a device in the locked or verified state had a boot image that did not verify. 
 <br><br>
-<p align="center" style="color: #909090;">Tested on 07/31/2023 by [me](t.me/driedpampas) and [exeirfan](t.me/exeirfan).</p>
+<div align="center">
+
+Tested on 07/31/2023 by [me](t.me/driedpampas) and [exeirfan](t.me/exeirfan).</p>
+</div>
