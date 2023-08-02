@@ -1,3 +1,6 @@
+ ## Special thanks
+   > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
+   
 # Disclaimer
 
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
