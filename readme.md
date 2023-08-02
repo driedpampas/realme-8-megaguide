@@ -56,7 +56,7 @@
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
-6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
+6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) `flash_tool.exe`
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
@@ -164,9 +164,14 @@
  	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
 8. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-9. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder.
+9. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder. **Check below step 10 if you get an error**
 	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
-10. Run command `python mtk w lk patched.bin`
+10. Run command `python mtk w lk lk-patched.bin`
+
+If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)`
+	<p align="center"><img src="https://i.ibb.co/YN42tZ5/Screenshot-from-2023-08-02-21-45-15.png"></p>
+
+## USE *lk2* instead of *lk*, and replace it in all of the commands where needed. On *step 10* use the command `python mtk w lk lk2-patched.bin`
 
 ### Now flash whatever custom rom you want. 
 
