@@ -149,7 +149,7 @@
 
 ## There are 2 ways: The Website or local install - BOTH USE STEPS 1 - 6 AND 10
 
-## [Website](https://lkpatcher.r0rt1z2.com/) - USE INSTEAD OF STEPS 7, 8, 9 - just upload your lk.bin to the website, click upload and the `lk-patched.bin` will be downloaded automatically - move it to MTK Client folder and do STEP 10
+## [Website](https://lkpatcher.r0rt1z2.com/) - USE INSTEAD OF STEPS 7, 8, 9 - just upload your lk.bin to the website and the `lk-patched.bin` will be downloaded - move it to MTK Client folder and do STEP 10
 
 ## Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
