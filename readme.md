@@ -244,6 +244,8 @@
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file
 > [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
+> [Magisk & Developers](https://github.com/topjohnwu/Magisk)
+> [KernelSU & Developers](https://github.com/tiann/KernelSU)
 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
