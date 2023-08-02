@@ -21,10 +21,9 @@
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
 4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)
-5. [Go into Settings and update to C.18](#5-go-into-settings-and-update-to-c18)
-6. [EXTRA: Getting fastboot access](#extra-getting-fastboot-access)
-7. [EXTRA: Installing a Custom ROM](#extra-installing--a-custom-rom)
-8. [EXTRA: Rooting](#extra-rooting-i-used-lineage-os-200-for-this)
+5. [EXTRA: Getting fastboot access](#extra-getting-fastboot-access)
+6. [EXTRA: Installing a Custom ROM](#extra-installing--a-custom-rom)
+7. [EXTRA: Rooting](#extra-rooting-i-used-lineage-os-200-for-this)
 
 # Prerequisites
 - [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
@@ -137,9 +136,7 @@
    ### If you click download but there is no progress go to `Options > Option > General` and untick `Storage Life Cycle Check`
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
-
-
-# 5. Go into Settings and update to C.18
+15. ## Go into Settings and update to C.18
 
 <p align="center">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
