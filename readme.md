@@ -9,7 +9,7 @@
 
 <hr>
 
-# Requirements
+# Prerequisites
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 - [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link)
 - [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
