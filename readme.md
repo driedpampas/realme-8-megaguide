@@ -181,8 +181,8 @@
 ## Prerequisites
 - [platform-tools]( https://developer.android.com/studio/releases/platform-tools)
 - [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - fastboot drivers
-- recovery image (usually `recovery.img`)
-- vbmeta image (usually `vbmeta.img`)
+- [vbmeta image](https://drive.google.com/file/d/17mmQUnSQEjXR9aBLIv-oaVsrK-0NdhsP/view?usp=sharing) - vbmeta.img, i only flashed it once and didn't have to reflash it so here it is (USE WITH CAUTION, NO GUARANTEES)
+- recovery image (usually `recovery.img`) - depends on the custom rom
 - a custom rom package (in this guide I used Leaf OS 2)
 
 1. ## Rebooting to fastboot
