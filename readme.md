@@ -7,6 +7,7 @@
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
+- Currently unlocked 6+ devices with this method, message [lemonek](https://t.me/lemonekq/) to "validate" your device ;)
 
 <p align="center" style="color: red;">Use this tutorial only with RUI3</p>
 
@@ -44,7 +45,7 @@
 2. Open the console in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
 3. Run the payload by simply using command `python mtk payload`, It should look like this: 
-   <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
+   <p align="center"><img src="https://i.imgur.com/cASEARQ.png"></p>
    If there is any error with python, you dont have the libaries. get them using command `python -m pip install -r requirements.txt`
    
 4. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
@@ -113,7 +114,8 @@
 <p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
 
-# [BONUS] Getting fastboot [TODO]
+# [BONUS] Getting fastboot via oplus-unlock
+Trying rewriting it to c# native, python not working on windows
 
 # Special thanks
 
