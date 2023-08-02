@@ -19,7 +19,7 @@
 
 1. [Installing Prerequisites](#1-installing-prerequisites)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
-3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-lient)
+3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
 4. [Upgrade to RealmeUI 3](#4-upgrade-to-realemui-3)
 5. [Go into Settings and update to C.18](#5-go-into-settings-and-update-to-c18)
 6. [EXTRA: Getting fastboot access](#extra-getting-fastboot-access)
