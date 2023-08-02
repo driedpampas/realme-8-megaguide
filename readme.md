@@ -15,7 +15,7 @@
 - [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
 - [C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link)
 - [libusb-win32 Drivers](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download)
-- [USBDk](https://github.com/daynix/UsbDk/releases/)
+- [USBDk](https://github.com/daynix/UsbDk/releases/latest)
 - [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - A functioning brain and a emotional support after the unlock
@@ -34,6 +34,7 @@
 	5. Remember to not release the BROM buttons, it can be a quite hard, but with your second hand you can operate the mouse. **Click next** <p align="center"><img src="https://i.imgur.com/mMKRfRG.png"></p>
 	6. You should see there a `MediaTek USB Port` device, Select it and **Click Install**
 	7. After installing, **Leave your phone turned off** and continue with next step.
+ 3. ## Install [USBDk](https://github.com/daynix/UsbDk/releases/)
 
 # 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
@@ -76,19 +77,18 @@
 14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
 # 3. Unlocking the bootloader - MTK Client
-1. Install [USBDk](https://github.com/daynix/UsbDk/releases/)
-2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-4. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
-5. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
+1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+2. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+3. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
    <p align="center"><img src="https://i.imgur.com/olGdWYp.png"></p>
-6. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
+4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
    <p align="center"><img src="https://i.imgur.com/qezn6Af.png"></p>
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
       
    If bootloader is unlocked, **When you boot your device, you will need to press power button once to skip dm-verity**, there also will be a 5-second orange-state indicator [**¹**](https://github.com/mattcc23/realme-8-bootloader/tree/main#Special_thanks)
 
-7. Your bootloader is now unlocked.
+5. Your bootloader is now unlocked.
 
 # 4. Upgrade to RealmeUI 3
 
