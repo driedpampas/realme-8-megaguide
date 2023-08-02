@@ -60,8 +60,7 @@
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 
 <div align="center">
-	
-# <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
+<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -133,7 +132,7 @@
 <hr>
 
 # [BONUS] Getting fastboot [COMING SOON ᵀᴹ]
-## Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)
+<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
