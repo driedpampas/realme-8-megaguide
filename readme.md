@@ -113,8 +113,9 @@
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
 10. Load `scatter.txt` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
-	
-# <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
+
+<div align="center">
+<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -157,12 +158,33 @@
 ### Now flash whatever custom rom you want. [Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
 
 # [EXTRA] Installing  a Custom ROM
-1. ## Preparing ADB.
-	1. Download [platform-tool]( https://developer.android.com/studio/releases/platform-tools), extract the zip, open a command prompt window in the folder.
- 	2. Install [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - If it asks if you want to install ADB/Fastboot say **NO**. **Only say YES to the drivers.**
-  	3. Enable Developer Options on device and enable USB Debugging.
-	4. In the platform-tools folder open a command prompt and run `adb devices`. You will see something like this on phone, check `Always allow...` and hit `Allow`  
-	
+
+## Prerequisites
+- [platform-tools]( https://developer.android.com/studio/releases/platform-tools)
+- [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - fastboot drivers
+- recovery image (usually `recovery.img`)
+- vbmeta image (usually `vbmeta.img`)
+- a custom rom package (in this guide I used Leaf OS 2)
+
+1. ## Rebooting to fastboot
+	1. Open a command prompt window in the **platform-tools** folder.
+  	2. Enable Developer Options on device and enable USB Debugging.
+	3. In the platform-tools folder open a command prompt and run `adb devices`. You will see something like this on phone, check `Always allow...` and hit `Allow`.
+ 	4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_verify_ok` or similar.
+
+2. ## Installing custom recovery and sideloading custom rom
+	1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
+ 	2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
+		<p align="center"><img src="https://i.ibb.co/bQ3BS4L/image.png"></p>
+ 	3. Run the command `fastboot flash recovery recovery.img`:
+		<p align="center"><img src="https://i.ibb.co/L9YZXdn/Screenshot-from-2023-08-02-11-41-25.png"></p>
+	4. Now, reboot to recovery mode with the command `fastboot reboot recovery`
+		<p align="center"><img src="https://i.ibb.co/Y0B19X6/Screenshot-from-2023-08-02-11-41-34.png"></p>
+	5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go to `Apply update > Apply from ADB`. You should see this when running `adb devices`:
+ 		<p align="center"><img src="https://i.ibb.co/znj0gVk/image.png"></p>
+   	6. Now run the command `adb sideload custom-rom.zip` (replace *custom-rom.zip* with custom rom package name). For example I flashed LeafOS 2:
+		<p align="center"><img src="https://i.ibb.co/3B0Xv7x/Screenshot-from-2023-08-02-11-38-48.png"></p>
+  	7. Once finished, in the recovery go back to `Advanced > Power off`. The phone will turn off. Turn it back on and you are booting into your Custom ROM.
 
 
 # Special thanks
@@ -173,7 +195,7 @@
 > [MtkClient](https://github.com/bkerler/mtkclient) - Basically, without that tool we wouldnt be able to do the unlock.<br>
 > [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) - The tool used to unlock fastboot access, made by [Roger](t.me/R0rt1z2).<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files <br>
-> [HowWof](https://t.me/HowWof) - A few of suggestions, thanks
+> [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer
 > [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer
 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
