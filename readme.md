@@ -218,6 +218,19 @@
 6. You will see this. When it is finished tap `Reboot` (bottom-right corner)
 	<p align="center"> <img src="https://i.ibb.co/nBTcVrz/Screenshot-20230802-145245-Magisk.png"></p>
 7. The phone will restart and you are now rooted with Magisk!
+##### If you want to uninstall, open MAgisk Manager and tap `Uninstall > Complete uninstall`
+
+## 2. With KernelSU
+## You will need
+- [KernelSU image](https://drive.google.com/file/d/1T8aQN5hf-gIY22eIaAGmhMTJcodhx3Iw/view?usp=sharing) - download on pc
+- [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/latest) - Scroll down until you see `KernelSU_XXXXXXX-release.apk` (X replaces whatever the latest version is). Download this on your phone.
+
+1. ## . ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
+2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
+### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
+3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
+4. The app should show like this indicating thaat everything has been done correctly:
+	<p align="center"><img src="https://i.ibb.co/jRfXS5b/Screenshot-20230802-154216-Kernel-SU.png"></p>
 
 # Special thanks
 
@@ -228,6 +241,7 @@
 > [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) - The tool used to unlock fastboot access, made by [Roger](t.me/R0rt1z2).<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files <br>
 > [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer
+> [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file
 > [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
 
