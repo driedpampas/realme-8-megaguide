@@ -158,10 +158,12 @@
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
 6. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 7. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
-8. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
+	<p align="center"><img src="https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png"></p>
+ 	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
+8. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-9. Move `lk.bin` to oplus_unlock folder.
 10. Run command `python main.py lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
+	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
 11. Run command `python mtk w lk patched.bin`
 
 ### Now flash whatever custom rom you want. 
