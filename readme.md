@@ -270,5 +270,5 @@ Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖. Adap
 <br><br>
 <div align="center">
 
-Tested on 07/31/2023 by [me] and two others. No guarantees are given at any point. Use with caution.</p>
+Tested on 07/31/2023 by [e and two others. No guarantees are given at any point. Use with caution.</p>
 </div>
