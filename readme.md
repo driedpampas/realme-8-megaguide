@@ -156,7 +156,7 @@
 8. Open the console in **oplus-unlock** folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
 9. Move `lk.bin` to oplus-unlock folder.
-10. Run command `oplus-unlock lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
+10. Run command `python oplus-unlock lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
 11. Run command `python mtk w lk patched.bin`
 
 ### Now flash whatever custom rom you want. 
