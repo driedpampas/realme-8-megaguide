@@ -192,7 +192,8 @@
  	4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_verify_ok` or similar.
 
 2. ## Installing custom recovery and sideloading custom rom
-   ##### If switching between custom roms skip step 2
+   ##### If switching between custom roms skip step 2.
+   ##### If the required recovery has not changed yoou may skip step 3 as well.
    
 	1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
  	2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
