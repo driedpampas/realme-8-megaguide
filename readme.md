@@ -159,7 +159,7 @@
 10. Run command `oplus-unlock lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
 11. Run command `python mtk w lk patched.bin`
 
-### Now flash whatever custom rom you want. [Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
+### Now flash whatever custom rom you want. 
 
 # [EXTRA] Installing  a Custom ROM
 
@@ -202,6 +202,7 @@
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files <br>
 > [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer
 > [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer
+> [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
 
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
