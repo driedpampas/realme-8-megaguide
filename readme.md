@@ -10,17 +10,18 @@
 <hr>
 
 # Prerequisites
+- [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
+- [libusb-win32 Drivers](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.7.3/libusb-win32-devel-filter-1.2.7.3.exe/download)
+- [USBDk](https://github.com/daynix/UsbDk/releases/latest)
+- [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 - [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link)
 - [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
 - [C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link)
-- [libusb-win32 Drivers](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download)
-- [USBDk](https://github.com/daynix/UsbDk/releases/latest)
-- [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
-- [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
+
 - A functioning brain and a emotional support after the unlock
 
-# 1. Drivers
+# 1. Prerequisites
 1. ## USB2SER
 	1. **Extract** and enter the folder of [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link) driver.
 	2. Find the **.inf** file, right click and press install
@@ -35,6 +36,7 @@
 	6. You should see there a `MediaTek USB Port` device, Select it and **Click Install**
 	7. After installing, **Leave your phone turned off** and continue with next step.
  3. ## Install [USBDk](https://github.com/daynix/UsbDk/releases/)
+ 4. ## Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 
 # 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
