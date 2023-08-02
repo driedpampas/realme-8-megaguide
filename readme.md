@@ -69,16 +69,16 @@
 
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
-12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`
+12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
     <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
 13. If everything goes well, it should look like this
-    <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
+    <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p><br>
 
-14. Before doing anything, remember to **WIPE your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
+14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
 # 4. Unlocking the bootloader - MTK Client
 1. Install [USBDk](https://github.com/daynix/UsbDk/releases/)
-2. Open the console third time in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 4. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
 5. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
    <p align="center"><img src="https://i.imgur.com/olGdWYp.png"></p>
@@ -87,14 +87,9 @@
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
       
-   If bootloader is unlocked, **When you boot your device, yoou need to presspower button once to skip dm-verity**, there also will be a 5-second orange-state indicator
-      
-   -  Green state means the device is locked, it shouldnt show that it's locked on-boot
-   -  Yellow state means that an alternate keystore was used to verify the boot image
-   -  Orange state indicates that the device is unlocked.
-   -  Red state means that a device in the locked or verified state had a boot image that did not verify. 
+   If bootloader is unlocked, **When you boot your device, you will need to press power button once to skip dm-verity**, there also will be a 5-second orange-state indicator [**¹**](https://github.com/mattcc23/realme-8-bootloader/tree/main#Special_thanks)
 
-7. You will boot into RealmeUI with bootloader unlocked.
+7. Your bootloader is now unlocked.
 
 # 5. Upgrade to RealmeUI 3
 
@@ -136,7 +131,7 @@
 <p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
 
-# [BONUS] Getting fastboot [TODO]
+# [BONUS] Getting fastboot [COMING SOON ᵀᴹ]
 
 # Special thanks
 
@@ -150,5 +145,11 @@
 > Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖. Adapted by [me](t.me/driedpampas) also with 💗.
+
+**¹** More info on the orange-state indicator and other indicators:
+   -  Green state means the device is locked, it shouldnt show that it's locked on-boot
+   -  Yellow state means that an alternate keystore was used to verify the boot image
+   -  Orange state indicates that the device is unlocked.
+   -  Red state means that a device in the locked or verified state had a boot image that did not verify. 
 <br><br>
 <p align="center" style="color: #909090;">Tested on 8/1/2023</p>
