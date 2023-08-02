@@ -184,7 +184,8 @@
  		<p align="center"><img src="https://i.ibb.co/znj0gVk/image.png"></p>
    	6. Now run the command `adb sideload custom-rom.zip` (replace *custom-rom.zip* with custom rom package name). For example I flashed LeafOS 2:
 		<p align="center"><img src="https://i.ibb.co/3B0Xv7x/Screenshot-from-2023-08-02-11-38-48.png"></p>
-  	7. Once finished, in the recovery go back to `Advanced > Power off`. The phone will turn off. Turn it back on and you are booting into your Custom ROM.
+  	7. <u>**Optional**</u> *ONLY* if  it is specified / needed sideload a gapps package `adb sideload gapps.zip` (replace *gapps.zip* with package name)
+  	8. Once finished, in the recovery go back to `Advanced > Power off`. The phone will turn off. Turn it back on and you are booting into your Custom ROM.
 
 
 # Special thanks
