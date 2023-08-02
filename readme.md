@@ -169,7 +169,8 @@
 10. Run command `python mtk w lk lk-patched.bin`<br>
 
 # If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)`
-	<p align="center"><img src="https://i.ibb.co/YN42tZ5/Screenshot-from-2023-08-02-21-45-15.png"></p>
+	
+ <p align="center"><img src="https://i.ibb.co/YN42tZ5/Screenshot-from-2023-08-02-21-45-15.png"></p>
 
 ## USE *lk2* instead of *lk*, and replace it in all of the commands where needed. On *step 10* use the command `python mtk w lk lk2-patched.bin`
 
