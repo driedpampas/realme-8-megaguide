@@ -128,7 +128,7 @@
 
 # 5. Go into Settings and update to C.18
 
-<p align="center" style="color: #909090">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
+<p align="center">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
 
 # [BONUS] Getting fastboot [COMING SOON ᵀᴹ]
@@ -151,7 +151,7 @@
 10. Run command `oplus-unlock lk.bin -o patched.bin`. A `patched.bin` file will be created. Move it to **MTK Client** folder.
 11. Run command `python mtk w lk patched.bin`
 
-    ### Done
+### Now flash whatever custom rom you want. [Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)
 
 # Special thanks
 
