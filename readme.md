@@ -145,11 +145,9 @@
 # [EXTRA] Getting fastboot access
 <p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Do this ONLY AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
-## There are 2 ways: The Website or local install - BOTH USE STEPS 1 - 6 AND 10
+## There are 2 ways: [Website](#website) or [local install](#local-install)
 
-## [Website](https://lkpatcher.r0rt1z2.com/) - USE INSTEAD OF STEPS 7, 8, 9 - just upload your lk.bin to the website and the `lk-patched.bin` will be downloaded - move it to MTK Client folder and do STEP 10
-
-## Local install
+## 1. Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
@@ -165,9 +163,15 @@
  	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
 8. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-9. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder. **Check below step 10 if you get an error**
+9. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder. [**Check below website section if you get an error**](if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
 10. Run command `python mtk w lk lk-patched.bin`<br>
+
+## 2. Website
+#### Go through steps 1 - 6 from [Local install](#local-install)
+7. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
+	<p align="center"><img src="https://i.ibb.co/gJ3H6hZ/Screenshot-from-2023-08-03-13-19-49.png"></p>
+8. Run command `python mtk w lk lk-patched.bin`<br><br>
 
 # If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)`
 	
