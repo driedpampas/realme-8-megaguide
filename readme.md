@@ -1,7 +1,7 @@
 <div align="center">
 	
 <H1>Realme 8 MEGAGUIDE</H1>
-<h6>Version 2.4</h6>
+<h6>Version 2.5/h6>
 
 </div>
 
