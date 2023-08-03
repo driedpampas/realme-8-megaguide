@@ -93,8 +93,9 @@
    <p align="center"><img src="https://i.imgur.com/qezn6Af.png"></p>
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
-      
-   If bootloader is unlocked, **When you boot your device, you will need to press power button once to skip dm-verity**, there also will be a 5-second orange-state indicator [**¹**](#-more-info-on-the-orange-state-indicator-and-other-indicators)
+
+   ### ❗️ When you boot your device, you will get an error `dm-verity corruption / This device is corrupt and cannot be trusted` THIS IS COMPLETELY NORMAL, PRESS POWER BUTTON TO CONTINUE (this will show up at every boot)<br>
+   ### If bootloader is unlocked, there also will be a 5-second orange-state indicator [**¹**](#-more-info-on-the-orange-state-indicator-and-other-indicators)
 
 5. Your bootloader is now unlocked.
 
@@ -180,7 +181,7 @@
 
 ## Prerequisites
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
-- If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
+- ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
 - [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - drivers
 - [QcomMtk-Driver](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file) - also drivers
 - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img (USE WITH CAUTION, NO GUARANTEES) - some people have gotten rid of the **dm-verity corrupt** message by flashing this
@@ -199,7 +200,7 @@
    
 	1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
  	2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
-		<p align="center"><img src="https://i.ibb.co/bQ3BS4L/image.png"></p>
+		<p align="center"><img src="https://i.ibb.co/X8jnCCB/Screenshot-from-2023-08-03-09-59-05.png"></p>
  	3. Run the command `fastboot flash recovery recovery.img`:
 		<p align="center"><img src="https://i.ibb.co/L9YZXdn/Screenshot-from-2023-08-02-11-41-25.png"></p>
   	#### The phone will show `USB Transmission ok`
@@ -234,19 +235,25 @@
 6. You will see this. When it is finished tap `Reboot` (bottom-right corner)
 	<p align="center"> <img src="https://i.ibb.co/nBTcVrz/Screenshot-20230802-145245-Magisk.png"></p>
 7. The phone will restart and you are now rooted with Magisk!
-##### If you want to uninstall, open MAgisk Manager and tap `Uninstall > Complete uninstall`
+##### If you want to uninstall, open Magisk Manager and tap `Uninstall > Complete uninstall`
 
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS
 ## You will need
+- [MTK Client](https://github.com/bkerler/mtkclient/releases/tag/1.52) - you used for bypass to brom and to unlock
 - [KernelSU image](https://drive.google.com/file/d/1T8aQN5hf-gIY22eIaAGmhMTJcodhx3Iw/view?usp=sharing) - download on pc
 - [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/latest) - Scroll down until you see `KernelSU_XXXXXXX-release.apk` (X replaces whatever the latest version is). Download this on your phone.
 
-1. ## . ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
-2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
+1. Open a command prompt in `MTK Client` folder and run this command `python mtk r boot boot.img`. This will create a file `boot.img`. This is in case you want to remove kernelsu.
+2.  ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
+3. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
 ### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
 3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
 4. The app should show like this indicating thaat everything has been done correctly:
 	<p align="center"><img src="https://i.ibb.co/jRfXS5b/Screenshot-20230802-154216-Kernel-SU.png"></p>
+
+5. If you want to remove KernelSU root, move the `boot.img` file you created at step 1 to the folder where adb is and run these commands in a command prompt:
+   - `adb reboot bootloader`
+   - `fastboot flash boot boot.img`
 
 # Special thanks & credits
 
