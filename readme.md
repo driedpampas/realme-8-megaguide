@@ -136,7 +136,7 @@
     <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
 13. If everything goes well, it should look like this:
     <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
-   ### If you click download but there is no progress go to `Options > Option > General` and untick `Storage Life Cycle Check`
+   ### If you click download but there is no progress go to `Options > Option > General` and untick `Storage Life Cycle Check`. If still no progress go back to `Options > Option > Connection` and try another COM port
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 15. ## Go into Settings and update to C.18
