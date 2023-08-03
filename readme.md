@@ -9,7 +9,7 @@
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
-- I used this method on my own device so I can confirm it works.
+- I used this method on [my](t/me.driedpampas) own device so I can confirm it works.
 
 <p align="center" style="color: red;">Use this tutorial <b>only with RUI3</b></p>
 
@@ -250,7 +250,7 @@
 
 # Special thanks & credits
 
-> [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8
+> [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8<br>
 > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
@@ -264,7 +264,7 @@
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
 > [KernelSU & Developers](https://github.com/tiann/KernelSU)<br>
 
-> Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
+> Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates (MOVED)](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖 and by [me](t.me/driedpampas) also with 💗.
 
@@ -276,5 +276,5 @@ Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖 and b
 <br><br>
 <div align="center">
 
-Tested on 07/31/2023 by [e and two others. No guarantees are given at any point. Use with caution.</p>
+Tested on 07/31/2023 by Me and a few others. No guarantees are given at any point. Use with caution.</p>
 </div>
