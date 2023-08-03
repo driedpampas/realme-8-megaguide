@@ -275,7 +275,7 @@
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
 > [KernelSU & Developers](https://github.com/tiann/KernelSU)<br>
 
-> Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 Updates (MOVED)](https://t.me/Realme8Updates), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
+> Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖 and by [me](t.me/driedpampas) also with 💗.
 
