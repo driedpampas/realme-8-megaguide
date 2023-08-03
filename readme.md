@@ -50,7 +50,7 @@
 # 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
-   <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
+   <p align="center"><img src="https://i.ibb.co/sQpYdn9/68747470733a2f2f692e696d6775722e636f6d2f4a355641576f792e706e67.png"></p>
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. 3. Send the payload with `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/cASEARQ.png"></p>
    
@@ -66,7 +66,7 @@
 9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
    
 10. Load `scatter.txt` from Haadi's Firmware
-    <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
+    <p align="center"><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p>
 
 <div align="center">
 <p><img <img src="https://i.ibb.co/bgnMVdM/Caje-RNwf-OCt-Vb-DZ.png"></p><p>Remember to uncheck:</p>
