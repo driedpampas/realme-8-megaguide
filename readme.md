@@ -4,6 +4,8 @@
 
 </div>
 
+### If you have any questions at any moment feel free to message these Telegram channels: [Realme 8 Discussions](https://t.me/Realme8Discussion), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), or open a new [Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions) right here on GitHub.
+
 # Disclaimer
 
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
@@ -16,7 +18,6 @@
 <hr>
 
 # Table of Contents
-
 1. [Installing Prerequisites](#1-installing-prerequisites)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
