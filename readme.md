@@ -266,7 +266,7 @@
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
 > [MtkClient](https://github.com/bkerler/mtkclient) - the tool that made unlocking possible<br>
-> [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) - The tool used to unlock fastboot access, made by [Roger](t.me/R0rt1z2).<br>
+> [Roger](t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files<br>
 > [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer<br>
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file<br>
