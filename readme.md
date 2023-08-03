@@ -185,7 +185,7 @@
 
 ### Now flash whatever custom rom you want. 
 
-# [EXTRA] Installing  a Custom ROM
+# [EXTRA] Installing  a Custom Recovery and ROM
 
 ## Prerequisites
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
