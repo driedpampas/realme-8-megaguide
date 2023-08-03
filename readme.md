@@ -68,7 +68,7 @@
 10. Load `scatter.txt` from Haadi's Firmware
 
 <div align="center">
-	<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
+	<p><img src="https://dummyimage.com/800x60/999999/ad0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -121,7 +121,7 @@
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 
 <div align="center">
-	<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
+	<p><img src="https://dummyimage.com/800x60/999999/ad0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -143,7 +143,7 @@
 <p align="center">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
 
-<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=ONLY DO EXTRAS AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
+<p><img src="https://dummyimage.com/1000x70/999999/ad0000?text=ONLY DO EXTRAS AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
 
 # [EXTRA] Getting fastboot access
 
@@ -227,7 +227,7 @@
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
 
 # [EXTRA] Rooting (I used Lineage OS 20.0 for this)
-<p><img src="https://dummyimage.com/400x100/ffffff/FF0000?text=ONLY USE ONE METHOD"></p>
+<p><img src="https://dummyimage.com/400x100/999999/ad0000?text=ONLY USE ONE METHOD"></p>
 
 
 ## 1. With Magisk 
