@@ -171,8 +171,10 @@
 	<p align="center"><img src="https://i.ibb.co/gJ3H6hZ/Screenshot-from-2023-08-03-13-19-49.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
-# ❗️ If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)` OR the website says `Patching Error: Unable to find given signature sequence.`
-	
+# ❗ I have gotten reports of issues with the Website so after flashing `lk-patched.bin` run `adb reboot bootloader` and chech that the phone says `fastboot_verify_ok`. If it says `fastboot_verify failure` and it keeps rebooting automatically USE LOCAL METHOD
+
+# ❗❗ If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)` OR the website says `Patching Error: Unable to find given signature sequence.`
+
 <div align="center">
 
 | Command pronpt | Website |
