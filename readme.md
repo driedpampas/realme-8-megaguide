@@ -191,9 +191,9 @@
 - [QcomMtk-Driver](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file) - also drivers
 - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img (USE WITH CAUTION, NO GUARANTEES) - some people have gotten rid of the **dm-verity corrupt** message by flashing this
 - a custom rom package (in this guide I used Leaf OS 2)
-- Recovery Images:
+- 2 example recovery images:
 	- [lineage-os recovery](https://github.com/bengris32/releases/releases/download/3.0/lineage-20.0-20230613-UNOFFICIAL-nashc-recovery.img) - compatible with Pixel Experience and Lineage OS (and others, check the Custom ROM's description)	
-	- [leaf-os recovery](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) - ONLY for Leaf OS 2
+	- [leaf-os recovery](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) - ONLY for Leaf OS 2 (if you want OTA updates)
 1. ## Rebooting to fastboot
 	1. Open a command prompt window in the **platform-tools** folder.
   	2. Enable Developer Options on device and enable USB Debugging.
