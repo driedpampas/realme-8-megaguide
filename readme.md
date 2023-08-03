@@ -52,7 +52,7 @@
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
 	<p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this: 
-	<p align="center"><img src="https://i.imgur.com/32b5u7d.png"></p>
+	<p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
@@ -106,7 +106,7 @@
 2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
 3. Send the payload with `python mtk payload`. It should look like this: 
-   <p align="center"><img src="https://i.imgur.com/32b5u7d.png"></p>
+   <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
