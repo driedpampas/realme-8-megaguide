@@ -14,7 +14,7 @@
 - This method doesn't use **Deep Test**
 - I used this method on [my](t/me.driedpampas) own device so I can confirm it works. Others have also used this method.
 
-<p align="center"><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=Use this tutorial only on RUI2 / RUI3"></p>
+<p align="center"><img src="https://dummyimage.com/2000x150/999999/ad0000?text=Use this tutorial only on RUI2 / RUI3 (RUI4 will be added at a later time)"></p>
 
 <hr>
 
