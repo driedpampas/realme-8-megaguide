@@ -9,7 +9,7 @@
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
-- I used this method on [my](t/me.driedpampas) own device so I can confirm it works.
+- I used this method on [my](t/me.driedpampas) own device so I can confirm it works. Others have also used this method.
 
 <p align="center" style="color: red;">Use this tutorial <b>only with RUI3</b></p>
 
