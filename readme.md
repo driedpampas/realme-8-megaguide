@@ -61,11 +61,12 @@
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) `flash_tool.exe`
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
-	<p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
+	<p align="center"><img src="https://i.imgur.com/5mQepLb.png"></p>
   
 9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
    
 10. Load `scatter.txt` from Haadi's Firmware
+    <p align="center"><img src="https://i.imgur.com/o3u0M0Z.png"></p>
 
 <div align="center">
 	<p><img src="https://dummyimage.com/800x60/999999/ad0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
@@ -77,11 +78,11 @@
 </div><br>
 
 11. Remember to have `Download Only` mode
-	<p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
+	<p align="center"><img src="https://i.imgur.com/oRw19Fx.png"></p>
 12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
-	<p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
+	<p align="center"><img src="https://i.imgur.com/A53ksET.pngg"></p>
 13. If everything goes well, it should look like this
-	<p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p><br>
+	<p align="center"><img src="https://i.imgur.com/n7eqqro.png"></p><br>
 
 14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
@@ -115,10 +116,10 @@
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
-   <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
+   <p align="center"><img src="https://i.imgur.com/5mQepLb.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
 10. Load `MT6785_scatter.xml` from Haadi's Firmware
-    <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
+    <p align="center"><img src="https://i.imgur.com/o3u0M0Z.png"></p>
 
 <div align="center">
 	<p><img src="https://dummyimage.com/800x60/999999/ad0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
@@ -130,11 +131,11 @@
 </div><br>
 	
 11. Remember to have `Download Only` mode
-    <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
+    <p align="center"><img src="https://i.imgur.com/oRw19Fx.png"></p>
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`
-    <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
+    <p align="center"><img src="https://i.imgur.com/A53ksET.png"></p>
 13. If everything goes well, it should look like this:
-    <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
+    <p align="center"><img src="https://i.imgur.com/n7eqqro.png"></p>
    ### If you click download but there is no progress go to `Options > Option > General` and untick `Storage Life Cycle Check`. If still no progress go back to `Options > Option > Connection` and try another COM port
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
@@ -168,7 +169,7 @@
 ## 2. Website
 #### Go through steps 1 - 4 from [Local install](#1-local-install)
 5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
-	<p align="center"><img src="https://i.ibb.co/gJ3H6hZ/Screenshot-from-2023-08-03-13-19-49.png"></p>
+	<p align="center"><img src="https://i.imgur.com/kddEiuG.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
 # ❗ I have gotten reports of issues with the Website so after flashing `lk-patched.bin` run `adb reboot bootloader` and chech that the phone says `fastboot_verify_ok`. If it says `fastboot_verify failure` and it keeps rebooting automatically USE LOCAL METHOD
@@ -211,18 +212,18 @@
    
 	1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
  	2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
-		<p align="center"><img src="https://i.ibb.co/X8jnCCB/Screenshot-from-2023-08-03-09-59-05.png"></p>
+		<p align="center"><img src="https://i.imgur.com/MZZyTBc.png"></p>
  	3. Run the command `fastboot flash recovery recovery.img`:
-		<p align="center"><img src="https://i.ibb.co/L9YZXdn/Screenshot-from-2023-08-02-11-41-25.png"></p>
+		<p align="center"><img src="https://i.imgur.com/t7wYi3R.png"></p>
   	#### The phone will show `USB Transmission ok`
 	4. Now, reboot to recovery mode with the command `fastboot reboot recovery` 
-		<p align="center"><img src="https://i.ibb.co/Y0B19X6/Screenshot-from-2023-08-02-11-41-34.png"></p>
+		<p align="center"><img src="https://i.imgur.com/1zwXUmj.png"></p>
 	5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
- 		<p align="center"><img src="https://i.ibb.co/znj0gVk/image.png"></p>
+ 		<p align="center"><img src="https://i.imgur.com/MoiIS9k.png"></p>
    	6. Now run the command `adb sideload custom-rom.zip` (replace *custom-rom.zip* with custom rom package name). For example I flashed LeafOS 2:
-		<p align="center"><img src="https://i.ibb.co/3B0Xv7x/Screenshot-from-2023-08-02-11-38-48.png"></p>
+		<p align="center"><img src="https://i.imgur.com/QZqi1e1.png"></p>
   	7. **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
-		<p align="center"><img src="https://i.ibb.co/XXj5CVx/image.png"></p>
+		<p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
 	### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
 
@@ -240,11 +241,11 @@
 ### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
 3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the Magisk apk file and install it.
 4. When opening the app you will get an error `Requires Additional Setup`. *This is normal*. Tap `OK`.
-	<p align="center"><img src="https://i.ibb.co/C0LCSc8/Screenshot-20230802-145234-Magisk.png"></p>
+	<p align="center"><img src="https://i.imgur.com/4pSY7xF.png"></p>
 5. Select `Direct Install` and tap `LET'S GO ->`
-	<p align="center"><img src="https://i.ibb.co/fS7dDp2/Screenshot-20230802-145238-Magisk.png"></p>
+	<p align="center"><img src="https://i.imgur.com/SO1bVT8.png"></p>
 6. You will see this. When it is finished tap `Reboot` (bottom-right corner)
-	<p align="center"> <img src="https://i.ibb.co/nBTcVrz/Screenshot-20230802-145245-Magisk.png"></p>
+	<p align="center"> <img src="https://i.imgur.com/kHKnvf0.png"></p>
 7. The phone will restart and you are now rooted with Magisk!
 ##### If you want to uninstall, open Magisk Manager and tap `Uninstall > Complete uninstall`
 
@@ -260,7 +261,7 @@
 ### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
 3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
 4. The app should show like this indicating thaat everything has been done correctly:
-	<p align="center"><img src="https://i.ibb.co/jRfXS5b/Screenshot-20230802-154216-Kernel-SU.png"></p>
+	<p align="center"><img src="https://i.imgur.com/XhOFSXP.png"></p>
 
 5. If you want to remove KernelSU root, move the `boot.img` file you created at step 1 to the folder where adb is and run these commands in a command prompt:
    - `adb reboot bootloader`
