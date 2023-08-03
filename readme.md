@@ -49,8 +49,8 @@
 
 # 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
-	<p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
+2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+	<p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this: 
 	<p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
    
@@ -104,8 +104,8 @@
 # 4. Upgrade to RealmeUI 3
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
-   <p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
+2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+   <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 3. Send the payload with `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
    
@@ -152,16 +152,16 @@
 
 ## 1. Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-2. Open the console again in `MTK Client` folder, **a tip how to do it faster below**
-   <p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
+2. Open the console again in `MTK Client` folder
+   <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 3. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 	<p align="center"><img src="https://i.ibb.co/bKNc63C/photo1691074543.png"></p>
 5. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
 	<p align="center"><img src="https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png"></p>
  	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
-6. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
-   <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
+6. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder
+   <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 7. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder. [**Check below website section if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
 8. Run command `python mtk w lk lk-patched.bin`<br>
