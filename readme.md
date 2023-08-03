@@ -5,7 +5,7 @@
 
 </div>
 
-### If you have any questions at any moment feel free to message these Telegram channels: [Realme 8 Discussions](https://t.me/Realme8Discussion), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+### If you have any questions at any moment feel free to message these Telegram channels: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), [Realme 8 Discussions](https://t.me/Realme8Discussion), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 # Disclaimer
 
@@ -195,7 +195,7 @@
 - [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - drivers
 - [QcomMtk-Driver](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file) - also drivers
 - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img (USE WITH CAUTION, NO GUARANTEES) - some people have gotten rid of the **dm-verity corrupt** message by flashing this
-- a custom rom package (in this guide I used Leaf OS 2)
+- a custom rom package - **you can use any Custom ROM you want** (as an example, I used Leaf OS 2)
 - 2 example recovery images:
 	- [lineage-os recovery](https://github.com/bengris32/releases/releases/download/3.0/lineage-20.0-20230613-UNOFFICIAL-nashc-recovery.img) - compatible with Pixel Experience and Lineage OS (and others, check the Custom ROM's description)	
 	- [leaf-os recovery](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) - ONLY for Leaf OS 2 (if you want OTA updates)
