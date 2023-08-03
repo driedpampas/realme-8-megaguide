@@ -50,26 +50,25 @@
 # 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
-   <p align="center"><img src="https://i.ibb.co/sQpYdn9/68747470733a2f2f692e696d6775722e636f6d2f4a355641576f792e706e67.png"></p>
-3. Get the needed libraries using command `python -m pip install -r requirements.txt`. 3. Send the payload with `python mtk payload`. It should look like this: 
-   <p align="center"><img src="https://i.imgur.com/cASEARQ.png"></p>
+	<p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
+3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this: 
+	<p align="center"><img src="https://i.imgur.com/32b5u7d.png"></p>
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
-      <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
+	<p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) `flash_tool.exe`
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
-   <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
+	<p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
   
 9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
    
 10. Load `scatter.txt` from Haadi's Firmware
-    <p align="center"><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p>
 
 <div align="center">
-<p><img <img src="https://i.ibb.co/bgnMVdM/Caje-RNwf-OCt-Vb-DZ.png"></p><p>Remember to uncheck:</p>
+	<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -78,11 +77,11 @@
 </div><br>
 
 11. Remember to have `Download Only` mode
-    <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
+	<p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
 12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
-    <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
+	<p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
 13. If everything goes well, it should look like this
-    <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p><br>
+	<p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p><br>
 
 14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
@@ -105,9 +104,9 @@
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
-   <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
+   <p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
 3. Send the payload with `python mtk payload`. It should look like this: 
-   <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
+   <p align="center"><img src="https://i.imgur.com/32b5u7d.png"></p>
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
@@ -122,7 +121,7 @@
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 
 <div align="center">
-<p><img <img src="https://i.ibb.co/bgnMVdM/Caje-RNwf-OCt-Vb-DZ.png"></p><p>Remember to uncheck:</p>
+	<p><img src="https://dummyimage.com/1000x70/ffffff/FF0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -152,7 +151,7 @@
 ## 1. Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder, **a tip how to do it faster below**
-   <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
+   <p align="center"><img src="https://i.imgur.com/LMqjAux.png"></p>
 3. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 	<p align="center"><img src="https://i.ibb.co/bKNc63C/photo1691074543.png"></p>
