@@ -5,7 +5,7 @@
 
 </div>
 
-### If you have any questions at any moment feel free to message these Telegram channels: [Realme 8 Discussions](https://t.me/Realme8Discussion), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+### If you have any questions at any moment feel free to message these Telegram channels: [Realme 8 Discussions](https://t.me/Realme8Discussion), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 # Disclaimer
 
