@@ -218,7 +218,7 @@
  		<p align="center"><img src="https://i.ibb.co/znj0gVk/image.png"></p>
    	6. Now run the command `adb sideload custom-rom.zip` (replace *custom-rom.zip* with custom rom package name). For example I flashed LeafOS 2:
 		<p align="center"><img src="https://i.ibb.co/3B0Xv7x/Screenshot-from-2023-08-02-11-38-48.png"></p>
-  	7. <u>**Optional**</u> *ONLY* if  it is specified / needed to sideload a gapps package. Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
+  	7. **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
 		<p align="center"><img src="https://i.ibb.co/XXj5CVx/image.png"></p>
 	### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
