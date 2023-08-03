@@ -96,7 +96,7 @@
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
 
    ### ❗️ When you boot your device, you will see `dm-verity corruption / This device is corrupt and cannot be trusted` THIS IS COMPLETELY NORMAL, PRESS POWER BUTTON TO CONTINUE - be quick, the phone will turn off automatically in 5 seconds (this will show up at every boot)<br>
-   ### If bootloader is unlocked, there also will be a 5-second orange-state indicator [**¹**](#-more-info-on-the-orange-state-indicator-and-other-indicators)
+   ### ❗ If bootloader is unlocked, there also will be a 5-second orange-state indicator [**¹**](#-more-info-on-the-orange-state-indicator-and-other-indicators)
 
 5. Your bootloader is now unlocked.
 
