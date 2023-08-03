@@ -173,7 +173,7 @@
 	<p align="center"><img src="https://i.ibb.co/gJ3H6hZ/Screenshot-from-2023-08-03-13-19-49.png"></p>
 8. Run command `python mtk w lk lk-patched.bin`<br><br>
 
-# If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)`
+# ❗️ If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)`
 	
  <p align="center"><img src="https://i.ibb.co/YN42tZ5/Screenshot-from-2023-08-02-21-45-15.png"></p>
 
