@@ -94,7 +94,7 @@
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
 
-   ### ❗️ When you boot your device, you will get an error `dm-verity corruption / This device is corrupt and cannot be trusted` THIS IS COMPLETELY NORMAL, PRESS POWER BUTTON TO CONTINUE - be quick, the phone will turn off automatically in 5 seconds (this will show up at every boot)<br>
+   ### ❗️ When you boot your device, you will see `dm-verity corruption / This device is corrupt and cannot be trusted` THIS IS COMPLETELY NORMAL, PRESS POWER BUTTON TO CONTINUE - be quick, the phone will turn off automatically in 5 seconds (this will show up at every boot)<br>
    ### If bootloader is unlocked, there also will be a 5-second orange-state indicator [**¹**](#-more-info-on-the-orange-state-indicator-and-other-indicators)
 
 5. Your bootloader is now unlocked.
@@ -116,7 +116,7 @@
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
-10. Load `scatter.txt` from Haadi's Firmware
+10. Load `MT6785_scatter.xml` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 
 <div align="center">
