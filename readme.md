@@ -152,31 +152,33 @@
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-3. Send the payload with `python mtk payload`. It should look like this: 
-   <p align="center"><img src="https://i.imgur.com/Y2mwRhR.png"></p>
-   
-4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
-5. MTK Client should output something like this:
-      <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
-6. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
-7. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
+3. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
+4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
+	<p align="center"><img src="https://i.ibb.co/bKNc63C/photo1691074543.png"></p>
+5. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
 	<p align="center"><img src="https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png"></p>
  	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
-8. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
+6. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
-9. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder. [**Check below website section if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
+7. Run command `python main.py lk.bin -o lk-patched.bin`. A `lk-patched.bin` file will be created. Move it to **MTK Client** folder. [**Check below website section if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
-10. Run command `python mtk w lk lk-patched.bin`<br>
+8. Run command `python mtk w lk lk-patched.bin`<br>
 
 ## 2. Website
-#### Go through steps 1 - 6 from [Local install](#1-local-install)
-7. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
+#### Go through steps 1 - 4 from [Local install](#1-local-install)
+5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.ibb.co/gJ3H6hZ/Screenshot-from-2023-08-03-13-19-49.png"></p>
-8. Run command `python mtk w lk lk-patched.bin`<br><br>
+6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
-# ❗️ If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)`
+# ❗️ If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)` OR the website says `Patching Error: Unable to find given signature sequence.`
 	
- <p align="center"><img src="https://i.ibb.co/YN42tZ5/Screenshot-from-2023-08-02-21-45-15.png"></p>
+<div align="center">
+
+| Command pronpt | Website |
+| -------------- | ------- |
+| <img src="https://i.ibb.co/YN42tZ5/Screenshot-from-2023-08-02-21-45-15.png"> | <img src="https://i.ibb.co/WDD1D10/Screenshot-from-2023-08-03-17-51-37.png"> |
+
+</div>
 
 ## USE *lk2* instead of *lk*, and replace it in all of the commands where needed. On *step 10* use the command `python mtk w lk lk2-patched.bin`
 
