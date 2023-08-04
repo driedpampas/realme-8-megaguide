@@ -206,6 +206,8 @@
 	3. In the platform-tools folder open a command prompt and run `adb devices`. You will see something like this on phone, check `Always allow...` and hit `Allow`.
  	4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_verify_ok` or similar.
 
+### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+
 2. ## Installing custom recovery and sideloading custom rom
    #### If switching between custom roms skip step 2.
    #### If the required recovery has not changed you may skip step 3 as well.
