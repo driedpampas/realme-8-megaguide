@@ -249,7 +249,7 @@
 4. When opening the app you will get an error `Requires Additional Setup`. *This is normal*. Tap `OK`.
 	<p align="center"><img src="https://i.imgur.com/4pSY7xF.png" height="700"></p>
 5. Select `Direct Install` and tap `LET'S GO ->`
-	<p align="center"><img src="https://i.imgur.com/SO1bVT8.png" height="700"></p>
+	<p align="center"><img src="https://i.imgur.com/SO1bVT8.png" height="400"></p>
 6. You will see this. When it is finished tap `Reboot` (bottom-right corner)
 	<p align="center"> <img src="https://i.imgur.com/kHKnvf0.png" height="700"></p>
 7. The phone will restart and you are now rooted with Magisk!
