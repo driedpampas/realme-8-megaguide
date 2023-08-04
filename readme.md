@@ -80,7 +80,7 @@
 11. Remember to have `Download Only` mode
 	<p align="center"><img src="https://i.imgur.com/oRw19Fx.png"></p>
 12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
-	<p align="center"><img src="https://i.imgur.com/A53ksET.pngg"></p>
+	<p align="center"><img src="https://i.imgur.com/NtxCZnW.png"></p>
 13. If everything goes well, it should look like this
 	<p align="center"><img src="https://i.imgur.com/qeJWt3a.png"></p><br>
 
