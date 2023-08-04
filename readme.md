@@ -187,7 +187,7 @@
 
 </div>
 
-## USE *lk2* instead of *lk*, and replace it in all of the commands where needed. On *step 10* use the command `python mtk w lk lk2-patched.bin`
+## USE *lk2* instead of *lk*, and replace it in all of the commands where needed. On *step 4* use command `python mtk r lk2 lk.bin`. On *step 8* use the command `python mtk w lk lk-patched.bin`
 
 ### Now flash whatever custom rom you want. 
 
