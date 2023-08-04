@@ -253,7 +253,7 @@
 4. The app should show like this indicating thaat everything has been done correctly:
 	<p align="center"><img src="https://i.imgur.com/XhOFSXP.png" height="700"></p>
 
-5. If you want to remove KernelSU root, extract the `custom-rom.zip` you downlaoded to flash the ROM, find and move the `boot.img` to the folder where adb is and run these commands in a command prompt:
+5. If you want to remove KernelSU root, extract the `custom-rom.zip` you downloaded to flash the ROM, find and move the `boot.img` to the folder where adb is and run these commands in a command prompt:
    - `adb reboot bootloader`
    - `fastboot flash boot boot.img`
 
