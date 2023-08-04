@@ -77,7 +77,7 @@
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
-| <img src="https://i.imgur.com/9Kp65P7.png" width="80"> | <img src="https://i.imgur.com/S6XOitJ.png" width="80"> |
+| <img src="https://i.imgur.com/9Kp65P7.png" width="150"> | <img src="https://i.imgur.com/S6XOitJ.png" width="150"> |
 
 </div><br>
 
@@ -128,7 +128,7 @@
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
-| <img src="https://i.imgur.com/9Kp65P7.png" width="80"> | <img src="https://i.imgur.com/S6XOitJ.png" width="80"> |
+| <img src="https://i.imgur.com/9Kp65P7.png" width="150"> | <img src="https://i.imgur.com/S6XOitJ.png" width="150"> |
 
 </div><br>
 	
