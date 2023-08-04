@@ -133,7 +133,7 @@
 	
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/uSXflCJ.png"></p>
-12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`
+12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`. [**No progress? Click me**](#if-you-click-download-but-there-is-no-progress-go-to-options--option--general-and-untick-storage-life-cycle-check-if-still-no-progress-go-back-to-options--option--connection-and-try-another-com-port)
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png"></p>
 13. If everything goes well, it should look like this:
     <p align="center"><img src="https://i.imgur.com/qeJWt3a.png"></p>
