@@ -290,5 +290,5 @@ Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖 and b
 <br><br>
 <div align="center">
 
-Tested on 07/31/2023 by Me and a few others. No guarantees are given at any point. Use with caution.</p>
+Tested me and others. No guarantees are given at any point. Use with caution.</p>
 </div>
