@@ -55,7 +55,7 @@
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this: 
 	<p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
    
-4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
+4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 5. MTK Client should output something like this:
 	<p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
    
@@ -89,7 +89,7 @@
 
 # 3. Unlocking the bootloader - MTK Client
 1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-2. Reboot your device, turn it off and Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+2. Reboot your device, turn it off and Hold down both **Vol+, Vol-** - **(Don't leave the buttons until the bypass is done)**
 3. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
    <p align="center"><img src="https://i.imgur.com/HfPsrpU.png"></p>
 4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
@@ -110,7 +110,7 @@
 3. Send the payload with `python mtk payload`. It should look like this: 
    <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
    
-4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
+4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
    
@@ -157,7 +157,7 @@
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder
    <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
-3. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
+3. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 	<p align="center"><img src="https://i.imgur.com/gL4Qpc2.png"></p>
 5. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
