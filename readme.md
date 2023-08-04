@@ -152,7 +152,7 @@
 
 <p><img src="https://i.imgur.com/UkNf5aM.png"></p>
 
-# [EXTRA] Getting fastboot access
+# [EXTRA] Getting fastboot access - SKIP ONLY IF you unlocked with DEEP TESTING
 
 ## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - choose whatever way you want
 
