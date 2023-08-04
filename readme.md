@@ -42,7 +42,7 @@
 1. ## USB2SER
 	1. **Extract** and enter the folder of [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link) driver.
 	2. Find the **.inf** file, right click and press install
-   <p align="center"><img src="https://i.imgur.com/BZxtj6B.png"></p>
+   <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
 
  3. ## Install [USBDk](https://github.com/daynix/UsbDk/releases/)
  4. ## Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
@@ -56,7 +56,7 @@
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
-	<p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
+	<p align="center"><img src="https://i.imgur.com/lYgSXFN.png"></p>
    
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) `flash_tool.exe`
 7. Click on `Options > Option...`
@@ -111,7 +111,7 @@
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
-      <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
+      <p align="center"><img src="https://i.imgur.com/lYgSXFN.png"></p>
    
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
 7. Click on `Options > Option...`
