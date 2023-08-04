@@ -11,7 +11,6 @@
 
 ### If you have any questions at any moment feel free to message this Telegram channel: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
-# Disclaimer
 
 - This method requires you to **erase** your device so you **will lose data**
 - **Make sure to read and do all of the steps to avoid your device being bricked.**
