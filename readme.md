@@ -14,8 +14,7 @@
 - **Make sure to read and do all of the steps to avoid your device being bricked.**
 - This method doesn't use the **Deep Testing** app.
 - I used this method on [my](t/me.driedpampas) own device so I can confirm it works. Others have also used this method.
-- Remember to check on workarounds, represented by "❗" whenever you get errors, and don't hesitate to use the contact info above.
-
+  
 <p align="center"><img src="https://i.imgur.com/xc6lSJb.png"></p>
 
 <hr>
