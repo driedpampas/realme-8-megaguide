@@ -257,7 +257,10 @@
    - `adb reboot bootloader`
    - `fastboot flash boot boot.img`
 
-# Special thanks & credits
+# More extras in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
+
+
+## Special thanks & credits
 
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8<br>
 > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
