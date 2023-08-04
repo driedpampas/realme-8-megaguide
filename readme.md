@@ -249,7 +249,7 @@
 7. The phone will restart and you are now rooted with Magisk!
 ##### If you want to uninstall, open Magisk Manager and tap `Uninstall > Complete uninstall`
 
-## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS
+## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will brick your device)
 ## You will need
 - [MTK Client](https://github.com/bkerler/mtkclient/releases/tag/1.52) - you used for bypass to brom and to unlock
 - [KernelSU image](https://drive.google.com/file/d/1T8aQN5hf-gIY22eIaAGmhMTJcodhx3Iw/view?usp=sharing) - download on pc
