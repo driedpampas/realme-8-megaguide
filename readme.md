@@ -70,7 +70,7 @@
     <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
 <div align="center">
-	<p><img src="https://i.imgur.com/fmvhmwk.png:"></p><p>Remember to uncheck:</p>
+	<p><img src="https://i.imgur.com/sYaIBIN.png"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
@@ -123,7 +123,7 @@
     <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
 <div align="center">
-	<p><img src="https://i.imgur.com/fmvhmwk.png"></p><p>Remember to uncheck:</p>
+	<p><img src="https://i.imgur.com/sYaIBIN.png"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
