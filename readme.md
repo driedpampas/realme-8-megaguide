@@ -149,6 +149,8 @@
 
 # [EXTRA] Getting fastboot access
 
+### Only do this after updating to desired RUI version
+
 ## There are 2 ways: [Website](#2-website) or [local install](#1-local-install)
 
 ## 1. Local install
