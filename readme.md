@@ -81,7 +81,7 @@
 11. Remember to have `Download Only` mode
 	<p align="center"><img src="https://i.imgur.com/uSXflCJ.png"></p>
 12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
-	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png"></p>
+	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png" widht="250"></p>
 13. If everything goes well, it should look like this
 	<p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p><br>
 
@@ -134,9 +134,9 @@
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/uSXflCJ.png"></p>
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`. [**No progress? Click me**](#if-you-click-download-but-there-is-no-progress-go-to-options--option--general-and-untick-storage-life-cycle-check-if-still-no-progress-go-back-to-options--option--connection-and-try-another-com-port)
-    <p align="center"><img src="https://i.imgur.com/M3aUNBs.png"></p>
+    <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" widht="250"></p>
 13. If everything goes well, it should look like this:
-    <p align="center"><img src="https://i.imgur.com/qeJWt3a.png"></p>
+    <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p>
    ### If you click download but there is no progress go to `Options > Option > General` and untick `Storage Life Cycle Check`. If still no progress go back to `Options > Option > Connection` and try another COM port
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
@@ -247,11 +247,11 @@
 ### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
 3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the Magisk apk file and install it.
 4. When opening the app you will get an error `Requires Additional Setup`. *This is normal*. Tap `OK`.
-	<p align="center"><img src="https://i.imgur.com/4pSY7xF.png"></p>
+	<p align="center"><img src="https://i.imgur.com/4pSY7xF.png" height="700"></p>
 5. Select `Direct Install` and tap `LET'S GO ->`
-	<p align="center"><img src="https://i.imgur.com/SO1bVT8.png"></p>
+	<p align="center"><img src="https://i.imgur.com/SO1bVT8.png" height="700"></p>
 6. You will see this. When it is finished tap `Reboot` (bottom-right corner)
-	<p align="center"> <img src="https://i.imgur.com/kHKnvf0.png"></p>
+	<p align="center"> <img src="https://i.imgur.com/kHKnvf0.png" height="700"></p>
 7. The phone will restart and you are now rooted with Magisk!
 ##### If you want to uninstall, open Magisk Manager and tap `Uninstall > Complete uninstall`
 
@@ -267,7 +267,7 @@
 ### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
 3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
 4. The app should show like this indicating thaat everything has been done correctly:
-	<p align="center"><img src="https://i.imgur.com/XhOFSXP.png"></p>
+	<p align="center"><img src="https://i.imgur.com/XhOFSXP.png" height="700"></p>
 
 5. If you want to remove KernelSU root, move the `boot.img` file you created at step 1 to the folder where adb is and run these commands in a command prompt:
    - `adb reboot bootloader`
