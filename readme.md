@@ -83,7 +83,7 @@
 12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png"></p>
 13. If everything goes well, it should look like this
-	<p align="center"><img src="https://i.imgur.com/qeJWt3a.png"></p><br>
+	<p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p><br>
 
 14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
