@@ -145,7 +145,7 @@
 <p align="center">Congrats, you now have a unlocked phone with the latest version of RUI3!<br><br><img src="https://i.imgur.com/Z90bwAU.png"></p>
 <hr>
 
-<p><img src="https://dummyimage.com/1000x70/999999/ad0000?text=ONLY DO EXTRAS AFTER UPDATING to desired RUI3 version (ex: C.18)"></p>
+<p><img src="https://dummyimage.com/1000x70/999999/ad0000?text=ONLY DO EXTRAS AFTER UPDATING to RUI3 C.18"></p>
 
 # [EXTRA] Getting fastboot access
 
