@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/Mo6YN7F.png"></p>
+<p align="center"><img src="https://i.imgur.com/ednCoMZ.png"></p>
 	
 <H1>Realme 8 MEGAGUIDE</H1>
 <h6>Version 3.nlaf<h6>
