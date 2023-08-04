@@ -103,6 +103,9 @@
 
 5. Your bootloader is now unlocked.
 
+### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+
+
 # 4. Upgrade to RealmeUI 3
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
@@ -169,6 +172,8 @@
 	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
 8. Run command `python mtk w lk lk-patched.bin`<br>
 
+### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+
 ## 2. Website
 #### Go through steps 1 - 4 from [Local install](#1-local-install)
 5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
@@ -220,6 +225,8 @@
 		<p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
 	### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
+
+### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 # [EXTRA] Rooting (I used Lineage OS 20.0 for this)
 <p><img src="https://i.imgur.com/tm2MVru.png"></p>
