@@ -5,6 +5,7 @@
 
 </div>
 
+### Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work 
 ### If you have any questions at any moment feel free to message this Telegram channel: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 # Disclaimer
@@ -96,8 +97,6 @@
    <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
-
-   ### ❗️ When you boot your device, you will see `dm-verity corruption / This device is corrupt and cannot be trusted` THIS IS COMPLETELY NORMAL, PRESS POWER BUTTON TO CONTINUE - be quick, the phone will turn off automatically in 5 seconds (this will show up at every boot)<br>
    ### ❗ If bootloader is unlocked, there also will be a 5-second orange-state indicator [**¹**](#-more-info-on-the-orange-state-indicator-and-other-indicators)
 
 5. Your bootloader is now unlocked.
@@ -200,7 +199,7 @@
 - [QcomMtk-Driver](https://download2434.mediafire.com/oujse6nv0amgSlaKhG_5IT5vEREODBIhSkqFC1JuR1aOORwPa_UD8YhxGRy1AikoG2PkekfmgOtaL0-xqTgbm_hrGhTRUx0piW3s9Am-bcSMj5bO0jR5tvWgN0qOv5vuHONzUrlzgzqhuKA1EWI6EIbxL5dJUyyHX1RxNSk5bQ/nninaiiqy1e5csa/New+QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe) - also drivers
 - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img file
 - a custom rom package - **you can use any Custom ROM you want** (as an example, I used Leaf OS 2)
-- GAPPS package - recommended [MindTheGApps](https://androidfilehost.com/?fid=4279422670115729791)
+- GAPPS package - recommended [MindTheGApps](https://androidfilehost.com/?fid=4279422670115734716)
 - 2 example recovery images:
 	- [lineage-os recovery](https://github.com/bengris32/releases/releases/download/3.0/lineage-20.0-20230613-UNOFFICIAL-nashc-recovery.img) - compatible with Pixel Experience and Lineage OS (and others, check the Custom ROM's description)	
 	- [leaf-os recovery](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) - ONLY for Leaf OS 2 (if you want OTA updates)
