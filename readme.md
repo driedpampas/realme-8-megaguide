@@ -118,7 +118,7 @@
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
-10. Load `MT6785_scatter.xml` from Haadi's Firmware
+10. Load `MT6785_Android_scatter.xml` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
 <div align="center">
