@@ -202,14 +202,15 @@
 	- [lineage-os recovery](https://github.com/bengris32/releases/releases/download/3.0/lineage-20.0-20230613-UNOFFICIAL-nashc-recovery.img) - compatible with Pixel Experience and Lineage OS (and others, check the Custom ROM's description)	
 	- [leaf-os recovery](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) - ONLY for Leaf OS 2 (if you want OTA updates)
 1. ## Rebooting to fastboot
-	1. Open a command prompt window in the **platform-tools** folder.
-  	2. Enable Developer Options on device and enable USB Debugging.
+	### Your device needs to be turned on
+ 	1. Open a command prompt window in the **platform-tools** folder.
+  	2. **On your phone**, enable Developer Options and enable USB Debugging.
 	3. In the platform-tools folder open a command prompt and run `adb devices`. You will see something like this on phone, check `Always allow...` and hit `Allow`.
  	4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_verify_ok` or similar.
 
 2. ## Installing custom recovery and sideloading custom rom
-   ##### If switching between custom roms skip step 2.
-   ##### If the required recovery has not changed you may skip step 3 as well.
+   #### If switching between custom roms skip step 2.
+   #### If the required recovery has not changed you may skip step 3 as well.
    
 	1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
  	2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
@@ -225,7 +226,7 @@
 		<p align="center"><img src="https://i.imgur.com/QZqi1e1.png"></p>
   	7. **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
 		<p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
-	### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
+	### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
 
 # [EXTRA] Rooting (I used Lineage OS 20.0 for this)
