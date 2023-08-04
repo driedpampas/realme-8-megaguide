@@ -30,7 +30,7 @@
 
 # Prerequisites
 - [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
-- [USBDk](https://github.com/daynix/UsbDk/releases/latest)
+- [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi)
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 - [SP Flash tool](https://drive.google.com/file/d/1McZ11On8XbxGgE-hMA_nZqErHI_QwjQT/view?usp=sharing)
@@ -160,7 +160,7 @@
 3. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 	<p align="center"><img src="https://i.imgur.com/gL4Qpc2.png"></p>
-5. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
+5. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock/archive/refs/heads/master.zip) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
 	<p align="center"><img src="https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png"></p>
  	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
 6. Move `lk.bin` to oplus_unlock folder. Open the console in **oplus_unlock** folder
@@ -195,9 +195,9 @@
 
 ## Prerequisites
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
-- ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
+- ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/releases/download/v1.0.8/ADB-and-Fastboot++_v1.0.8.exe)
 - [ADB Driver Installer](https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037) - drivers
-- [QcomMtk-Driver](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file) - also drivers
+- [QcomMtk-Driver](https://download2434.mediafire.com/oujse6nv0amgSlaKhG_5IT5vEREODBIhSkqFC1JuR1aOORwPa_UD8YhxGRy1AikoG2PkekfmgOtaL0-xqTgbm_hrGhTRUx0piW3s9Am-bcSMj5bO0jR5tvWgN0qOv5vuHONzUrlzgzqhuKA1EWI6EIbxL5dJUyyHX1RxNSk5bQ/nninaiiqy1e5csa/New+QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe) - also drivers
 - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img file
 - a custom rom package - **you can use any Custom ROM you want** (as an example, I used Leaf OS 2)
 - GAPPS package - recommended [MindTheGApps](https://androidfilehost.com/?fid=4279422670115729791)
@@ -257,9 +257,9 @@
 
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will brick your device)
 ## You will need
-- [MTK Client](https://github.com/bkerler/mtkclient/releases/tag/1.52) - you used for bypass to brom and to unlock
+- [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) - you used for bypass to brom and to unlock
 - [KernelSU image](https://drive.google.com/file/d/1T8aQN5hf-gIY22eIaAGmhMTJcodhx3Iw/view?usp=sharing) - download on pc
-- [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/latest) - Scroll down until you see `KernelSU_XXXXXXX-release.apk` (X replaces whatever the latest version is). Download this on your phone.
+- [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.2/KernelSU_v0.6.2_11089-release.apk) - Download this on your phone.
 
 1. Open a command prompt in `MTK Client` folder and run this command `python mtk r boot boot.img`. This will create a file `boot.img`. This is in case you want to remove kernelsu.
 2.  ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
