@@ -1,4 +1,4 @@
-![image](https://github.com/driedpampas/realme-8-megaguide/assets/76390419/db16d97a-3cf3-4d47-823a-bc55de373352)<div align="center">
+![image]()<div align="center">
 	
 <H1>Realme 8 MEGAGUIDE</H1>
 <h6>Version 3.nlaf<h6>
