@@ -175,7 +175,7 @@
 	<p align="center"><img src="https://i.imgur.com/kddEiuG.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
 
 ### Now flash whatever custom rom you want. 
 
