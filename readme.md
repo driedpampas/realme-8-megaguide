@@ -61,24 +61,24 @@
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) `flash_tool.exe`
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
-	<p align="center"><img src="https://i.imgur.com/5mQepLb.png"></p>
+	<p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
   
 9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
    
 10. Load `scatter.txt` from Haadi's Firmware
-    <p align="center"><img src="https://i.imgur.com/o3u0M0Z.png"></p>
+    <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
 <div align="center">
 	<p><img src="https://dummyimage.com/800x60/999999/ad0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
-| <img src="https://i.imgur.com/sIiT7t8.png"> | <img src="https://i.imgur.com/wfAfnCn.png"> |
+| <img src="https://i.imgur.com/9Kp65P7.png"> | <img src="https://i.imgur.com/S6XOitJ.png"> |
 
 </div><br>
 
 11. Remember to have `Download Only` mode
-	<p align="center"><img src="https://i.imgur.com/oRw19Fx.png"></p>
+	<p align="center"><img src="https://i.imgur.com/uSXflCJ.png"></p>
 12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 	<p align="center"><img src="https://i.imgur.com/NtxCZnW.png"></p>
 13. If everything goes well, it should look like this
@@ -116,26 +116,26 @@
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
-   <p align="center"><img src="https://i.imgur.com/5mQepLb.png"></p>
+   <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
 10. Load `MT6785_scatter.xml` from Haadi's Firmware
-    <p align="center"><img src="https://i.imgur.com/o3u0M0Z.png"></p>
+    <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
 <div align="center">
 	<p><img src="https://dummyimage.com/800x60/999999/ad0000?text=IMPORTANT:"></p><p>Remember to uncheck:</p>
 	
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | ------------------------------- | ---------------------------------------- |
-| <img src="https://i.imgur.com/sIiT7t8.png"> | <img src="https://i.imgur.com/wfAfnCn.png"> |
+| <img src="https://i.imgur.com/9Kp65P7.png"> | <img src="https://i.imgur.com/S6XOitJ.png"> |
 
 </div><br>
 	
 11. Remember to have `Download Only` mode
-    <p align="center"><img src="https://i.imgur.com/oRw19Fx.png"></p>
+    <p align="center"><img src="https://i.imgur.com/uSXflCJ.png"></p>
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`
-    <p align="center"><img src="https://i.imgur.com/A53ksET.png"></p>
+    <p align="center"><img src="https://i.imgur.com/NtxCZnW.png"></p>
 13. If everything goes well, it should look like this:
-    <p align="center"><img src="https://i.imgur.com/n7eqqro.png"></p>
+    <p align="center"><img src="https://i.imgur.com/qeJWt3a.png"></p>
    ### If you click download but there is no progress go to `Options > Option > General` and untick `Storage Life Cycle Check`. If still no progress go back to `Options > Option > Connection` and try another COM port
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
@@ -156,7 +156,7 @@
    <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 3. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
-	<p align="center"><img src="https://i.ibb.co/bKNc63C/photo1691074543.png"></p>
+	<p align="center"><img src="https://i.imgur.com/gL4Qpc2.png"></p>
 5. Download [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock) and extract it. Navigate to the `oplus_unlock folder`. It should contain a file `main.py`
 	<p align="center"><img src="https://i.ibb.co/r68tF52/Screenshot-from-2023-08-02-16-29-59.png"></p>
  	<p align="center"><img src="https://i.ibb.co/R9VhQPn/Screenshot-from-2023-08-02-16-30-22.png"></p>
