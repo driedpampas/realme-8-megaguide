@@ -19,6 +19,7 @@
 - I used this method on [my](t/me.driedpampas) own device so I can confirm it works. Others have also used this method.
   
 <p align="center"><img src="https://i.imgur.com/xc6lSJb.png"></p>
+<p align="center">*If you are on RUI4 you'll need to downgrade to RUI2 as well*
 
 <hr>
 
