@@ -92,7 +92,7 @@
 3. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
    <p align="center"><img src="https://i.imgur.com/HfPsrpU.png"></p>
 4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
-   <p align="center"><img src="https://i.imgur.com/qezn6Af.png"></p>
+   <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
 
