@@ -151,7 +151,7 @@
 
 # [EXTRA] Getting fastboot access
 
-## There are 2 ways: [Website](#2-website) or [local install](#1-local-install)
+## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - choose whatever way you want
 
 ## 1. Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
