@@ -1,11 +1,12 @@
-<div align="center">
+![image](https://github.com/driedpampas/realme-8-megaguide/assets/76390419/db16d97a-3cf3-4d47-823a-bc55de373352)<div align="center">
 	
 <H1>Realme 8 MEGAGUIDE</H1>
 <h6>Version 3.nlaf<h6>
 
 </div>
 
-### Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work 
+### Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
+
 ### If you have any questions at any moment feel free to message this Telegram channel: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 # Disclaimer
@@ -135,7 +136,8 @@
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" widht="250"></p>
 13. If everything goes well, it should look like this:
     <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p>
-   ### If you click download but there is no progress go to `Options > Option > General` and untick `Storage Life Cycle Check`. If still no progress go back to `Options > Option > Connection` and try another COM port
+
+### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 15. ## Go into Settings and update to C.18
@@ -146,8 +148,6 @@
 <p><img src="https://i.imgur.com/UkNf5aM.png"></p>
 
 # [EXTRA] Getting fastboot access
-
-### Only do this after updating to desired RUI version
 
 ## There are 2 ways: [Website](#2-website) or [local install](#1-local-install)
 
@@ -173,19 +173,7 @@
 	<p align="center"><img src="https://i.imgur.com/kddEiuG.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
-# ❗ I have gotten reports of issues with the Website so after flashing `lk-patched.bin` run `adb reboot bootloader` and chech that the phone says `fastboot_verify_ok`. If it says `fastboot_verify failure` and it keeps rebooting automatically USE LOCAL METHOD
-
-# ❗❗ If you get this error: `[!]: Could not find the lock sequence (no suitable sequence was found)` OR the website says `Patching Error: Unable to find given signature sequence.`
-
-<div align="center">
-
-| Command pronpt | Website |
-| -------------- | ------- |
-| <img src="https://i.ibb.co/YN42tZ5/Screenshot-from-2023-08-02-21-45-15.png"> | <img src="https://i.ibb.co/WDD1D10/Screenshot-from-2023-08-03-17-51-37.png"> |
-
-</div>
-
-## USE *lk2* instead of *lk*, and replace it in *step 4*,the command should be `python mtk r lk2 lk.bin`. The rest is unchanged.
+### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 ### Now flash whatever custom rom you want. 
 
@@ -253,21 +241,19 @@
 7. The phone will restart and you are now rooted with Magisk!
 ##### If you want to uninstall, open Magisk Manager and tap `Uninstall > Complete uninstall`
 
-## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will brick your device)
+## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 ## You will need
-- [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) - you used for bypass to brom and to unlock
-- [KernelSU image](https://drive.google.com/file/d/1T8aQN5hf-gIY22eIaAGmhMTJcodhx3Iw/view?usp=sharing) - download on pc
+- [KernelSU zip file](https://drive.google.com/file/d/1-47z-ax0zRGGoUou766zzrcccxVH_u5K/view?usp=sharing) - download on pc
 - [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.2/KernelSU_v0.6.2_11089-release.apk) - Download this on your phone.
 
-1. Open a command prompt in `MTK Client` folder and run this command `python mtk r boot boot.img`. This will create a file `boot.img`. This is in case you want to remove kernelsu.
-2.  ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
-3. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
+1.  ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
+2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
 ### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
 3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
 4. The app should show like this indicating thaat everything has been done correctly:
 	<p align="center"><img src="https://i.imgur.com/XhOFSXP.png" height="700"></p>
 
-5. If you want to remove KernelSU root, move the `boot.img` file you created at step 1 to the folder where adb is and run these commands in a command prompt:
+5. If you want to remove KernelSU root, extract the `custom-rom.zip` you downlaoded to flash the ROM, find and move the `boot.img` to the folder where adb is and run these commands in a command prompt:
    - `adb reboot bootloader`
    - `fastboot flash boot boot.img`
 
