@@ -56,7 +56,7 @@
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
-	<p align="center"><img src="https://i.imgur.com/lYgSXFN.png"></p>
+	<p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
    
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) `flash_tool.exe`
 7. Click on `Options > Option...`
@@ -111,7 +111,7 @@
    
 4. Make sure your phone is powered off, hold down **Vol+, Vol-, and power button** and connect the usb cable.
 5. MTK Client should output something like this:
-      <p align="center"><img src="https://i.imgur.com/lYgSXFN.png"></p>
+      <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
    
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
 7. Click on `Options > Option...`
