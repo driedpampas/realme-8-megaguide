@@ -204,7 +204,7 @@
  	1. Open a command prompt window in the **platform-tools** folder.
   	2. **On your phone**, enable Developer Options and enable USB Debugging.
 	3. In the platform-tools folder open a command prompt and run `adb devices`. You will see `Allow USB Debugging for ...` on phone, check `Always allow...` and hit `Allow`.
- 	4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_verify_ok`.
+ 	4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_unlock_verify ok`.
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
