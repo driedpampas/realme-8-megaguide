@@ -153,7 +153,7 @@
 
 <p><img src="https://i.imgur.com/UkNf5aM.png"></p>
 
-# [EXTRA] Getting fastboot access and removing dm-verity and orange state wwarnings - SKIP ONLY IF you unlocked with DEEP TESTING
+# [EXTRA] Getting fastboot access and removing dm-verity and orange state warnings<br> SKIP ONLY IF you unlocked with DEEP TESTING
 
 ## There are 2 ways: [local install](#1-local-install) or ~~[Website](#2-website)~~ (website is not up to date do not use it for now)
 
