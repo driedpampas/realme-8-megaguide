@@ -34,7 +34,7 @@
 7. [EXTRA: Rooting](#extra-rooting-i-used-lineage-os-200-for-this)
 
 # Prerequisites
-- [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
+- [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing)
 - [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi)
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
@@ -270,7 +270,7 @@
    - `adb reboot bootloader`
    - `fastboot flash boot boot.img`
 
-# More extras in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
+# More extras in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki#more-extras)
 
 
 ## Special thanks & credits
