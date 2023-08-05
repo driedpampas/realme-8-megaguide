@@ -209,8 +209,8 @@
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 2. ## Installing custom recovery and sideloading custom rom
-   #### If switching between custom roms skip step 2.
-   #### If the required recovery has not changed you may skip step 3 as well.
+   #### ⚠️ If switching between custom roms skip step 2.
+   #### ⚠️ If the required recovery has not changed you may skip step 3 as well.
    
 	1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
  	2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
