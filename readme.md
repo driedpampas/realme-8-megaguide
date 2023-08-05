@@ -45,8 +45,8 @@
 - A functioning brain and a emotional support after the unlock
 
 # 1. Installing prerequisites
-1. ## USB2SER
-	1. **Extract** and enter the folder of [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link) driver.
+1. ## Mediatek USB
+	1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
 	2. Find the **.inf** file, right click and press install
    <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
 
