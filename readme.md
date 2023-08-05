@@ -155,7 +155,7 @@
 
 # [EXTRA] Getting fastboot access and removing dm-verity and orange state wwarnings - SKIP ONLY IF you unlocked with DEEP TESTING
 
-## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - choose whatever way you want
+## There are 2 ways: [local install](#1-local-install) or ~~[Website](#2-website)~~ (website is not up to date do not use it for now)
 
 ## 1. Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
@@ -175,7 +175,7 @@
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-## 2. Website
+## ~~2. Website~~ - DO NOT USE IT IS NOT UP TO DATE
 #### Go through steps 1 - 4 from [Local install](#1-local-install)
 5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.imgur.com/kddEiuG.png"></p>
