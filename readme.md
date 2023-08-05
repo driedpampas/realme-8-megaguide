@@ -101,7 +101,6 @@
    <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
-   ### ❗ If bootloader is unlocked, there also will be a 5-second orange-state indicator [**¹**](#-more-info-on-the-orange-state-indicator-and-other-indicators)
 
 5. Your bootloader is now unlocked.
 
@@ -154,7 +153,7 @@
 
 <p><img src="https://i.imgur.com/UkNf5aM.png"></p>
 
-# [EXTRA] Getting fastboot access - SKIP ONLY IF you unlocked with DEEP TESTING
+# [EXTRA] Getting fastboot access and removing dm-verity and orange state wwarnings - SKIP ONLY IF you unlocked with DEEP TESTING
 
 ## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - choose whatever way you want
 
