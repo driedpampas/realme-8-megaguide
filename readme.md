@@ -13,10 +13,11 @@
 
 # Disclaimer
 
-- This method requires you to **erase** your device so you **will lose data**
-- **Make sure to read and do all of the steps to avoid your device being bricked.**
-- This method doesn't use the **Deep Testing** app.
-- I used this method on [my](t/me.driedpampas) own device so I can confirm it works. Others have also used this method.
+## If you unlocked with deep testing skip to [[EXTRA] Installing a Custom recoery and ROM](#extra-installing--a-custom-recovery-and-rom)
+## Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+### - **Make sure to read and do all of the steps to avoid your device being bricked.**
+### - This method doesn't use the **Deep Testing** app. 
+### - I used this method on [my](t/me.driedpampas) own device so I can confirm it works. Others have also used this method.
   
 <p align="center"><img src="https://i.imgur.com/xc6lSJb.png"></p>
 <p align="center">*If you are on RUI4 you'll need to downgrade to RUI2 as well*
@@ -28,7 +29,7 @@
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
 4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)
-5. [EXTRA: Getting fastboot access](#extra-getting-fastboot-access)
+5. [EXTRA: Getting fastboot access](https://github.com/driedpampas/realme-8-megaguide#extra-getting-fastboot-access---skip-only-if-you-unlocked-with-deep-testing)
 6. [EXTRA: Installing a Custom ROM](#extra-installing--a-custom-rom)
 7. [EXTRA: Rooting](#extra-rooting-i-used-lineage-os-200-for-this)
 
