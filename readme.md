@@ -284,6 +284,8 @@
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files<br>
 > [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer<br>
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file<br>
+> [AshBorn](t.me/@Ripper_Hybrid) - help with Wiki guides
+> [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide
 > [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer<br>
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)<br>
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
