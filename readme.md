@@ -125,9 +125,9 @@
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
-9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
-10. Load `MT6785_Android_scatter.xml` from Haadi's Firmware
-    <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>	
+9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1nybuSfUvSv95e3ktVMgUXgsHqx51nrci/view?usp=drive_link) and unpack it
+10. Load `MT6785_Android_scatter.txt` from Haadi's Firmware
+    <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>	
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`. [**No progress? Click me**](#if-you-click-download-but-there-is-no-progress-go-to-options--option--general-and-untick-storage-life-cycle-check-if-still-no-progress-go-back-to-options--option--connection-and-try-another-com-port)
@@ -274,8 +274,8 @@
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
 > [MtkClient](https://github.com/bkerler/mtkclient) - the tool that made unlocking possible<br>
 > [Roger](t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
-> [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files<br>
-> [SGtriangle](t.me/SGtriangle) - Help with fw files<br>
+> [Haadi](https://t.me/Haadi786H) - RUI2 Firmware files<br>
+> [SGtriangle](t.me/SGtriangle) - RUI3 FIRMWARE<br>
 > [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 main developer<br>
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file<br>
 > [AshBorn](t.me/@Ripper_Hybrid) - help with Wiki guides<br>
