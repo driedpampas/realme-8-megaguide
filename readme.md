@@ -257,6 +257,8 @@
 10. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
 11. The phone will restart and you are now rooted with Magisk!
 
+### To remove Magisk root, reboot to fastboot again anf flash the `boot.img` file you extracted on *step 2* with `fastboot flash boot boot.img`
+
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 ## You will need
 - [KernelSU zip file](https://drive.google.com/file/d/1-47z-ax0zRGGoUou766zzrcccxVH_u5K/view?usp=sharing) - download on pc
