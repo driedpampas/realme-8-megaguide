@@ -94,7 +94,7 @@
 
 # 3. Unlocking the bootloader - MTK Client
 1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-2. Reboot your device, turn it off and Hold down both **Vol+, Vol-** - **(Don't leave the buttons until the bypass is done)**
+2. Reboot your device, turn it off and Hold down both **Vol+, Vol-** - **(Don't leave the buttons until the command is done)**
 3. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
    <p align="center"><img src="https://i.imgur.com/HfPsrpU.png"></p>
 4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
@@ -239,21 +239,22 @@
 
 ## 1. With Magisk 
 ## You will need
-- [magisk.zip](https://drive.google.com/file/d/1keLQuMiNhPFWg7pEQbvE3e3QVmSjmOMz/view?usp=sharing) - donwload on your pc
+- [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) - donwload on your pc
 - [Magisk Manager (apk file)](https://drive.google.com/file/d/1LsHqdNqO7zOR2vhtxVCzC-JHiCN_l3gM/view?usp=drive_link) - download on your phone
+- [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
-1. ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
-2. In recovery select `Apply update > Apply from ADB` and run `adb sideload magisk.zip`.
-### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
-3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the Magisk apk file and install it.
-4. When opening the app you will get an error `Requires Additional Setup`. *This is normal*. Tap `OK`.
-	<p align="center"><img src="https://i.imgur.com/4pSY7xF.png" height="700"></p>
-5. Select `Direct Install` and tap `LET'S GO ->`
-	<p align="center"><img src="https://i.imgur.com/SO1bVT8.png" height="400"></p>
-6. You will see this. When it is finished tap `Reboot` (bottom-right corner)
-	<p align="center"> <img src="https://i.imgur.com/kHKnvf0.png" height="700"></p>
-7. The phone will restart and you are now rooted with Magisk!
-##### If you want to uninstall, open Magisk Manager and tap `Uninstall > Complete uninstall`
+1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+2. Run `python mtk r boot boot.img`. Turn your device off, hold down both **Vol+, Vol-** and connect the device to the computer.
+3. A `boot.img` file will be created in the folder. Turn your device on and copy the file to it.
+4. Navigate to where you donwnloaded the Magisk Manager apk file and install it.
+5. Open Magisk Manager and click install next to `Magisk`.
+	<p align="center"><img src="https://i.imgur.com/CAbHxPv.png" width=400></p>
+6. Select `Patch vbmeta in boot image` and click `Select and patch a file`. The file picker will open, Find and select the `boot.img` you extracted.
+	<p align=center><img src="https://i.imgur.com/d3QC6S8.png" width=400><img src="https://i.imgur.com/4m7CJfB.png" height=131.830985915></p> 
+8. When you see this screen, the patching is done and you will be givne the path of the patched `.img file`. Copy that file to your computer in the `platform-tools` folder.
+9. Connect your pphone to your computer, enable usb debugging on your phone and, in the `platform-tools` folder open a Command Prompt and run the command `adb devices`. Accept USB Debugging on your phone and run `and reboot bootloader`. The phone will reboot to a `fastboot_unlock_verify ok` screen.
+10. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
+11. The phone will restart and you are now rooted with Magisk!
 
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 ## You will need
