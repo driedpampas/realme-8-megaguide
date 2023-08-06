@@ -234,7 +234,7 @@
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 # [EXTRA] Rooting (I used Lineage OS 20.0 for this)
-<p><img src="https://i.imgur.com/tm2MVru.png"></p>
+<p align="center"><img src="https://i.imgur.com/tm2MVru.png"></p>
 
 
 ## 1. With Magisk 
