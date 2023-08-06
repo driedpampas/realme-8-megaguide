@@ -29,8 +29,8 @@
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
 4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)
-5. [EXTRA: Getting fastboot access](https://github.com/driedpampas/realme-8-megaguide#extra-getting-fastboot-access---skip-only-if-you-unlocked-with-deep-testing)
-6. [EXTRA: Installing a Custom ROM](#extra-installing--a-custom-rom)
+5. [EXTRA: Getting fastboot access](#extra-getting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)
+6. [EXTRA: Installing a Custom ROM](#extra-installing--a-custom-recovery-and-rom)
 7. [EXTRA: Rooting](#extra-rooting-i-used-lineage-os-200-for-this)
 
 # Prerequisites
@@ -157,7 +157,7 @@
 
 # [EXTRA] Getting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
-## There are 2 ways: [local install](#1-local-install) or [Website](#2-website)
+## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - Website is in testing use with caution
 
 ## 1. Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
@@ -177,7 +177,7 @@
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-## 2. Website
+## 2. Website - is in testing use with caution
 #### Go through steps 1 - 4 from [Local install](#1-local-install)
 5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.imgur.com/kddEiuG.png"></p>
