@@ -277,8 +277,7 @@
 > [Haadi](https://t.me/Haadi786H) - RUI2 Firmware files<br>
 > [SGtriangle](t.me/SGtriangle) - RUI3 FIRMWARE<br>
 > [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 main developer<br>
-> [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file<br>
-> [AshBorn](t.me/@Ripper_Hybrid) - help with Wiki guides<br>
+> [Ripper_Hybrid](t/me/Ripper_Hybrid) - provided KSU zip file, helped with wiki guides<br>
 > [MrPotato6](t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
 > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based (here for legacy reasons, guide has diverged too much, no longer considered a derivative)<br>
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide<br>
