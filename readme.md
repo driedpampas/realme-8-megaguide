@@ -257,7 +257,7 @@
 10. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
 11. The phone will restart and you are now rooted with Magisk!
 
-### To remove Magisk root, reboot to fastboot again anf flash the `boot.img` file you extracted on *step 2* with `fastboot flash boot boot.img`
+### To remove Magisk root, select `Uninstall > Complete uninstall` in the Magisk Manager app.
 
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 ## You will need
@@ -281,15 +281,17 @@
 ## Special thanks & credits
 
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8<br>
-> [lemoekq](https://t.me/lemonekq) - The original guide on which this is based<br>
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - Provided [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/).<br>
 > [MtkClient](https://github.com/bkerler/mtkclient) - the tool that made unlocking possible<br>
 > [Roger](t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files<br>
-> [HowWof](https://t.me/HowWof) - A few of suggestions, Leaf OS 2 main developer<br>
+> [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 main developer<br>
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file<br>
 > [AshBorn](t.me/@Ripper_Hybrid) - help with Wiki guides
+> [MrPotato6](t.me/MrPotato6) - Info and screenshots for Magisk rooting
+> [SGtriangle](t.me/SGtriangle) - Help with fw files
+> [lemoekq](https://t.me/lemonekq) - The original guide on which this is based (here for legacy reasons, guide has diverged too much, no longer considered a derivative)<br>
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide
 > [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer<br>
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)<br>
