@@ -126,7 +126,7 @@
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1nybuSfUvSv95e3ktVMgUXgsHqx51nrci/view?usp=drive_link) and unpack it
-10. Load `MT6785_Android_scatter.txt` from Haadi's Firmware
+10. Load `MT6785_Android_scatter.txt` from SG's firmware
     <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>	
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
