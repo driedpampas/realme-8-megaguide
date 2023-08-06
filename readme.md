@@ -40,7 +40,7 @@
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 - [SP Flash tool](https://drive.google.com/file/d/1McZ11On8XbxGgE-hMA_nZqErHI_QwjQT/view?usp=sharing)
 - [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
-- [C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link)
+- [C.18 RUI3 Firmware](https://drive.google.com/file/d/1nybuSfUvSv95e3ktVMgUXgsHqx51nrci/view?usp=drive_link)
 
 - A functioning brain and a emotional support after the unlock
 
@@ -127,17 +127,7 @@
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 9. Get [Haadi's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
 10. Load `MT6785_Android_scatter.xml` from Haadi's Firmware
-    <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
-
-<div align="center">
-	<p><img src="https://i.imgur.com/sYaIBIN.png"></p><p>Remember to uncheck:</p>
-	
-| opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
-| ------------------------------- | ---------------------------------------- |
-| <img src="https://i.imgur.com/9Kp65P7.png" width="150"> | <img src="https://i.imgur.com/S6XOitJ.png" width="150"> |
-
-</div><br>
-	
+    <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>	
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.14 on your phone, click `Download`. [**No progress? Click me**](#if-you-click-download-but-there-is-no-progress-go-to-options--option--general-and-untick-storage-life-cycle-check-if-still-no-progress-go-back-to-options--option--connection-and-try-another-com-port)
@@ -148,7 +138,6 @@
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
-15. ## Go into Settings and update to C.18
 
 <p align="center"><img src="https://i.imgur.com/xCYhCEM.png"></p>
 <hr>
@@ -286,11 +275,11 @@
 > [MtkClient](https://github.com/bkerler/mtkclient) - the tool that made unlocking possible<br>
 > [Roger](t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2/RUI3 Firmware files<br>
+> [SGtriangle](t.me/SGtriangle) - Help with fw files<br>
 > [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 main developer<br>
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - KSU zip file<br>
 > [AshBorn](t.me/@Ripper_Hybrid) - help with Wiki guides<br>
 > [MrPotato6](t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
-> [SGtriangle](t.me/SGtriangle) - Help with fw files<br>
 > [lemoekq](https://t.me/lemonekq) - The original guide on which this is based (here for legacy reasons, guide has diverged too much, no longer considered a derivative)<br>
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide<br>
 > [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer<br>
