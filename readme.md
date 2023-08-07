@@ -299,5 +299,5 @@ Thanks for reading, written by [me](t.me/driedpampas) with 🫶.
 <br><br>
 <div align="center">
 
-Tested me and others. No guarantees are given at any point. Use with caution.</p>
+Tested me and others. No guarantees are given at any point. Use with caution. Me and / or contributors are not responsible for any damage done to your device(s).</p>
 </div>
