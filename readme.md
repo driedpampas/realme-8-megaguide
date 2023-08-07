@@ -285,10 +285,11 @@
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)<br>
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
 > [KernelSU & Developers](https://github.com/tiann/KernelSU)<br>
+> Banner and `TO.png` via [Canva](canva.com) - Refer to [Canva's Content License Agreement](https://www.canva.com/policies/content-license-agreement/) for more info
 
-> Telegram: [Realme 8 Discussion](https://t.me/Realme8Discussion), [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
+> Telegram: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
-Thanks for reading, written by [lemonek](https://t.me/lemonekq/) with 💖 and by [me](t.me/driedpampas) also with 💗.
+Thanks for reading, written by [me](t.me/driedpampas) with 🫶.
 
 #### ¹ More info on the orange-state indicator and other indicators:
    -  Green state means the device is locked, it shouldnt show that it's locked on-boot
