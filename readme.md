@@ -102,7 +102,7 @@
       
    **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
 
-   **You will see `dm-verity` and `orange state` warnings. These are normal and will be patched after you update. Continue following the guide**
+   **You will see `dm-verity corruption` and `orange state` warnings. These are normal and will be patched later in the guide.**
 
 5. Your bootloader is now unlocked.
 
