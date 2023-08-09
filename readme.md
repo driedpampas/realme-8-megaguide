@@ -40,7 +40,7 @@
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 - [SP Flash tool](https://drive.google.com/file/d/1McZ11On8XbxGgE-hMA_nZqErHI_QwjQT/view?usp=sharing)
 - [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
-- [C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link)
+- [C.18 RUI3 Firmware](https://drive.google.com/file/d/1nybuSfUvSv95e3ktVMgUXgsHqx51nrci/view?usp=drive_link)
 
 - A functioning brain and a emotional support after the unlock
 
@@ -125,8 +125,8 @@
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
-9. Get [Haadis's C.14 RUI3 Firmware](https://drive.google.com/file/d/1JezJL-mz8fJC0lkNGMNyQiGCNYxj-pKs/view?usp=share_link) and unpack it
-10. Load `MT6785_Android_scatter.xml` from Haadi's firmware
+9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1nybuSfUvSv95e3ktVMgUXgsHqx51nrci/view?usp=drive_link) and unpack it
+10. Load `MT6785_Android_scatter.txt` from SG's firmware
     <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>	
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
