@@ -249,8 +249,8 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 ### You will need
-- [KernelSU zip file](https://drive.google.com/file/d/1-47z-ax0zRGGoUou766zzrcccxVH_u5K/view?usp=sharing) - download on pc
-- [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.2/KernelSU_v0.6.2_11089-release.apk) - Download this on your phone.
+- [KernelSU zip file](https://drive.google.com/file/d/1hBYm9nA2EyCC-ioQruj5vNmrAlW1Ayta/view?usp=sharing) - download on pc
+- [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.6/KernelSU_v0.6.6_11184-release.apk) - Download this on your phone.
 
 1.  ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
 2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
