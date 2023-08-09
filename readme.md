@@ -25,14 +25,15 @@
 <hr>
 
 # Table of Contents
-I. [Unlocking the bootloader](https://github.com/driedpampas/realme-8-megaguide#i-unlocking)
+I. [Unlocking the bootloader](#i-unlocking)
 1. [Installing Prerequisites](#1-installing-prerequisites)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
 4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)
-5. [EXTRA: Getting fastboot access and removing dm-verity and orange state warnings](#extra-getting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)
-6. [EXTRA: Installing a Custom ROM](#extra-installing--a-custom-recovery-and-rom)
-7. [EXTRA: Rooting](#extra-rooting-i-used-lineage-os-200-for-this)
+   
+II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
+III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
+IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 
 # Prerequisites
 - [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing)
@@ -95,7 +96,7 @@ I. [Unlocking the bootloader](https://github.com/driedpampas/realme-8-megaguide#
 
 14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
-# 3. Unlocking the bootloader - MTK Client
+## 3. Unlocking the bootloader - MTK Client
 1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Reboot your device, turn it off and Hold down both **Vol+, Vol-** - **(Don't leave the buttons until the command is done)**
 3. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
