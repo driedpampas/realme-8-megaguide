@@ -7,14 +7,14 @@
 
 </div>
 
-### Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
+## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
 
-### If you have any questions at any moment feel free to message this Telegram channel: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+## If you have any questions at any moment feel free to message this Telegram channel: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
-# Disclaimer
+## Disclaimer
 
-## If you unlocked with deep testing skip to [[EXTRA] Installing a Custom recoery and ROM](#extra-installing--a-custom-recovery-and-rom)
-## Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+### If you unlocked with deep testing skip to [[EXTRA] Installing a Custom recoery and ROM](#extra-installing--a-custom-recovery-and-rom)
+### Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 ### - **Make sure to read and do all of the steps to avoid your device being bricked.**
 ### - This method doesn't use the **Deep Testing** app. 
 ### - I used this method on [my](t/me.driedpampas) own device so I can confirm it works. Others have also used this method.
@@ -44,16 +44,18 @@
 
 - A functioning brain and a emotional support after the unlock
 
-# 1. Installing prerequisites
-1. ## Mediatek USB
+# I. Unlocking
+
+## 1. Installing prerequisites
+1. ### Mediatek USB
 	1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
 	2. Find the **.inf** file, right click and press install
    <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
 
- 3. ## Install [USBDk](https://github.com/daynix/UsbDk/releases/)
- 4. ## Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
+ 3. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
+ 4. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 
-# 2. Downgrade to RUI2
+## 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 	<p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
@@ -109,7 +111,7 @@
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 
-# 4. Upgrade to RealmeUI 3
+## 4. Upgrade to RealmeUI 3
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
@@ -144,11 +146,11 @@
 
 <p><img src="https://i.imgur.com/UkNf5aM.png"></p>
 
-# [EXTRA] Getting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
+# 2. Pathing `lk`- qetting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
 ## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - Website is in testing use with caution
 
-## 1. Local install
+### 1. Local install
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder
    <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
@@ -164,19 +166,17 @@
 	<p align="center"><img src="https://i.ibb.co/9rc1cKF/Untitled.jpg" alt="Untitled"></p>
 8. Run command `python mtk w lk lk-patched.bin`<br>
 
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+#### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-## 2. Website - is in testing use with caution
+### 2. Website - is in testing use with caution
 #### Go through steps 1 - 4 from [Local install](#1-local-install)
 5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.imgur.com/66emInd.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
+#### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
 
-### Now flash whatever custom rom you want. 
-
-# [EXTRA] Installing  a Custom Recovery and ROM
+# 3. Installing  a Custom Recovery and ROM
 
 ## Prerequisites
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
@@ -190,8 +190,8 @@
 	- [lineage-os recovery](https://github.com/bengris32/releases/releases/download/3.0/lineage-20.0-20230613-UNOFFICIAL-nashc-recovery.img) - compatible with Pixel Experience and Lineage OS (and others, check the Custom ROM's description)	
 	- [leaf-os recovery](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) - ONLY for Leaf OS 2 (if you want OTA updates)
 
-1. ## Rebooting to fastboot
-	### Your device needs to be turned on
+## 1. Rebooting to fastboot
+   ### Your device needs to be turned on
  	1. Open a command prompt window in the **platform-tools** folder.
   	2. **On your phone**, enable Developer Options and enable USB Debugging.
 	3. In the platform-tools folder open a command prompt and run `adb devices`. You will see `Allow USB Debugging for ...` on phone, check `Always allow...` and hit `Allow`.
@@ -199,7 +199,7 @@
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-2. ## Installing custom recovery and sideloading custom rom
+## 2. Installing custom recovery and sideloading custom rom
    #### ⚠️ If switching between custom roms skip step 2.
    #### ⚠️ If the required recovery has not changed you may skip step 3 as well, and run `adb reboot recovery` directly.
    
@@ -208,7 +208,7 @@
 		<p align="center"><img src="https://i.imgur.com/MZZyTBc.png"></p>
  	3. Run the command `fastboot flash recovery recovery.img`:
 		<p align="center"><img src="https://i.imgur.com/t7wYi3R.png"></p>
-  	#### The phone will show `USB Transmission ok`
+   #### The phone will show `USB Transmission ok`
 	4. Now, reboot to recovery mode with the command `fastboot reboot recovery` 
 		<p align="center"><img src="https://i.imgur.com/1zwXUmj.png"></p>
 	5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
@@ -217,17 +217,16 @@
 		<p align="center"><img src="https://i.imgur.com/QZqi1e1.png"></p>
   	7. **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
 		<p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
-	### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
+   #### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
   	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-# [EXTRA] Rooting (I used Lineage OS 20.0 for this)
+# 4. Rooting (I used Lineage OS 20.0 for this) - not mandatory
 <p align="center"><img src="https://i.imgur.com/tm2MVru.png"></p>
 
-
 ## 1. With Magisk 
-## You will need
+### You will need
 - [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) - donwload on your pc
 - [Magisk Manager (apk file)](https://drive.google.com/file/d/1LsHqdNqO7zOR2vhtxVCzC-JHiCN_l3gM/view?usp=drive_link) - download on your phone
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
@@ -249,7 +248,7 @@
 ### To remove Magisk root, select `Uninstall > Complete uninstall` in the Magisk Manager app.
 
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
-## You will need
+### You will need
 - [KernelSU zip file](https://drive.google.com/file/d/1-47z-ax0zRGGoUou766zzrcccxVH_u5K/view?usp=sharing) - download on pc
 - [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.2/KernelSU_v0.6.2_11089-release.apk) - Download this on your phone.
 
@@ -265,7 +264,6 @@
    - `fastboot flash boot boot.img`
 
 # More extras in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki#more-extras)
-
 
 ## Special thanks & credits
 
@@ -290,12 +288,6 @@
 > Telegram: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
 Thanks for reading, written by [me](t.me/driedpampas) with 🫶.
-
-#### ¹ More info on the orange-state indicator and other indicators:
-   -  Green state means the device is locked, it shouldnt show that it's locked on-boot
-   -  Yellow state means that an alternate keystore was used to verify the boot image
-   -  Orange state indicates that the device is unlocked.
-   -  Red state means that a device in the locked or verified state had a boot image that did not verify. 
 <br><br>
 <div align="center">
 
