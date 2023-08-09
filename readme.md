@@ -146,7 +146,7 @@
 
 <p><img src="https://i.imgur.com/UkNf5aM.png"></p>
 
-# 2. Pathing `lk`- qetting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
+# II. Pathing `lk`- qetting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
 ## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - Website is in testing use with caution
 
@@ -176,7 +176,7 @@
 
 #### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
 
-# 3. Installing  a Custom Recovery and ROM
+# III. Installing  a Custom Recovery and ROM
 
 ## Prerequisites
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
@@ -222,7 +222,7 @@
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-# 4. Rooting (I used Lineage OS 20.0 for this) - not mandatory
+# IV. Rooting (I used Lineage OS 20.0 for this) - not mandatory
 <p align="center"><img src="https://i.imgur.com/tm2MVru.png"></p>
 
 ## 1. With Magisk 
