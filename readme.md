@@ -25,6 +25,7 @@
 <hr>
 
 # Table of Contents
+I. [Unlocking the bootloader](https://github.com/driedpampas/realme-8-megaguide#i-unlocking)
 1. [Installing Prerequisites](#1-installing-prerequisites)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
@@ -141,12 +142,10 @@
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
-<p align="center"><img src="https://i.imgur.com/xCYhCEM.png"></p>
+<p align="center"><img src="https://i.imgur.com/08VdiB8.png"></p>
 <hr>
 
-<p><img src="https://i.imgur.com/UkNf5aM.png"></p>
-
-# II. Pathing `lk`- qetting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
+# II. Patching `lk`- qetting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
 ## There are 2 ways: [local install](#1-local-install) or [Website](#2-website) - Website is in testing use with caution
 
