@@ -3,7 +3,7 @@
 <div align="center">
  
 <H1>Realme 8 MEGAGUIDE</H1>
-<h6>Version 3.2 feat. Wiki<h6>
+<h6>Version 3.3 feat. Wiki<h6>
 
 </div>
 
