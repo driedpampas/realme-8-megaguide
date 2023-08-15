@@ -180,8 +180,8 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 
 ## Prerequisites
 - [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) - you will get an error `fastboot: usage: unknown reboot target recovery` if you use old `adb` and `fastboot` executables
-- ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/releases/download/v1.0.8/ADB-and-Fastboot++_v1.0.8.exe)
 - [QcomMtk-Driver](https://www.mediafire.com/file/nninaiiqy1e5csa/New+QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe) - also drivers
+- ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/releases/download/v1.0.8/ADB-and-Fastboot++_v1.0.8.exe)
 - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img file
 - a custom rom package - **you can use any Custom ROM you want** (as an example, I used Leaf OS 2 and leaf recovery)
 - GAPPS package - recommended [MindTheGApps](https://androidfilehost.com/?fid=4279422670115734716)
