@@ -9,7 +9,7 @@
 
 ## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
 
-## If you have any questions at any moment feel free to message this Telegram channel: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup), message [me](t.me/driedpampas) or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+## If you have any questions at any moment feel free to message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 ## Disclaimer
 
@@ -40,7 +40,7 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 - [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi)
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-- [SP Flash tool](https://drive.google.com/file/d/1McZ11On8XbxGgE-hMA_nZqErHI_QwjQT/view?usp=sharing)
+- [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing)
 - [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link)
 - [C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link)
 
@@ -68,7 +68,7 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 5. MTK Client should output something like this:
 	<p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
    
-6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) `flash_tool.exe`
+6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe`
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
 	<p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
@@ -125,7 +125,7 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 5. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
    
-6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
+6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) [flash_tool.exe]
 7. Click on `Options > Option...`
 8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
@@ -282,7 +282,7 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)<br>
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
 > [KernelSU & Developers](https://github.com/tiann/KernelSU)<br>
-> Banner and `TO.png` via [Canva](canva.com) - Refer to [Canva's Content License Agreement](https://www.canva.com/policies/content-license-agreement/) for more info
+> Banner and others via [Canva](canva.com) - Refer to [Canva's Content License Agreement](https://www.canva.com/policies/content-license-agreement/) for more info
 
 > Telegram: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
