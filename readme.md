@@ -276,9 +276,8 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 > [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 main developer<br>
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - provided KSU zip file, helped with wiki guides<br>
 > [MrPotato6](t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
-> [lemoekq](https://t.me/lemonekq) - The original guide on which this is based (here for legacy reasons, guide has diverged too much, no longer considered a derivative)<br>
+> [Skdev](t.me/Skdev1)
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide<br>
-> [Redline](https://forum.xda-developers.com/m/5988026/) - ADB Driver Installer<br>
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)<br>
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
 > [KernelSU & Developers](https://github.com/tiann/KernelSU)<br>
