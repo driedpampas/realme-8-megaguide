@@ -17,7 +17,7 @@
 ### Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 ### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
-<p align="center">*In RUI4, fastboot access gets disabled for unknown reasons.*
+<p align="center"><b>WARNING: If you flash RUI4 after unlocking fastboot, it gets disabled for unknown reasons.</b>
 
 <hr>
 
@@ -27,6 +27,7 @@ I. [Unlocking the bootloader](#i-unlocking)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
 4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)
+
 II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
 III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
 IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
