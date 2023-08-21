@@ -13,7 +13,7 @@
 
 ## Disclaimer
 
-### If you unlocked with deep testing skip to [[EXTRA] Installing a Custom recoery and ROM](#extra-installing--a-custom-recovery-and-rom)
+### If you have unlocked already skip to [[EXTRA] Installing a Custom recoery and ROM](#extra-installing--a-custom-recovery-and-rom)
 ### Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 ### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
