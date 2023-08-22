@@ -7,7 +7,7 @@
 
 </div>
 
-## Windows 7 is apparently throwing errors, I suspect it's the older python version and because Windows 7 is no longer supported, neither will this guide.
+### Windows 7 is apparently throwing errors, I suspect it's the older python version and because Windows 7 is no longer supported, neither will this guide.
 
 ## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
 
