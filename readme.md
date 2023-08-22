@@ -7,6 +7,8 @@
 
 </div>
 
+## Windows 7 is apparently throwing errors, I suspect it's the older python version and because Windows 7 is no longer supported, neither will this guide.
+
 ## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
 
 ## If you have any questions at any moment feel free to message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
