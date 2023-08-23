@@ -7,13 +7,13 @@
 
 </div>
 
-### Neither Windows 7 nor RealmeUI 4 are supported
-
 ## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
 
 ## If you have any questions at any moment feel free to message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 ## Disclaimer
+- We WON'T be responsible if anything happens with your device.
+- Neither Windows 7 nor RealmeUI 4 are supported
 
 ### If you have unlocked already skip to [[EXTRA] Installing a Custom recoery and ROM](#extra-installing--a-custom-recovery-and-rom)
 ### Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
