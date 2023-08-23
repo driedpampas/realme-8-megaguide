@@ -30,7 +30,7 @@ I. [Unlocking the bootloader](#i-unlocking)
 
 II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
 III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
-IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
+IV. [Rooting](#iv-rooting)<br>
 
 # I. Unlocking
 
@@ -216,7 +216,7 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-# IV. Rooting (I used Lineage OS 20.0 for this) - not mandatory
+# IV. Rooting
 <p align="center"><img src="https://i.imgur.com/tm2MVru.png"></p>
 
 ## 1. With Magisk 
