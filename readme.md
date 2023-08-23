@@ -19,15 +19,13 @@
 ### Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 ### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
-<p align="center"><b>WARNING: If you flash RUI4 after unlocking fastboot, it gets disabled for unknown reasons.</b>
-
-<hr>
+<p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
 
 # Table of Contents
 I. [Unlocking the bootloader](#i-unlocking)
 1. [Installing Prerequisites](#1-installing-prerequisites)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
-3. [Unlocking the bootloader - MTK Client](#3-unlocking-the-bootloader---mtk-client)
+3. [Unlocking the bootloader](#3-unlocking-the-bootloader)
 4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)
 
 II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
@@ -93,7 +91,7 @@ IV. [Rooting](#iv-rooting-i-used-lineage-os-200-for-this---not-mandatory)<br>
 
 14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
-## 3. Unlocking the bootloader - MTK Client
+## 3. Unlocking the bootloader
 1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Reboot your device, turn it off and Hold down both **Vol+, Vol-** - **(Don't leave the buttons until the command is done)**
 3. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
