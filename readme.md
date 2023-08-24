@@ -166,7 +166,7 @@ IV. [Rooting](#iv-rooting)<br>
 ### 2. Website
 #### Go through steps 1 - 4 from [Local install](#1-local-install)
 5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
-	<p align="center"><img src="https://i.imgur.com/66emInd.png"></p>
+	<p align="center"><img src="https://i.imgur.com/HOve3Mv.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
 #### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
