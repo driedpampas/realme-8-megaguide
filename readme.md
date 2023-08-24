@@ -246,7 +246,7 @@ IV. [Rooting](#iv-rooting)<br>
 - [KernelSU zip file](https://drive.google.com/file/d/1hBYm9nA2EyCC-ioQruj5vNmrAlW1Ayta/view?usp=sharing) - download on pc
 - [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.7/KernelSU_v0.6.7_11210-release.apk) - Download this on your phone.
 
-1.  ### You need to be in recovery mode. One way is to connect phone to pc, allow debugging and run `adb reboot recovery`
+1.  ### You need to be in recovery mode; run `adb reboot recovery`
 2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
 ### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
 3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
