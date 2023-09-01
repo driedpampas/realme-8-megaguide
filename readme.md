@@ -13,10 +13,10 @@
 
 ## Disclaimer
 - We WON'T be responsible if anything happens with your device.
-- Neither Windows 7 nor RealmeUI 4 are supported
+- Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
 
 ### If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#extra-installing--a-custom-recovery-and-rom)
-### Make sure to back up your data, because you will lose it - [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+### Make sure to back up your data, because you will lose it. If you want to back up your RealmeUI install just in case use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 ### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
 <p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
@@ -99,9 +99,9 @@ IV. [Rooting](#iv-rooting)<br>
 4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
    <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
       
-   **After this, turn on your phone. First boot will take up to 5-20 minutes. Don't panic.**
+   **After this, turn on your phone. First boot will take around 5-20 minutes.**
 
-   **You will see `dm-verity corruption` and `orange state` warnings. These are normal and will be patched later in the guide.**
+   **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
 
 5. Your bootloader is now unlocked.
 
