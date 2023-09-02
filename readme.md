@@ -286,4 +286,5 @@ Witten by [me](t.me/driedpampas) with 🫶.
 <div align="center">
 
 No guarantees are given at any point. Use with caution. Neither me nor contributors are responsible for any damage you do to your device(s).</p>
+Guide and it's content under the CC-BY-SA-4.0 International License.</p>
 </div>
