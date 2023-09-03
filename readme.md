@@ -7,7 +7,7 @@
 
 </div>
 
-# We have a website now 🥳 [Guide Online](guide.driedpampas.ro.eu.org) (includes wiki posts)
+# We have a website now 🥳 [Guide Online](https://guide.driedpampas.ro.eu.org) (includes wiki posts)
 
 ## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
 
