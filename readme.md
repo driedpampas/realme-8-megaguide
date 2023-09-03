@@ -212,7 +212,7 @@ IV. [Rooting](#iv-rooting)<br>
    7. **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
 		<p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
    #### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
-  	9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
+   9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
