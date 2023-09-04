@@ -290,3 +290,11 @@ Witten by [me](t.me/driedpampas) with 🫶.
 No guarantees are given at any point. Use with caution. Neither me nor contributors are responsible for any damage you do to your device(s).</p>
 Guide and it's content under the CC-BY-SA-4.0 International License.</p>
 </div>
+
+Guide and Wiki (c) by Ame/Nova, 2023
+
+This content is licensed under a
+Creative Commons Attribution-ShareAlike 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
