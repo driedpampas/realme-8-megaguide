@@ -180,7 +180,7 @@ IV. [Rooting](#iv-rooting)<br>
 - [QcomMtk-Driver](https://www.mediafire.com/file/nninaiiqy1e5csa/New+QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe) - driver
 - ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/releases/download/v1.0.8/ADB-and-Fastboot++_v1.0.8.exe)
 - only flash once (you should not need to reflash it) - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img file
-- a custom rom package - check out the [Telegram group](https://t.me/Realme8AOSPGroup) or [Skdev's website](https://realme8.pages.dev/) for ROMs
+- a custom rom package - check out the [Telegram group](https://t.me/Realme8AOSPGroup) for ROMs
 - GAPPS package - recommended [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716)
 - 2 example recovery images:
 	- [lineage-os recovery](https://github.com/bengris32/releases/releases/download/3.0/lineage-20.0-20230613-UNOFFICIAL-nashc-recovery.img) - compatible with Pixel Experience and Lineage OS (and others, check the Custom ROM's description)	
@@ -271,7 +271,6 @@ IV. [Rooting](#iv-rooting)<br>
 > [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 for RMX3085 developer<br>
 > [Ripper_Hybrid](t/me/Ripper_Hybrid) - provided KSU zip file, helped with wiki guides<br>
 > [MrPotato6](t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
-> [Skdev](t.me/Skdev1) - custom rom website<br>
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide<br>
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/)<br>
