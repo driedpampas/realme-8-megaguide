@@ -265,24 +265,24 @@ IV. [Rooting](#iv-rooting)<br>
 
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8<br>
 > [bkerler](https://twitter.com/viperbjk) - developer of [MtkClient](https://github.com/bkerler/mtkclient)<br>
-> [Roger](t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
+> [Roger](https://t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2 firmware<br>
-> [SGtriangle](t.me/SGtriangle) - RUI3 firmware<br>
+> [SGtriangle](https://t.me/SGtriangle) - RUI3 firmware<br>
 > [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 for RMX3085 developer<br>
-> [Ripper_Hybrid](t/me/Ripper_Hybrid) - provided KSU zip file, helped with wiki guides<br>
-> [MrPotato6](t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
+> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - provided KSU zip file, helped with wiki guides<br>
+> [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide<br>
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/)<br>
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)<br>
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)<br>
 > [KernelSU & Developers](https://github.com/tiann/KernelSU)<br>
-> Banner and others via [Canva](canva.com) - Refer to [Canva's CLA](https://www.canva.com/policies/content-license-agreement/) for more info
+> Banner and others via [Canva](https://canva.com) - Refer to [Canva's CLA](https://www.canva.com/policies/content-license-agreement/) for more info
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)
 
 > Telegram: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
 
-Witten by [me](t.me/driedpampas) with 🫶.
+Witten by [me](https://t.me/driedpampas) with 🫶.
 <br><br>
 <div align="center">
 
