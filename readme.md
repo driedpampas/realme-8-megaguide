@@ -156,7 +156,7 @@ IV. [Rooting](#iv-rooting)<br>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
 #### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
-
+#### Also check [Manual patching](https://github.com/driedpampas/realme-8-megaguide/wiki/Patching-LK-(alternative-method)) if you have issues with the website 
 # III. Installing  a Custom Recovery and ROM
 
 ## Prerequisites
