@@ -3,7 +3,7 @@
 <div align="center">
  
 <H1>Realme 8 MEGAGUIDE</H1>
-<h6>Version 3.5 feat. <a href="https://github.com/driedpampas/realme-8-megaguide/wiki">Wiki</a> v2<h6>
+<h6>Version 231015 feat. <a href="https://github.com/driedpampas/realme-8-megaguide/wiki">Wiki</a> v2<h6>
 
 </div>
 
