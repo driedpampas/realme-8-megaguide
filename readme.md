@@ -24,7 +24,7 @@
 <p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
 	
 # Table of Contents
-0. [Backing up](#0-back-up-your-data)
+0. [Back up](#0-back-up-your-data)
 
 I. [Unlocking the bootloader](#i-unlocking)
 1. [Installing Prerequisites](#1-installing-prerequisites)
@@ -36,7 +36,7 @@ II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange s
 III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
 IV. [Rooting](#iv-rooting)<br>
 
-# 0. Back up your data
+# 0. Back up your system partitions
 ### Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
