@@ -18,12 +18,14 @@
 - Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
 
 ### If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#extra-installing--a-custom-recovery-and-rom)
-### Make sure to back up your data, because you will lose it. If you want to back up your RealmeUI install just in case use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+
 ### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
 <p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
 	
 # Table of Contents
+0. Backing up
+
 I. [Unlocking the bootloader](#i-unlocking)
 1. [Installing Prerequisites](#1-installing-prerequisites)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
@@ -33,6 +35,9 @@ I. [Unlocking the bootloader](#i-unlocking)
 II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
 III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
 IV. [Rooting](#iv-rooting)<br>
+
+#0. Back up your data in case something fails
+### [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
 
