@@ -36,7 +36,7 @@ II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange s
 III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
 IV. [Rooting](#iv-rooting)<br>
 
-#0. Back up your data in case something fails
+# 0. Back up your data in case something fails
 ### [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
