@@ -234,8 +234,8 @@ IV. [Rooting](#iv-rooting)<br>
 
 ## 2. With KernelSU - ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 ### You will need
-- [KernelSU zip file](https://drive.google.com/file/d/1hBYm9nA2EyCC-ioQruj5vNmrAlW1Ayta/view?usp=sharing) - download on pc
-- [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.6.7/KernelSU_v0.6.7_11210-release.apk) - Download this on your phone.
+- [KernelSU zip file](https://drive.google.com/file/d/1UUQe_5XH-9IBiz-SNp6I4fSyE1QQgtw4/view?usp=sharing) - download on pc
+- [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.7.0/KernelSU_v0.7.0_11326-release.apk) - Download this on your phone.
 
 1.  ### You need to be in recovery mode; run `adb reboot recovery`
 2. In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
