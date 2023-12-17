@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/oBsyb5O.png"></p>
+![](https://i.imgur.com/ceE9Xn3.png)
 
 <div align="center">
  
