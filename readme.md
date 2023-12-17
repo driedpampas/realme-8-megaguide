@@ -1,9 +1,6 @@
 ![](https://i.imgur.com/ceE9Xn3.png)
 
-<div align="center">
- 
-<H1>Realme 8 MEGAGUIDE</H1>
-<h6>Version 231015 feat. <a href="https://github.com/driedpampas/realme-8-megaguide/wiki">Wiki</a> v2<h6>
+###### Version 17.12.23 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
 </div>
 
