@@ -8,13 +8,13 @@
 
 ## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
 
-## If you have any questions at any moment feel free to message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+## If you have any questions message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 ## Disclaimer
 - We WON'T be responsible if anything happens with your device.
 - Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
 
-### If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#extra-installing--a-custom-recovery-and-rom)
+### If you have unlocked already skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
 
 ### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
