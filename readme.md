@@ -2,20 +2,16 @@
 
 ###### Version 17.12.23 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
-</div>
-
 # We have a website now 🥳 [Guide Online](https://guide.driedpampas.ro.eu.org) (includes wiki posts)
 
-## Please check wiki page for [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions. 
+## If you have any questions message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
-## If you have any questions at any moment feel free to message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+### If you have unlocked already skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
 
 ## Disclaimer
+
 - We WON'T be responsible if anything happens with your device.
 - Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
-
-### If you have unlocked already skip to [[EXTRA] Installing a Custom recovery and ROM](#extra-installing--a-custom-recovery-and-rom)
-
 ### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
 <p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
@@ -52,7 +48,6 @@ IV. [Rooting](#iv-rooting)<br>
 	1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
 	2. Find the **.inf** file, right click and press install
    <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
-
  3. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
  4. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 
@@ -62,19 +57,13 @@ IV. [Rooting](#iv-rooting)<br>
 	<p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this: 
 	<p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
-   
-4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
-5. MTK Client should output something like this:
+4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable. You will see something like this:
 	<p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
-   
-6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe`
-7. Click on `Options > Option...`
-8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
+5. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe`
+6. Click on `Options > Option...` and make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
 	<p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
-  
-9. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
-   
-10. Load `scatter.txt` from Haadi's Firmware
+7. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
+8. Load `scatter.txt` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
 <div align="center">
@@ -86,15 +75,14 @@ IV. [Rooting](#iv-rooting)<br>
 
 </div><br>
 
-11. Remember to have `Download Only` mode
+9. Remember to have `Download Only` mode
 	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
-12. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
+10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 	<p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
-13. If everything goes well, it should look like this
+11. If everything goes well, it should look like this
 	<p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p><br>
-
-14. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
-
+12. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
+ 
 ## 3. Unlocking the bootloader
 1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Reboot your device, turn it off and Hold down both **Vol+, Vol-** - **(Don't leave the buttons until the command is done)**
@@ -102,9 +90,9 @@ IV. [Rooting](#iv-rooting)<br>
    <p align="center"><img src="https://i.imgur.com/HfPsrpU.png"></p>
 4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
    <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
-      
+ 
    **After this, turn on your phone. First boot will take around 5-20 minutes.**
-
+ 
    **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
 
 5. Your bootloader is now unlocked.
@@ -141,10 +129,11 @@ IV. [Rooting](#iv-rooting)<br>
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
-
+ 
 <p align="center"><img src="https://i.imgur.com/08VdiB8.png"></p>
-<hr>
 
+* * *
+ 
 # II. Patching `lk`- qetting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
@@ -249,7 +238,7 @@ IV. [Rooting](#iv-rooting)<br>
 # More extras in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki#more-extras)
 
 ## Special thanks & credits
-
+ 
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8<br>
 > [bkerler](https://twitter.com/viperbjk) - developer of [MtkClient](https://github.com/bkerler/mtkclient)<br>
 > [Roger](https://t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
@@ -268,13 +257,15 @@ IV. [Rooting](#iv-rooting)<br>
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)
 
 > Telegram: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
-
+ 
 Witten by [me](https://t.me/driedpampas) with 🫶.
-<br><br>
+
+* * *
+
 <div align="center">
 
 No guarantees are given at any point. Use with caution. Neither me nor contributors are responsible for any damage you do to your device(s).</p>
-Guide and it's content under the CC-BY-SA-4.0 International License.</p>
+
 </div>
 
 Guide and Wiki (c) by Ame/Nova, 2023
