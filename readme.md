@@ -268,7 +268,7 @@ No guarantees are given at any point. Use with caution. Neither me nor contribut
 
 </div>
 
-Guide and Wiki (c) by Ame/Nova, 2023
+Guide and Wiki (c) by @driedpampas, 2023
 
 This content is licensed under a
 Creative Commons Attribution-ShareAlike 4.0 International License.
