@@ -2,7 +2,7 @@
 
 ###### Version 17.12.23 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
-# We have a website now 🥳 [Guide Online](https://guide.driedpampas.ro.eu.org) (includes wiki posts)
+# We have a website now 🥳 [Guide Online](https://dry.nl.eu.org/guide) (includes wiki posts)
 
 ## If you have any questions message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
