@@ -241,7 +241,7 @@ IV. [Rooting](#iv-rooting)<br>
  
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8<br>
 > [bkerler](https://twitter.com/viperbjk) - developer of [MtkClient](https://github.com/bkerler/mtkclient)<br>
-> [Roger](https://t.me/R0rt1z2) - creator of [oplus-unlock](https://github.com/R0rt1z2/oplus-unlock)<br>
+> [Roger](https://t.me/R0rt1z2) - creator of [lkpatcher](https://github.com/R0rt1z2/lkpatcher)<br>
 > [Haadi](https://t.me/Haadi786H) - RUI2 firmware<br>
 > [SGtriangle](https://t.me/SGtriangle) - RUI3 firmware<br>
 > [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 for RMX3085 developer<br>
