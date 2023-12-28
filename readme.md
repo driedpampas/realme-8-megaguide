@@ -2,9 +2,12 @@
 
 ###### Version 17.12.23 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
-# We have a website now 🥳 [Guide Online](https://dry.nl.eu.org/guide) (includes wiki posts)
+ > [!CAUTION]
+ > # **Make sure to read and do all of the steps to avoid your device being bricked.**
 
-## If you have any questions message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+### We have a website now 🥳 [Guide Online](https://dry.nl.eu.org/guide) (includes wiki posts)
+
+### If you have any questions message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
 
 ### If you have unlocked already skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
 
@@ -12,7 +15,6 @@
 
 - We WON'T be responsible if anything happens with your device.
 - Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
-### **Make sure to read and do all of the steps to avoid your device being bricked.**
 
 <p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
 	
@@ -30,7 +32,8 @@ III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
 IV. [Rooting](#iv-rooting)<br>
 
 # 0. Back up your system partitions
-### Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+> [!TIP]
+> ### Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
 
@@ -75,7 +78,8 @@ IV. [Rooting](#iv-rooting)<br>
 
 </div><br>
 
-9. Remember to have `Download Only` mode
+> [!CAUTION]
+>  9. Remember to have **`Download Only`** mode or **you will destroy critical partition data**
 	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 	<p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
@@ -91,9 +95,10 @@ IV. [Rooting](#iv-rooting)<br>
 4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
    <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
  
-   **After this, turn on your phone. First boot will take around 5-20 minutes.**
- 
-   **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
+
+> [!IMPORTANT]  
+>   **After this, turn on your phone. First boot will take around 5-20 minutes.**
+>   **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
 
 5. Your bootloader is now unlocked.
 
@@ -130,11 +135,14 @@ IV. [Rooting](#iv-rooting)<br>
 
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
  
-<p align="center"><img src="https://i.imgur.com/08VdiB8.png"></p>
+> [!IMPORTANT]
+> ## Only continue after updating to / flashing RUI3 C.18
 
 * * *
  
-# II. Patching `lk`- qetting fastboot access and removing dm-verity and orange state warnings<br> ❕ SKIP ONLY IF you unlocked with DEEP TESTING
+# II. Patching `lk`- qetting fastboot access and removing dm-verity and orange state warnings
+> [!NOTE]
+> ### ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder
@@ -146,8 +154,11 @@ IV. [Rooting](#iv-rooting)<br>
 	<p align="center"><img src="https://i.imgur.com/HOve3Mv.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
+> [!IMPORTANT]
+> ### Check [Manual patching](https://github.com/driedpampas/realme-8-megaguide/wiki/Patching-LK-(alternative-method)) if you have issues with the website
+
 #### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
-#### Also check [Manual patching](https://github.com/driedpampas/realme-8-megaguide/wiki/Patching-LK-(alternative-method)) if you have issues with the website 
+
 # III. Installing  a Custom Recovery and ROM
 
 ## Prerequisites
@@ -172,15 +183,17 @@ IV. [Rooting](#iv-rooting)<br>
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 ## 2. Installing custom recovery and sideloading custom rom
-   #### ⚠️ If switching between custom roms skip step 2.
-   #### ⚠️ If the required recovery has not changed you may skip step 3 as well, and run `adb reboot recovery` directly.
+
+> [!TIP]
+> #### ⚠️ If switching between custom roms skip step 2.
+> #### ⚠️ If the required recovery has not changed you may skip step 3.
    
    1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
    2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
 		<p align="center"><img src="https://i.imgur.com/MZZyTBc.png"></p>
    3. Run the command `fastboot flash recovery recovery.img`:
 		<p align="center"><img src="https://i.imgur.com/t7wYi3R.png"></p>
-   #### The phone will show `USB Transmission ok`
+   #### The phone should show `USB Transmission ok`
    4. Now, reboot to recovery mode with the command `fastboot reboot recovery` 
 		<p align="center"><img src="https://i.imgur.com/1zwXUmj.png"></p>
    5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
