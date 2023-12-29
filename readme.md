@@ -2,8 +2,8 @@
 
 ###### Version 17.12.23 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
- > [!CAUTION]
- > # **Make sure to read and do all of the steps to avoid your device being bricked.**
+ > [!Warning]
+ > ## **Make sure to read and do all of the steps to avoid your device being bricked.**
 
 ### We have a website now 🥳 [Guide Online](https://dry.nl.eu.org/guide) (includes wiki posts)
 
@@ -33,7 +33,7 @@ IV. [Rooting](#iv-rooting)<br>
 
 # 0. Back up your system partitions
 > [!CAUTION]
-> # BEFORE ATTEMPTING ANY OPERATIONS PLEASE USE THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+> # BEFORE ATTEMPTING ANY OPERATIONS FOLLOW THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
 
