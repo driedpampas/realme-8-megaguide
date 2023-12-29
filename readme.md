@@ -32,8 +32,8 @@ III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
 IV. [Rooting](#iv-rooting)<br>
 
 # 0. Back up your system partitions
-> [!TIP]
-> ### Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+> [!CAUTION]
+> # Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
 
