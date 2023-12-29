@@ -33,7 +33,7 @@ IV. [Rooting](#iv-rooting)<br>
 
 # 0. Back up your system partitions
 > [!CAUTION]
-> # Just in case something fails or your device gets bricked please use the [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+> # BEFORE ATTEMPTING ANY OPERATIONS PLEASE USE THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
 
