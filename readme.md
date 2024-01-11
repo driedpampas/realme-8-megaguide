@@ -13,8 +13,8 @@
 
 ## Disclaimer
 
-- We WON'T be responsible if anything happens with your device.
-- Neither Windows 7 (old python version) nor RealmeUI 4 (lk method was patched) are supported
+- There is NO WARRANTY, to the extent permitted by law.
+- Windows 7 (old python version) & RealmeUI 4 (lk method was patched) are **NOT** CURRENTLY SUPPORTED
 
 <p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
 	
@@ -269,17 +269,13 @@ IV. [Rooting](#iv-rooting)<br>
 > Banner and others via [Canva](https://canva.com) - Refer to [Canva's CLA](https://www.canva.com/policies/content-license-agreement/) for more info
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)
 
-> Telegram: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
+> Support in: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
  
-Witten by [me](https://t.me/driedpampas) with 🫶.
+Witten by [me](https://dry.nl.eu.org/links) with 🫶.
 
 * * *
 
-<div align="center">
-
-No guarantees are given at any point. Use with caution. Neither me nor contributors are responsible for any damage you do to your device(s).</p>
-
-</div>
+There is NO WARRANTY, to the extent permitted by law.
 
 Guide and Wiki (c) by @driedpampas, 2023
 
