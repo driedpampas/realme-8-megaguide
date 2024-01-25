@@ -5,7 +5,7 @@
  > [!Warning]
  > ## **Make sure to read and do all of the steps to avoid your device being bricked.**
 
-### Website: Guide Online 🥳 (includes wiki posts)
+### Website: [Guide Online](dry.nl.eu.org/guide) 🥳 (includes wiki posts)
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
@@ -16,8 +16,6 @@
 - Not supported: Windows 7 (old Python version) & RealmeUI 4 (lk method patched).
 
 ### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
-
-## Disclaimer
 
 # Table of Contents
 0. [Back up](#0-back-up-your-data)
