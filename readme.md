@@ -5,19 +5,20 @@
  > [!Warning]
  > ## **Make sure to read and do all of the steps to avoid your device being bricked.**
 
-### We have a website now 🥳 [Guide Online](https://guide.driedpampas.ro.eu.org) (includes wiki posts)
+### Website: Guide Online 🥳 (includes wiki posts)
 
-### If you have any questions message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or [open a new Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) right here on GitHub.
+### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
-### If you have unlocked already skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
+### Already unlocked? Skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
+
+#### Disclaimer:
+- NO WARRANTY, as permitted by law.
+- Not supported: Windows 7 (old Python version) & RealmeUI 4 (lk method patched).
+
+### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
 
 ## Disclaimer
 
-- There is NO WARRANTY, to the extent permitted by law.
-- Windows 7 (old python version) & RealmeUI 4 (lk method was patched) are **NOT** CURRENTLY SUPPORTED
-
-<p align="center"><b>WARNING: RUI4 disables fastboot access if previously unlocked, only upgrade to RUI3 until it is resolved.</b><hr>
-	
 # Table of Contents
 0. [Back up](#0-back-up-your-data)
 
