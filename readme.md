@@ -3,3 +3,8 @@
 ###### Version 25.01.24 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
 # Landing
+
+# BEFORE FOLLOWING THE GUIDE BACK UP YOUR FIRMWARE IN CASE OF A BRICK
+# click [Backup guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data) to get started
+
+# WHEN YOU ARE FINISHED GO TO THE [GUIDE](/guide.md)
