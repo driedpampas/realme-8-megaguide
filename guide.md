@@ -1,8 +1,4 @@
-![](https://repository-images.githubusercontent.com/673466903/8e5d0af8-1861-46dd-8358-2e3374654cfe)
-
-###### Version 25.01.24 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
-
- > [!Warning]
+> [!Warning]
  > ## **Make sure to read and do all of the steps to avoid your device being bricked.**
 
 ### Website: [Guide Online](dry.nl.eu.org/guide) 🥳 (includes wiki posts)
