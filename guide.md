@@ -28,7 +28,7 @@ IV. [Rooting](#iv-rooting)<br>
 
 # 0. Back up your system partitions
 > [!CAUTION]
-> # BEFORE ATTEMPTING ANY OPERATIONS FOLLOW THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+> # HAVE YOU BACKED UP ALREADY? IF NOT FOLLOW THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
 
 # I. Unlocking
 
