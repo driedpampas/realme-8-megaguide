@@ -4,7 +4,7 @@
 
 # Landing
 
-# BEFORE FOLLOWING THE GUIDE BACK UP YOUR FIRMWARE IN CASE OF A BRICK
-# click [Backup guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data) to get started
+> [!Caution]
+> # BEFORE FOLLOWING THE GUIDE BACK UP YOUR FIRMWARE IN CASE OF A BRICK <br> click [Backup guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data) to get started
 
-# WHEN YOU ARE FINISHED GO TO THE [GUIDE](/guide.md)
+# After backing up fo to the [GUIDE](/guide.md)
