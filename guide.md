@@ -16,7 +16,7 @@
 # Table of Contents
 0. [Back up](#0-back-up-your-data)
 
-I. [Unlocking the bootloader](#i-unlocking)
+I. [Unlocking the bootloader](/guide.md#i-unlocking)
 1. [Installing Prerequisites](#1-installing-prerequisites)
 2. [Downgrade to RUI2](#2-downgrade-to-rui2)
 3. [Unlocking the bootloader](#3-unlocking-the-bootloader)
