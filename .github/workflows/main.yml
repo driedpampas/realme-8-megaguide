@@ -25,7 +25,7 @@ jobs:
 
       - name: Run script
         run: |
-          run: python .pie/script.py
+          python .pie/script.py
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
