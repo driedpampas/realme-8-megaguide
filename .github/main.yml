@@ -1,0 +1,33 @@
+name: Retrieve
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run the job daily
+
+jobs:
+  update_posts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-telegram-bot requests
+
+      - name: Run script
+        run: |
+          ls -la
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ secrets.GITHUB_REPO }}
+          FILE_PATH: ${{ secrets.FILE_PATH }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
