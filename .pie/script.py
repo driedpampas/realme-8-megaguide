@@ -1,31 +1,32 @@
 import os
-import telegram
+from telegram import Bot
 from github import Github
+import markdownify
 
-TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
-GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
-GH_REPO = os.environ['GH_REPO']
-FILE_PATH = os.environ['FILE_PATH']
-CHANNEL_ID = os.environ['CHANNEL_ID']
+# Telegram setup
+bot = Bot(token=os.getenv('TELEGRAM_TOKEN'))
+updates = bot.get_updates()
 
-# Initialize Telegram Bot
-bot = telegram.Bot(token=TELEGRAM_TOKEN)
+# Get posts from a specific channel
+channel_posts = []
+for update in updates:
+    if update.channel_post:
+        channel_posts.append(update.channel_post.text)
 
-# Get Channel ID
-channel_id = int(CHANNEL_ID)  # Convert the channel ID to an integer
+# Limit to the last 10 posts
+channel_posts = channel_posts[-10:]
 
-# Fetch Posts
-messages = bot.get_chat_history(chat_id=channel_id, limit=5)
+# Convert posts to Markdown
+markdown_posts = [markdownify.markdownify(post) for post in channel_posts]
 
-# Convert to Markdown
-markdown_content = ""
-for message in messages:
-    markdown_content += f"**{message.date}**: {message.text}\n\n"
+# GitHub setup
+g = Github(os.getenv('GITHUB_TOKEN'))
+repo = g.get_user().get_repo(os.getenv('GH_REPO'))
 
-# Initialize GitHub
-github = Github(GITHUB_TOKEN)
-repo = github.get_repo(GH_REPO)
-
-# Push to GitHub
-file = repo.get_contents(FILE_PATH)
-repo.update_file(FILE_PATH, "Update posts", markdown_content, file.sha)
+# Create or update .md file in the repo
+file_path = ".pie/temp.md"
+if file_path in [file.path for file in repo.get_contents("")]:
+    contents = repo.get_contents(file_path)
+    repo.update_file(contents.path, "update posts", "\n".join(markdown_posts), contents.sha)
+else:
+    repo.create_file(file_path, "create posts file", "\n".join(markdown_posts))

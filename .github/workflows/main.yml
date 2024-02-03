@@ -29,6 +29,6 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO: ${{ secrets.GH_REPO }}
+          GH_REPO: ${{ secrets.GH_REPO }}
           FILE_PATH: ${{ secrets.FILE_PATH }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
