@@ -1,6 +1,7 @@
 name: Retrieve
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *" # Run the job daily
 
