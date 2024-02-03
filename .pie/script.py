@@ -1,5 +1,5 @@
 import os
-from telethon.sync import TelegramClient, Bot
+from telethon.sync import TelegramClient
 from github import Github
 import markdownify
 
@@ -9,10 +9,10 @@ api_hash = os.getenv('API_HASH')
 bot_token = os.getenv('TELEGRAM_TOKEN')
 channel_id = int(os.getenv('CHANNEL_ID'))  # Make sure this is an integer
 
-with Bot(bot_token, api_id, api_hash) as bot:
+with TelegramClient(bot_token, api_id, api_hash) as client:
     # Get posts from a specific channel
-    channel_posts = bot.get_messages(channel_id, limit=10)
-
+    channel_posts = client.get_messages(channel_id, limit=10)
+    
     # Convert posts to Markdown
     markdown_posts = [markdownify.markdownify(post.message) for post in channel_posts]
 
