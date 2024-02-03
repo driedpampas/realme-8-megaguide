@@ -9,7 +9,7 @@ api_hash = os.getenv('API_HASH')
 bot_token = os.getenv('TELEGRAM_TOKEN')
 channel_id = os.getenv('CHANNEL_ID')
 
-with TelegramClient('anon', api_id, api_hash) as client:
+with TelegramClient(bot_token, api_id, api_hash) as client:
     # Get posts from a specific channel
     channel_posts = client.get_messages(channel_id, limit=10)
 
