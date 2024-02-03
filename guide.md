@@ -161,10 +161,7 @@ IV. [Rooting](#iv-rooting)<br>
 - only flash once (you should not need to reflash it) - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img file
 - a custom rom package - check out the [Telegram group](https://t.me/Realme8AOSPGroup) for ROMs
 - GAPPS package - recommended [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716)
-- example recovery images:
-	- 🎉 We now have [OrangeFox recovery](https://fcloud.howwof.pl/s/RBmEeMRZyDam8fZ) 🎉	
-	- [lineage-os recovery](https://github.com/bengris32/releases/releases/download/3.0/lineage-20.0-20230613-UNOFFICIAL-nashc-recovery.img) - compatible with Pixel Experience and Lineage OS (and others, check the Custom ROM's description)	
-	- [leaf-os recovery](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) - use ONLY with Leaf OS 2
+- check [recoveries](/recovery.md) for recovery images
 
 ## 1. Rebooting to fastboot
    ### Your device needs to be turned on
