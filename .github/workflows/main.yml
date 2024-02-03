@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install python-telegram-bot requests PyGithub
+          pip install python-telegram-bot requests PyGithub markdownify
 
       - name: Run script
         run: |
@@ -30,5 +30,4 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ secrets.GH_REPO }}
-          FILE_PATH: ${{ secrets.FILE_PATH }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}

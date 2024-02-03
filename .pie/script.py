@@ -8,10 +8,8 @@ bot = Bot(token=os.getenv('TELEGRAM_TOKEN'))
 updates = bot.get_updates()
 
 # Get posts from a specific channel
-channel_posts = []
-for update in updates:
-    if update.channel_post:
-        channel_posts.append(update.channel_post.text)
+channel_id = int(os.getenv('CHANNEL_ID'))  # Channel IDs are integers
+channel_posts = [update.channel_post.text for update in updates if update.channel_post.chat.id == channel_id]
 
 # Limit to the last 10 posts
 channel_posts = channel_posts[-10:]
