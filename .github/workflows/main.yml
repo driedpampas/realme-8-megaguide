@@ -25,7 +25,6 @@ jobs:
 
       - name: Run script
         run: |
-          ls -la
           run: python .pie/script.py
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
