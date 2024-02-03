@@ -4,7 +4,7 @@ from github import Github
 
 TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
 GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
-GITHUB_REPO = os.environ['GH_REPO']
+GH_REPO = os.environ['GH_REPO']
 FILE_PATH = os.environ['FILE_PATH']
 CHANNEL_ID = os.environ['CHANNEL_ID']
 
