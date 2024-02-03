@@ -12,7 +12,7 @@ CHANNEL_ID = os.environ['CHANNEL_ID']
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 
 # Get Channel ID
-channel_id = -100123456789  # Replace with your channel ID
+channel_id = int(CHANNEL_ID)  # Convert the channel ID to an integer
 
 # Fetch Posts
 messages = bot.get_chat_history(chat_id=channel_id, limit=5)
