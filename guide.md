@@ -14,17 +14,17 @@
 ### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
 
 # Table of Contents
-0. [Back up](#0-back-up-your-data)
+0. [Back up](/guide.md#0-back-up-your-data)
 
 I. [Unlocking the bootloader](/guide.md#i-unlocking)
-1. [Installing Prerequisites](#1-installing-prerequisites)
-2. [Downgrade to RUI2](#2-downgrade-to-rui2)
-3. [Unlocking the bootloader](#3-unlocking-the-bootloader)
-4. [Upgrade to RealmeUI 3](#4-upgrade-to-realmeui-3)
+1. [Installing Prerequisites](/guide.md#1-installing-prerequisites)
+2. [Downgrade to RUI2](/guide.md#2-downgrade-to-rui2)
+3. [Unlocking the bootloader](/guide.md#3-unlocking-the-bootloader)
+4. [Upgrade to RealmeUI 3](/guide.md#4-upgrade-to-realmeui-3)
 
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
-III. [Installing a Custom ROM](#iii-installing--a-custom-recovery-and-rom)<br>
-IV. [Rooting](#iv-rooting)<br>
+II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
+III. [Installing a Custom ROM](/guide.md#iii-installing--a-custom-recovery-and-rom)<br>
+IV. [Rooting](/guide.md#iv-rooting)<br>
 
 # 0. Back up your system partitions
 > [!CAUTION]
