@@ -7,7 +7,7 @@ import os
 api_id = os.environ.get('API_ID')
 api_hash = os.environ.get('API_HASH')
 channel_username = 'Realme8AOSP'
-session_string = os.environ.get('TELEGRAM_SESSION_STRING')  # Get the session string from environment variables
+session_string = os.environ.get('SESSION_STRING')  # Get the session string from environment variables
 
 # GitHub API credentials
 github_token = os.environ.get('GITHUB_TOKEN')
