@@ -1,4 +1,5 @@
 from telethon.sync import TelegramClient
+from telethon.sessions import StringSession
 from github import Github
 import os
 
@@ -6,6 +7,7 @@ import os
 api_id = os.environ.get('API_ID')
 api_hash = os.environ.get('API_HASH')
 channel_username = 'Realme8AOSP'
+session_string = os.environ.get('SESSION_STRING')  # Get the session string from environment variables
 
 # GitHub API credentials
 github_token = os.environ.get('GITHUB_TOKEN')
@@ -13,8 +15,8 @@ repo_owner = 'driedpampas'
 repo_name = 'realme-8-megaguide'
 file_path = '.pie/temp.md'
 
-# Initialize Telegram client
-client = TelegramClient('session_name', api_id, api_hash)
+# Initialize Telegram client with StringSession
+client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
 
 # Retrieve the last 10 posts from the Telegram channel
