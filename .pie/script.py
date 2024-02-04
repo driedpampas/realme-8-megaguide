@@ -7,7 +7,7 @@ import os
 api_id = os.environ.get('API_ID')
 api_hash = os.environ.get('API_HASH')
 channel_username = 'Realme8AOSP'
-session_string = os.environ.get('SESSION_STRING')  # Get the session string from environment variables
+session_string = os.environ.get('TELEGRAM_SESSION_STRING')  # Get the session string from environment variables
 
 # GitHub API credentials
 github_token = os.environ.get('GITHUB_TOKEN')
@@ -29,13 +29,9 @@ for post in posts:
     markdown_content += f'# {post.date} - {post.sender.username}\n\n'
     markdown_content += f'{post.text}\n\n'
 
-# Initialize GitHub client
-github_client = Github(github_token)
-repo = github_client.get_repo(f'{repo_owner}/{repo_name}')
-
-# Create or update the .md file in the GitHub repository
-file = repo.get_contents(file_path)
-repo.update_file(file_path, 'Updated posts', markdown_content, file.sha)
+# Write markdown content to local file
+with open(file_path, 'w') as f:
+    f.write(markdown_content)
 
 # Close the Telegram client
 client.disconnect()
