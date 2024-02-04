@@ -2,6 +2,7 @@ from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 from github import Github
 import os
+from datetime import datetime
 
 # Telegram API credentials
 api_id = os.environ.get('API_ID')
@@ -19,8 +20,12 @@ file_path = '.pie/temp.md'
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
 
-# Get the date of the latest post
-latest_post_date = posts[0].date
+# Get the latest message from the Telegram channel
+channel_entity = client.get_entity(channel_username)
+latest_message = next(client.iter_messages(channel_entity, limit=1))
+
+# Get the date of the latest message
+latest_message_date = latest_message.date
 
 # Check if the file exists and get the date of the latest post in the file
 latest_file_date = None
@@ -30,13 +35,11 @@ if os.path.exists(file_path):
         date_str = first_line.split(' - ')[0].strip('# ')
         latest_file_date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S%z')
 
-# If the file doesn't exist or the latest post is newer than the latest post in the file, update the file
-if latest_file_date is None or latest_post_date > latest_file_date:
-    # Convert posts to Markdown format
-    markdown_content = ''
-    for post in posts:
-        markdown_content += f'# {post.date} - {post.sender.username}\n\n'
-        markdown_content += f'{post.text}\n\n'
+# If the file doesn't exist or the latest message is newer than the latest post in the file, update the file
+if latest_file_date is None or latest_message_date > latest_file_date:
+    # Convert the latest message to Markdown format
+    markdown_content = f'# {latest_message.date} - {latest_message.sender.username}\n\n'
+    markdown_content += f'{latest_message.text}\n\n'
 
     # Write markdown content to local file
     with open(file_path, 'w') as f:
