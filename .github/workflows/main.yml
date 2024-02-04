@@ -3,7 +3,7 @@ name: Retrieve
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # Run the job daily
+    - cron: "0 0 * * 6" # Run the job every week on Saturday
 
 jobs:
   update_posts:
@@ -45,7 +45,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Add changes"
       - name: Push changes
-        uses: ad-m/github-push-action@0.8.0
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
