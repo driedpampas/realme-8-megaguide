@@ -1,31 +1,39 @@
-import os
 from telethon.sync import TelegramClient
 from github import Github
-import markdownify
+import os
 
-# Telegram setup
-api_id = os.getenv('API_ID')
-api_hash = os.getenv('API_HASH')
-bot_token = os.getenv('TELEGRAM_TOKEN')
-channel_id = int(os.getenv('CHANNEL_ID'))  # Make sure this is an integer
+# Telegram API credentials
+api_id = os.environ.get('API_ID')
+api_hash = os.environ.get('API_HASH')
+channel_username = 'Realme8AOSP'
 
-client = TelegramClient('anon', api_id, api_hash)
+# GitHub API credentials
+github_token = os.environ.get('GITHUB_TOKEN')
+repo_owner = 'driedpampas'
+repo_name = 'realme-8-megaguide'
+file_path = '.pie/temp.md'
+
+# Initialize Telegram client
+client = TelegramClient('session_name', api_id, api_hash)
 client.start()
 
-# Get posts from a specific channel
-channel_posts = client.get_messages(channel_id, limit=10)
+# Retrieve the last 10 posts from the Telegram channel
+channel_entity = client.get_entity(channel_username)
+posts = client.get_messages(channel_entity, limit=10)
 
-# Convert posts to Markdown
-markdown_posts = [markdownify.markdownify(post.message) for post in channel_posts]
+# Convert posts to Markdown format
+markdown_content = ''
+for post in posts:
+    markdown_content += f'# {post.date} - {post.sender.username}\n\n'
+    markdown_content += f'{post.text}\n\n'
 
-# GitHub setup
-g = Github(os.getenv('GITHUB_TOKEN'))
-repo = g.get_user().get_repo(os.getenv('GH_REPO'))
+# Initialize GitHub client
+github_client = Github(github_token)
+repo = github_client.get_repo(f'{repo_owner}/{repo_name}')
 
-# Create or update .md file in the repo
-file_path = "posts.md"
-if file_path in [file.path for file in repo.get_contents("")]:
-    contents = repo.get_contents(file_path)
-    repo.update_file(contents.path, "update posts", "\n".join(markdown_posts), contents.sha)
-else:
-    repo.create_file(file_path, "create posts file", "\n".join(markdown_posts))
+# Create or update the .md file in the GitHub repository
+file = repo.get_contents(file_path)
+repo.update_file(file_path, 'Updated posts', markdown_content, file.sha)
+
+# Close the Telegram client
+client.disconnect()
