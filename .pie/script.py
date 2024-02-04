@@ -33,7 +33,8 @@ if os.path.exists(file_path):
     with open(file_path, 'r') as f:
         first_line = f.readline()
         date_str = first_line.split(' - ')[0].strip('# ')
-        latest_file_date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S%z')
+        if date_str:
+            latest_file_date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S%z')
 
 # If the file doesn't exist or the latest message is newer than the latest post in the file, update the file
 if latest_file_date is None or latest_message_date > latest_file_date:
