@@ -19,19 +19,28 @@ file_path = '.pie/temp.md'
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
 
-# Retrieve the last 10 posts from the Telegram channel
-channel_entity = client.get_entity(channel_username)
-posts = client.get_messages(channel_entity, limit=10)
+# Get the date of the latest post
+latest_post_date = posts[0].date
 
-# Convert posts to Markdown format
-markdown_content = ''
-for post in posts:
-    markdown_content += f'# {post.date} - {post.sender.username}\n\n'
-    markdown_content += f'{post.text}\n\n'
+# Check if the file exists and get the date of the latest post in the file
+latest_file_date = None
+if os.path.exists(file_path):
+    with open(file_path, 'r') as f:
+        first_line = f.readline()
+        date_str = first_line.split(' - ')[0].strip('# ')
+        latest_file_date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S%z')
 
-# Write markdown content to local file
-with open(file_path, 'w') as f:
-    f.write(markdown_content)
+# If the file doesn't exist or the latest post is newer than the latest post in the file, update the file
+if latest_file_date is None or latest_post_date > latest_file_date:
+    # Convert posts to Markdown format
+    markdown_content = ''
+    for post in posts:
+        markdown_content += f'# {post.date} - {post.sender.username}\n\n'
+        markdown_content += f'{post.text}\n\n'
+
+    # Write markdown content to local file
+    with open(file_path, 'w') as f:
+        f.write(markdown_content)
 
 # Close the Telegram client
 client.disconnect()
