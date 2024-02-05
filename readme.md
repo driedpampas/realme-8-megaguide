@@ -5,8 +5,17 @@
 > [!Caution]
 > # BEFORE FOLLOWING THE GUIDE BACK UP YOUR FIRMWARE IN CASE OF A BRICK <br> click [Backup guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data) to get started
 
-# After backing up go to the [GUIDE](/guide.md)
+> [!Tip]
+> # After backing up go to the [GUIDE](/guide.md)
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
+* * *
+<a href="https://star-history.com/#driedpampas/realme-8-megaguide&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date" />
+  </picture>
+</a>
 
 ###### Landing
