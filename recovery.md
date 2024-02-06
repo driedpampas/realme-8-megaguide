@@ -12,11 +12,11 @@
 
 ## LOS and similar recoveries
 
-| Recovery name | RealmeUI compatibility | Features              | Download                                                                                 |
-| ------------- | --------------------- | --------------------- | ---------------------------------------------------------------------------------------- |
-| LineageOS     | RUI 3, 4              | LOS recovery features | [Download](https://dry.nl.eu.org/lineage-nashc)                                          |
-| LeafOS        | RUI 3, 4              | LOS recovery features | [Download](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) |
-| VoltageOS     | RUI 3, 4              | LOS recovery features | [Download](https://drive.google.com/file/d/1Kmml4urzwgiexMPDCOgggPooYRD_xE6e/view)       |
-| SparkOS       | RUI 3, 4              | LOS recovery features | [Download](https://drive.google.com/file/d/1kEUe9QnVFl3gw5GBfvOzbQ0kcZPsDb8e/view)       |
+| Recovery name | RealmeUI compatibility | Download                                                                                 |
+| ------------- | ---------------------- | ---------------------------------------------------------------------------------------- |
+| LineageOS     | RUI 3, 4              | [Download](https://dry.nl.eu.org/lineage-nashc)                                          |
+| LeafOS        | RUI 3, 4              | [Download](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) |
+| VoltageOS     | RUI 3, 4              | [Download](https://drive.google.com/file/d/1Kmml4urzwgiexMPDCOgggPooYRD_xE6e/view)       |
+| SparkOS       | RUI 3, 4              | [Download](https://drive.google.com/file/d/1kEUe9QnVFl3gw5GBfvOzbQ0kcZPsDb8e/view)       |
 
 ###### Recovery
