@@ -1,9 +1,9 @@
 # Recovery info page
 
 ## Custom recoveries  
-###### these were made by [AshBorn](https://github.com/RipperHybrid)
+###### firet three were made by [AshBorn](https://github.com/RipperHybrid)
 
-| Recovery name | RealmeUI comptibility | Features | Download                                                                 |
+| Recovery name | RealmeUI compatibility | Features | Download                                                                 |
 | ------------- | --------------------- | -------- | ------------------------------------------------------------------------ |
 | OrangeFox     | RUI 3, 4              | Full     | [Download](https://github.com/RipperHybrid/OFOX-RMX3085/releases/latest) |
 | PitchBlack    | RUI 3, 4              | Full     | [Download](https://github.com/RipperHybrid/PBRP-RMX3085/releases/latest) |
@@ -12,7 +12,7 @@
 
 ## LOS and similar recoveries
 
-| Recovery name | RealmeUI comptibility | Features              | Download                                                                                 |
+| Recovery name | RealmeUI compatibility | Features              | Download                                                                                 |
 | ------------- | --------------------- | --------------------- | ---------------------------------------------------------------------------------------- |
 | LineageOS     | RUI 3, 4              | LOS recovery features | [Download](https://dry.nl.eu.org/lineage-nashc)                                          |
 | LeafOS        | RUI 3, 4              | LOS recovery features | [Download](https://github.com/HowWof/releases/releases/download/leaf-2.0.1/recovery.img) |
