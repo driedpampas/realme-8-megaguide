@@ -1,9 +1,8 @@
-name: Retrieve
+name: main
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 6" # Run the job every week on Saturday
+    - cron:  "0 0 10 * *" # run monthly on 10th day at 00:00
 
 jobs:
   update_posts:
