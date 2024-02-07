@@ -1,9 +1,9 @@
-name: main
+name: Retrieve
 
 on:
   workflow_dispatch:
   # schedule:
-    # - cron:  "0 0 10 * *" # run monthly on 10th day at 00:00
+    # - cron: "0 0 * * 6" # Run the job every week on Saturday
 
 jobs:
   update_posts:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: pie
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -49,4 +51,4 @@ jobs:
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: refs/heads/pie
