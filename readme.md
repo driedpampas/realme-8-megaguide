@@ -18,4 +18,4 @@
   </picture>
 </a>
 
-###### Landing
+###### Landing. Licensed under CC-BY-SA 4.0. Check [license](/license) for more information.
