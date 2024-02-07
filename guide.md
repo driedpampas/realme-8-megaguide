@@ -13,6 +13,8 @@
 
 ### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
 
+# There are 2 methods: mtkclient (scroll down) and [deep testing](/w-deep-testing.guide.md).
+
 # Table of Contents
 0. [Back up](/guide.md#0-back-up-your-data)
 
@@ -22,9 +24,11 @@ I. [Unlocking the bootloader](/guide.md#i-unlocking)
 3. [Unlocking the bootloader](/guide.md#3-unlocking-the-bootloader)
 4. [Upgrade to RealmeUI 3](/guide.md#4-upgrade-to-realmeui-3)
 
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)<br>
-III. [Installing a Custom ROM](/guide.md#iii-installing--a-custom-recovery-and-rom)<br>
-IV. [Rooting](/guide.md#iv-rooting)<br>
+II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
+III. [Installing a Custom ROM](/guide.md#iii-installing--a-custom-recovery-and-rom)  
+IV. [Rooting](/guide.md#iv-rooting)  
+
+* * *
 
 # 0. Back up your system partitions
 > [!CAUTION]
@@ -34,9 +38,9 @@ IV. [Rooting](/guide.md#iv-rooting)<br>
 
 # Prerequisites
 | Software | Drivers | Firmware |
-| ------- | -------- | -------- |
+| -------- | ------- | -------- |
 | [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) |
-| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | [C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link)
+| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | [C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) |
 | [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) | |
 
 ## 1. Installing prerequisites
@@ -72,7 +76,7 @@ IV. [Rooting](/guide.md#iv-rooting)<br>
 </div><br>
 
 > [!CAUTION]
->  9. Remember to have **`Download Only`** mode or **you will destroy critical partition data**
+>  9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
 	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 	<p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
@@ -108,7 +112,7 @@ IV. [Rooting](/guide.md#iv-rooting)<br>
    
 4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 5. MTK Client should output something like this:
-      <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
+   <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
    
 6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) [flash_tool.exe]
 7. Click on `Options > Option...`
@@ -116,7 +120,7 @@ IV. [Rooting](/guide.md#iv-rooting)<br>
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) and unpack it
 10. Load `MT6785_Android_scatter.txt` from SG's firmware
-    <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>	
+   <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>	
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.18 on your phone, click `Download`. [**No progress? Click me**](#if-you-click-download-but-there-is-no-progress-go-to-options--option--general-and-untick-storage-life-cycle-check-if-still-no-progress-go-back-to-options--option--connection-and-try-another-com-port)
