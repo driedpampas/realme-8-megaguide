@@ -1,8 +1,9 @@
 name: main
 
 on:
-  schedule:
-    - cron:  "0 0 10 * *" # run monthly on 10th day at 00:00
+  workflow_dispatch:
+  # schedule:
+    # - cron:  "0 0 10 * *" # run monthly on 10th day at 00:00
 
 jobs:
   update_posts:
