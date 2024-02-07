@@ -22,7 +22,7 @@ client.start()
 
 # Get the latest message from the Telegram channel
 channel_entity = client.get_entity(channel_username)
-latest_message = next(client.iter_messages(channel_entity, limit=1))
+latest_message = next(client.iter_messages(channel_entity, limit=20))
 
 # Get the date of the latest message
 latest_message_date = latest_message.date
