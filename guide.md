@@ -269,12 +269,6 @@ Witten by [me](https://dry.nl.eu.org/links) with 🫶.
 
 * * *
 
-There is NO WARRANTY, to the extent permitted by law.
-
-Guide and Wiki (c) by @driedpampas, 2023
-
-This content is licensed under a
-Creative Commons Attribution-ShareAlike 4.0 International License.
-
-You should have received a copy of the license along with this
-work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+###### There is NO WARRANTY, to the extent permitted by law.
+###### Guide and Wiki (c) by @driedpampas, 2023-2024
+###### Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
