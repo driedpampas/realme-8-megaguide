@@ -271,4 +271,4 @@ Witten by [me](https://dry.nl.eu.org/links) with 🫶.
 
 ###### There is NO WARRANTY, to the extent permitted by law.
 ###### Guide and Wiki (c) by @driedpampas, 2023-2024
-###### Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
+###### guide.md. Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.

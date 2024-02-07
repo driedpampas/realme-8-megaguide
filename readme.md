@@ -18,4 +18,4 @@
   </picture>
 </a>
 
-###### Landing. Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
+###### readme.md. Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
