@@ -1,3 +1,5 @@
+## Prerequisites
+
 | Software | Drivers | Firmware | APKs |
 | -------- | ------- | -------- | ---- |
 | [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [C.11 Firmware](https://drive.google.com/file/d/192KboBbW1eXzb6DWVlGAkGE-PEcgnHBJ/view?usp=sharing) | [Deep Testing APK](https://drive.google.com/file/d/1pESMmJef6Gm9YlJAE7OA_DDNnhFn3Jpz/view?usp=sharing) |
@@ -125,3 +127,5 @@ I. [Unlocking the bootloader](/w-deep-testing.guide.md#i-unlocking)
 * * *
 
 # You may now continue with: [Installing a custom recovery and ROM](/guide.md#iii-installing--a-custom-recovery-and-rom)
+
+###### Deep Testing Method. Licensed under CC-BY-SA 4.0. Check [license](/license) for more information.
