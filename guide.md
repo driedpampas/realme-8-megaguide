@@ -202,7 +202,8 @@ IV. [Rooting](/guide.md#iv-rooting)
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
 # IV. Rooting
-<p align="center"><img src="https://i.imgur.com/tm2MVru.png"></p>
+> [!CAUTION]
+> ### Only use one method.
 
 ## 1. With Magisk 
 ### You will need
