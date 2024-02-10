@@ -1,6 +1,6 @@
 # IV. Rooting
 
-> [!CAUTION]
+> [!IMPORTANT]
 >
 > ### Only use one method.
 >
@@ -36,16 +36,16 @@
  * * *
 # With KernelSU
 > [!WARNING]
-> ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
+> #### ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 
-> [!TIP]
-> If you keep your phone plugged in while rebooting when rooted with KSU it will bootloop and go to recovery. Unplug your phone before rebooting.
+> [!IMPORTANT]
+> #### If you keep your phone plugged in while rebooting when rooted with KSU it will bootloop and go to recovery. Unplug your phone before rebooting.
 
 ### You will need
 
 | ZIP | APKs |
 | :-: | :--: |
-| [KernelSU zip file](https://drive.google.com/file/d/1UUQe_5XH-9IBiz-SNp6I4fSyE1QQgtw4/view?usp=sharing) | [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.7.0/KernelSU_v0.7.0_11326-release.apk) |
+| [KernelSU zip file](https://drive.google.com/file/d/1UUQe_5XH-9IBiz-SNp6I4fSyE1QQgtw4/view?usp=sharing) | [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.7.6/KernelSU_v0.7.6_11458-release.apk) |
 
 1.  ### You need to be in recovery mode; run `adb reboot recovery`
 2.  In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
