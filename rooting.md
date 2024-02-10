@@ -32,9 +32,10 @@
 9. In the `platform-tools` folder open a Command Prompt and run the command `adb devices`. Accept USB Debugging on your phone and run `adb reboot bootloader`. The phone will reboot to a `fastboot_unlock_verify ok` screen.
 10. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
 11. The phone will restart and you are now rooted with Magisk!
+#### Note that you will get a prompt to reboot to finish the installation.
 
 ### To remove Magisk root, select `Uninstall > Complete uninstall` in the Magisk Manager app.
- * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # With KernelSU
 > [!WARNING]
 > #### ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
