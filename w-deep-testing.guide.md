@@ -124,4 +124,4 @@ I. [Unlocking the bootloader](/w-deep-testing.guide.md#i-unlocking)
 
 # You may now continue with: [Installing a custom recovery and ROM](/guide.md#iii-installing--a-custom-recovery-and-rom)
 
-###### w-deep-testing.guide.md. Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
+###### w-deep-testing.guide.md | Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
