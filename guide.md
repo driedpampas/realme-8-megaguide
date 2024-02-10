@@ -120,9 +120,11 @@ IV. [Rooting](/guide.md#iv-rooting)
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) and unpack it
 10. Load `MT6785_Android_scatter.txt` from SG's firmware
-   <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>	
+   <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
+
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
+
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.18 on your phone, click `Download`. [**No progress? Click me**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)
     <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
 13. If everything goes well, it should look like this:

@@ -21,8 +21,9 @@
 4. Navigate to where you donwnloaded the Magisk Manager apk file and install it.
 5. Open Magisk Manager and click install next to `Magisk`.
 <p align="center"><img src="https://i.imgur.com/CAbHxPv.png" width=400></p>
-6. Select `Patch vbmeta in boot image` and click `Select and patch a file`. The file picker will open, Find and select the `boot.img` you extracted.
-<p align=center><img src="https://i.imgur.com/d3QC6S8.png" width=400><img src="https://i.imgur.com/4m7CJfB.png" height=131.830985915></p>
+
+6. Select `Select and patch a file`. The file picker will open, Find and select the `boot.img` you extracted. Then tap `let's go`.
+<img src="https://i.imgur.com/4m7CJfB.png" height=131.830985915></p>
 
 7. When you see this screen, the patching is done and you will be given the path of the patched `.img file`. Copy that file to your computer in the `platform-tools` folder.  
    ![](https://i.imgur.com/D9qyjbGm.png)
