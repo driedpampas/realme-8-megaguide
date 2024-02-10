@@ -38,7 +38,7 @@
 > [!WARNING]
 > ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
 
-> [!INFO]
+> [!TIP]
 > If you keep your phone plugged in while rebooting when rooted with KSU it will bootloop and go to recovery. Unplug your phone before rebooting.
 
 ### You will need
