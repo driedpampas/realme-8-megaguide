@@ -23,11 +23,14 @@
 <p align="center"><img src="https://i.imgur.com/CAbHxPv.png" width=400></p>
 6. Select `Patch vbmeta in boot image` and click `Select and patch a file`. The file picker will open, Find and select the `boot.img` you extracted.
 <p align=center><img src="https://i.imgur.com/d3QC6S8.png" width=400><img src="https://i.imgur.com/4m7CJfB.png" height=131.830985915></p>
-7. When you see this screen, the patching is done and you will be givne the path of the patched `.img file`. Copy that file to your computer in the `platform-tools` folder.
+
+7. When you see this screen, the patching is done and you will be given the path of the patched `.img file`. Copy that file to your computer in the `platform-tools` folder.
    ![](https://i.imgur.com/D9qyjbG.png)
-8. Connect your pphone to your computer, enable usb debugging on your phone and, in the `platform-tools` folder open a Command Prompt and run the command `adb devices`. Accept USB Debugging on your phone and run `adb reboot bootloader`. The phone will reboot to a `fastboot_unlock_verify ok` screen.
-9. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
-10. The phone will restart and you are now rooted with Magisk!
+
+8. Connect your pphone to your computer and enable usb debugging on your phone 
+9. In the `platform-tools` folder open a Command Prompt and run the command `adb devices`. Accept USB Debugging on your phone and run `adb reboot bootloader`. The phone will reboot to a `fastboot_unlock_verify ok` screen.
+10. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
+11. The phone will restart and you are now rooted with Magisk!
 
 ### To remove Magisk root, select `Uninstall > Complete uninstall` in the Magisk Manager app.
  * * *
