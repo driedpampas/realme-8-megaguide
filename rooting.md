@@ -4,8 +4,8 @@
 >
 > ### Only use one method.
 >
-> | [Magisk](https://github.com/driedpampas/realme-8-megaguide/blob/main/rooting.md#with-magisk) | KernelSU |
-> | :--------: | :------: |
+> | [Magisk](#with-magisk) | [KernelSU](#with-kernelsu) |
+> | :--------------------: | :------------------------: |
 
 # With Magisk
 ### You will need
