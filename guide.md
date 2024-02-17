@@ -139,7 +139,7 @@ IV. [Rooting](/guide.md#iv-rooting)
 
 * * *
  
-# II. Patching `lk`- qetting fastboot access and removing dm-verity and orange state warnings
+# II. Patching `lk`- getting fastboot access and removing dm-verity and orange state warnings
 > [!NOTE]
 > ### ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
