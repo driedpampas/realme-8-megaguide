@@ -30,3 +30,9 @@ jobs:
       - name: Create requirements.txt
         run: |
           pip freeze > requirements.txt
+
+      - name: Upload modified file
+        uses: actions/upload-artifact@v4
+        with:
+          name: requirements.txt
+          path: requirements.txt
