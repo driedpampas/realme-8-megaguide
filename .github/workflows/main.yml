@@ -21,6 +21,7 @@ jobs:
           python-version: 3.12
           cache: 'pip'
           cache-dependency-path: '.pie/requirements.txt'
+      - run: pip install -r .pie/requirements.txt
 
       - name: Install dependencies
         run: |
