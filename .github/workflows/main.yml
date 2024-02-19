@@ -41,11 +41,11 @@ jobs:
       - name: Commit files
         run: |
           git checkout -b pie
-          git pull --rebase origin pie
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Add changes"
-    
+          git pull --rebase origin pie
+          
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.8.0
         with:
