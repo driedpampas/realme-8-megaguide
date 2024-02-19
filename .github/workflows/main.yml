@@ -23,12 +23,6 @@ jobs:
           cache-dependency-path: '.pie/requirements.txt'
       - run: pip install -r .pie/requirements.txt
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests PyGithub markdownify telethon
-          ls -la
-
       - name: Run script
         run: |
           python .pie/script.py
