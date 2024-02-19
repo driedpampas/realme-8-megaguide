@@ -46,7 +46,7 @@ jobs:
       - name: Commit files
         run: |
           git checkout -b pie
-          git pull origin pie
+          git pull --rebase origin pie
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Add changes"
