@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: 3.12
+          cache: 'pip'
+          cache-dependency-path: '.pie/requirements.txt'
 
       - name: Install dependencies
         run: |
@@ -26,12 +28,31 @@ jobs:
           pip install requests PyGithub markdownify telethon
           ls -la
 
-      - name: Create requirements.txt
+      - name: Run script
         run: |
-          pip freeze > requirements.txt
+          python .pie/script.py
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
 
       - name: Upload modified file
         uses: actions/upload-artifact@v4
         with:
-          name: requirements.txt
-          path: requirements.txt
+          name: temp.md
+          path: .pie/temp.md
+
+      - name: Commit files
+        run: |
+          git checkout -b pie
+          git pull origin pie
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Add changes"
+    
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: refs/heads/pie
