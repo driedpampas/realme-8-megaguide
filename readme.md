@@ -10,6 +10,8 @@
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 * * *
+#### ai-translated versions maybe coming soon™️? 
+
 <a href="https://star-history.com/#driedpampas/realme-8-megaguide&Date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date&theme=dark" />
