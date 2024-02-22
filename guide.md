@@ -1,138 +1,138 @@
 > [!Warning]
- > ## **Make sure to read and do all of the steps to avoid your device being bricked.**
+> ## **अपने डिवाइस को ब्रिक होने से बचाने के लिए सभी चरणों को पढ़ें और करें।**
 
-### Website: [Guide Online](dry.nl.eu.org/guide) 🥳 (includes wiki posts)
+### वेबसाइट: [ऑनलाइन गाइड](dry.nl.eu.org/guide) 🥳 (विकी पोस्ट शामिल हैं)
 
-### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
+### कोई सवाल? टेलीग्राम पर [रियलमी 8 AOSP](https://t.me/Realme8AOSPGroup) संदेश करें या एक नई [गिटहब चर्चा](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose) शुरू करें
 
-### Already unlocked? Skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
+### पहले से ही अनलॉक किया है? [कस्टम रिकवरी और रोम स्थापित करने](#iii-installing--a-custom-recovery-and-rom) पर जाएं
 
-#### Disclaimer:
-- NO WARRANTY, as permitted by law.
-- Not supported: Windows 7 (old Python version) & RealmeUI 4 (lk method patched).
+#### अस्वीकृति:
+- कानून द्वारा परमिट किया जाने पर कोई वारंटी नहीं।
+- समर्थित नहीं: विंडोज 7 (पुराना पायथन संस्करण) और RealmeUI 4 (lk मैथड पैच किया गया है)।
 
-### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
+### चेतावनी: RUI4 पहले से ही अनलॉक किए जाने पर फास्टबूट एक्सेस को अक्षम कर देता है; समस्या हल होने तक RUI3 में अपग्रेड करें।
 
-# There are 2 methods: mtkclient (scroll down) and [deep testing](/w-deep-testing.guide.md).
+# दो तरीके हैं: mtkclient (नीचे स्क्रॉल करें) और [गहरी परीक्षण](/w-deep-testing.guide.md)।
 
-# Table of Contents
-0. [Back up](/guide.md#0-back-up-your-data)
+# सामग्री सूची
+0. [बैकअप](/guide.md#0-back-up-your-data)
 
-I. [Unlocking the bootloader](/guide.md#i-unlocking)
-1. [Installing Prerequisites](/guide.md#1-installing-prerequisites)
-2. [Downgrade to RUI2](/guide.md#2-downgrade-to-rui2)
-3. [Unlocking the bootloader](/guide.md#3-unlocking-the-bootloader)
-4. [Upgrade to RealmeUI 3](/guide.md#4-upgrade-to-realmeui-3)
+I. [बूटलोडर को अनलॉक करना](/guide.md#i-unlocking)
+1. [पूर्वापेक्षाएँ स्थापित करना](/guide.md#1-installing-prerequisites)
+2. [RUI2 में डाउनग्रेड करें](/guide.md#2-downgrade-to-rui2)
+3. [बूटलोडर को अनलॉक करना](/guide.md#3-unlocking-the-bootloader)
+4. [RealmeUI 3 में अपग्रेड करें](/guide.md#4-upgrade-to-realmeui-3)
 
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
-III. [Installing a Custom ROM](/guide.md#iii-installing--a-custom-recovery-and-rom)  
-IV. [Rooting](/guide.md#iv-rooting)  
-
+II. [पैचिंग `lk` - फास्टबूट एक्सेस प्राप्त करना और dm-verity और नारंजी स्थिति को हटाना](/guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
+III. [कस्टम ROM स्थापित करना](/guide.md#iii-installing--a-custom-recovery-and-rom)  
+IV. [रूट करना](/guide.md#iv-rooting)  
 * * *
 
-# 0. Back up your system partitions
+# 0. अपने सिस्टम पार्टीशन का बैकअप बनाएं
 > [!CAUTION]
-> # HAVE YOU BACKED UP ALREADY? IF NOT FOLLOW THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+> # क्या आपने पहले से ही बैकअप बना लिया है? अगर नहीं, तो [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data) का पालन करें
 
-# I. Unlocking
+# I. बूटलोडर को अनलॉक करना
 
-# Prerequisites
-| Software | Drivers | Firmware |
+# पूर्वापेक्षाएँ
+| सॉफ़्टवेयर | ड्राइवर | फ़र्मवेयर |
 |:-------: | :-----: | :------: |
-| [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) |
-| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | [C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) |
+| [Microsoft Store से Python](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [मीडियाटेक USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [A.19 RUI2 फ़र्मवेयर](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) |
+| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | [C.18 RUI3 फ़र्मवेयर](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) |
 | [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) | |
 
-## 1. Installing prerequisites
-1. ### Mediatek USB
-	1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
-	2. Find the **.inf** file, right click and press install
+## 1. पूर्वापेक्षाएँ स्थापित करना
+1. ### मीडियाटेक USB
+	1. [मीडियाटेक USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) ड्राइवर के फ़ोल्डर को निकालें और उसमें जाएं।
+	2. **.inf** फ़ाइल को ढूंढें, उस पर दायाँ क्लिक करें और स्थापित करें
    <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
- 3. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
- 4. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
+ 3. ### [USBDk](https://github.com/daynix/UsbDk/releases/) को स्थापित करें
+ 4. ### [Microsoft Store से Python](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) को स्थापित करें
 
-## 2. Downgrade to RUI2
-1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+## 2. RUI2 में डाउनग्रेड करें
+1. [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) के फ़ोल्डर को निकालें और उसमें जाएं
+2. [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) फ़ोल्डर में कंसोल खोलें
 	<p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
-3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this: 
+3. आवश्यक लाइब्रेरी इस्तेमाल करने के लिए निम्नलिखित कमांड का उपयोग करें `python -m pip install -r requirements.txt`. यह काम इस तरह दिखेगा: 
 	<p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
-4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable. You will see something like this:
+4. अपने फोन को बंद करें, दोनों **Vol+, Vol-** दबाएं और यूएसबी केबल को कनेक्ट करें। आपको कुछ इस प्रकार दिखेगा:
 	<p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
-5. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe`
-6. Click on `Options > Option...` and make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
+5. फोन अब BROM मोड में है। [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe` को चलाएं
+6. `Options > Option...` पर क्लिक करें और सुनिश्चित करें कि सही **COM Port** का चयन किया गया है, UART सक्षम है और बौड दर को **921600** पर सेट किया गया है।
 	<p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
-7. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
-8. Load `scatter.txt` from Haadi's Firmware
+7. [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtp
+
+HgpyRDRHMZv13FTTvups/view?usp=share_link) को लोड करें
     <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
 <div align="center">
-	<p><img src="https://i.imgur.com/sYaIBIN.png"></p><p>Remember to uncheck:</p>
+	<p><img src="https://i.imgur.com/sYaIBIN.png"></p><p>याद रखें कि:</p>
 	
-| opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
+| opporeserve2 [साइन की गई पार्टीशन] | cdt_engineering [डिजिटल वारंटी कोड्स] |
 | ------------------------------- | ---------------------------------------- |
 | <img src="https://i.imgur.com/9Kp65P7.png" width="150"> | <img src="https://i.imgur.com/S6XOitJ.png" width="150"> |
 
 </div><br>
 
 > [!CAUTION]
->  9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
+>  9. **`केवल डाउनलोड`** मोड होने पर ध्यान दें या **आप महत्वपूर्ण पार्टीशन को खो देंगे**
 	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
-10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
+10. किसी भी चीज़ को खिसकने से बचें ताकि कुछ ना डिस्कनेक्ट हो। यह प्रक्रिया 15-20 मिनट तक चलेगी। A.19 को अपने फोन पर प्राप्त करने के लिए, `डाउनलोड` पर क्लिक करें।
 	<p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
-11. If everything goes well, it should look like this
+11. अगर सब कुछ ठीक हो जाता है, तो यह ऐसा दिखना चाहिए
 	<p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p><br>
-12. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
+12. कुछ भी करने से पहले, हम **अपने फोन को सुरक्षित बनाने के लिए उसे वाइप करेंगे।** **Vol-, और पावर बटन** दोनों दबाएं, रिकवरी में डेटा को वाइप करें, और फिर **फॉर्मेट डेटा** का चयन करें।
  
-## 3. Unlocking the bootloader
-1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-2. Reboot your device, turn it off and Hold down both **Vol+, Vol-** - **(Don't leave the buttons until the command is done)**
-3. Type `python mtk e metadata,userdata,md_udc` - This command wipes your data. It should look like this:
+## 3. बूटलोडर को अनलॉक करना
+1. [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) फ़ोल्डर में कंसोल खोलें
+2. अपने डिवाइस को रीबूट करें, इसे बंद करें और **दोनों Vol+, Vol-** दबाएं - **(कमांड पूरा होने तक बटन छोड़ने नहीं दें)**
+3. `python mtk e metadata,userdata,md_udc` टाइप करें - यह कमांड आपके डेटा को मिटाता है। यह इस तरह दिखेगा:
    <p align="center"><img src="https://i.imgur.com/HfPsrpU.png"></p>
-4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
+4. निम्नलिखित कमांड का उपयोग करके बूटलोडर को अनलॉक करें `python mtk da seccfg unlock`, उत्पाद निम्नलिखित दिखाई देगा
    <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
  
-
 > [!IMPORTANT]  
->   **After this, turn on your phone. First boot will take around 5-20 minutes.**
->   **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
+>   **इसके बाद, अपने फोन को चालू करें। पहला बूट लगभग 5-20 मिनट लगेगा।**
+>   **आप `dm-verity corruption` और `orange state` चेतावनियाँ देखेंगे। जारी रखने के लिए *पावर बटन* दबाएं। ये सामान्य हैं और इसे बाद में पैच किया जाएगा।**
 
-5. Your bootloader is now unlocked.
+5. आपका बूटलोडर अब अनलॉक हो गया है।
 
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+### ❗ अगर कुछ काम नहीं कर रहा हो या आपके पास सवाल हो, तो [FAQ (अक्सर पूछे जाने वाले प्रश्न)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) की जांच करें
 
+## 4. RealmeUI 3 में अपग्रेड करें
 
-## 4. Upgrade to RealmeUI 3
-
-1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+1. [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) के फ़ोल्डर में वापस जाएं
+2. [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) फ़ोल्डर में फिर से कंसोल खोलें
    <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
-3. Send the payload with `python mtk payload`. It should look like this: 
+3. `python mtk payload` के साथ पेलोड भेजें। यह इस प्रकार दिखेगा: 
    <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
    
-4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
-5. MTK Client should output something like this:
-   <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
+4. यह सुनिश्चित करें कि आपका फोन बंद है, **Vol+, Vol-** दोनों दबाएं और यूएसबी केबल को कनेक्ट करें।
+5. MTK Client को कुछ इस प्रकार आउटपुट करेगा:
+   <p align="center"><
+
+img src="https://i.imgur.com/lr7HIN0.png"></p>
    
-6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) -`flash_tool.exe`
-7. Click on `Options > Option...`
-8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
+6. फोन अब BROM मोड में है। [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) चलाएं -`flash_tool.exe`
+7. `Options > Option...` पर क्लिक करें
+8. सही **COM पोर्ट** चयनित है, UART सक्षम है और बॉड दर **921600** पर सेट किया गया है, सुनिश्चित करें।
    <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
-9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) and unpack it
-10. Load `MT6785_Android_scatter.txt` from SG's firmware
+9. [SG का C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) प्राप्त करें और इसे अनपैक करें
+10. SG के फर्मवेयर से `MT6785_Android_scatter.txt` लोड करें
    <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
 
-11. Remember to have `Download Only` mode
+11. **`केवल डाउनलोड`** मोड होने पर ध्यान दें
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
-12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.18 on your phone, click `Download`. [**No progress? Click me**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)
+12. अपने फोन को स्थिर सतह पर रखें, कुछ ना डिस्कनेक्ट होने के लिए। यह प्रक्रिया 15-20 मिनट ले सकती है। अपने फोन पर C.18 प्राप्त करने के लिए, `डाउनलोड` पर क्लिक करें। [**कोई प्रगति नहीं? मुझे क्लिक करें**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)
     <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
-13. If everything goes well, it should look like this:
+13. अगर सब कुछ ठीक हो जाता है, तो यह ऐसा दिखेगा:
     <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p>
 
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+### ❗ अगर कुछ काम नहीं कर रहा हो या आपके पास सवाल हो, तो [FAQ (अक्सर पूछे जाने वाले प्रश्न)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) की जांच करें
 
-14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
+14. आगे बढ़ने से पहले, **सुनिश्चित करें कि आपने अपडेट किया है / RUI3 C.18 फ्लैश किया है**
  
 > [!IMPORTANT]
 > ## Only continue after updating to / flashing RUI3 C.18

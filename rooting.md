@@ -2,62 +2,62 @@
 
 > [!IMPORTANT]
 >
-> ### Only use one method.
+> ### केवल एक विधि का उपयोग करें।
 >
 > | [Magisk](#with-magisk) | [KernelSU](#with-kernelsu) |
 > | :--------------------: | :------------------------: |
 
 # With Magisk
-### You will need
+### आपको जरूरत होगी
 
-| Software | APKs |
+| सॉफ़्टवेयर | APKs |
 | :------: | :--: |
 | [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [Magisk Manager](https://github.com/topjohnwu/Magisk/releases/tag/v27.0) |
 | [platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) | |
 
-1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-2. Run `python mtk r boot boot.img`. Turn your device off, hold down both **Vol+, Vol-** and connect the device to the computer.
-3. A `boot.img` file will be created in the folder. Turn your device on and copy the file to it.
-4. Navigate to where you donwnloaded the Magisk Manager apk file and install it.
-5. Open Magisk Manager and click install next to `Magisk`.
+1. [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) फ़ोल्डर में कन्सोल खोलें
+2. `python mtk r boot boot.img` को चलाएं। अपनी डिवाइस को बंद करें, **Vol+, Vol-** दोनों को दबाएं और डिवाइस को कंप्यूटर से जोड़ें।
+3. एक `boot.img` फ़ाइल फ़ोल्डर में बनाई जाएगी। अपनी डिवाइस को चालू करें और फ़ाइल की कॉपी करें।
+4. मैजिस्क मैनेजर apk फ़ाइल को डाउनलोड किये गए स्थान पर जाएं और इसे इंस्टॉल करें।
+5. मैजिस्क मैनेजर खोलें और `Magisk` के पास स्थापना क्लिक करें।
 <p align="center"><img src="https://i.imgur.com/CAbHxPv.png" width=400></p>
 
-6. Select `Select and patch a file`. The file picker will open, Find and select the `boot.img` you extracted. Then tap `let's go`.
+6. `फ़ाइल का चयन करें और पैच करें` का चयन करें। फ़ाइल पिकर खुलेगा, `boot.img` को खोजें और चयन करें। फिर `आइए चलें` टैप करें।
 <img src="https://i.imgur.com/4m7CJfB.png" height=131.830985915></p>
 
-7. When you see this screen, the patching is done and you will be given the path of the patched `.img file`. Copy that file to your computer in the `platform-tools` folder.  
+7. जब आप इस स्क्रीन को देखते हैं, पैचिंग पूरी हो जाती है और आपको पैच की गई `.img फ़ाइल` का पथ दिया जाएगा। उस फ़ाइल को अपने कंप्यूटर में `platform-tools` फ़ोल्डर में कॉपी करें।  
    ![](https://i.imgur.com/D9qyjbGm.png)
 
-8. Connect your pphone to your computer and enable usb debugging on your phone 
-9. In the `platform-tools` folder open a Command Prompt and run the command `adb devices`. Accept USB Debugging on your phone and run `adb reboot bootloader`. The phone will reboot to a `fastboot_unlock_verify ok` screen.
-10. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
-11. The phone will restart and you are now rooted with Magisk!
-#### Note that you will get a prompt to reboot to finish the installation.
+8. अपने फ़ोन को अपने कंप्यूटर से जोड़ें और अपने फ़ोन पर usb debugging को सक्षम करें 
+9. `platform-tools` फ़ोल्डर में एक कमांड प्रॉम्प्ट खोलें और कमांड `adb devices` चलाएं। अपने फ़ोन पर USB डीबगिंग को स्वीकार करें और `adb reboot bootloader` चलाएं। फ़ोन एक `fastboot_unlock_verify ok` स्क्रीन पर पुनः आरंभ होगा।
+10. अब cmd में कमांड `fastboot flash boot <<मैजिस्क पैच की गई फ़ाइल का नाम टाइप करें.img>>` चलाएं और Enter दबाएं। सफलतापूर्वक स्थानांतरित होने के बाद, `fastboot reboot` चलाएं।
+11. फ़ोन पुनः आरंभ हो जाएगा और आप अब मैजिस्क के साथ रूट किए गए हैं!
+#### ध्यान दें कि स्थापना को पूरा करने के लिए आपको पुनरारंभ करने के लिए प्रॉम्प्ट मिलेगा।
 
-### To remove Magisk root, select `Uninstall > Complete uninstall` in the Magisk Manager app.
+### मैजिस्क रूट को हटाने के लिए, मैजिस्क मैनेजर ऐप में `Uninstall > Complete uninstall` का चयन करें।
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # With KernelSU
 > [!WARNING]
-> #### ONLY WORKS ON CUSTOM ROMS (do NOT ATTEMPT on RealmeUI or it will BRICK your device)
+> #### केवल कस्टम ROMs पर काम करता है (RealmeUI पर प्रयास न करें या यह आपके डिवाइस को ब्रिक कर देगा)
 
 > [!IMPORTANT]
-> #### If you keep your phone plugged in while rebooting when rooted with KSU it will bootloop and go to recovery. Unplug your phone before rebooting.
+> #### KSU के साथ रूट करते समय जब आप फ़ोन को रिबूट करते समय अपने फ़ोन को प्लगड इन रखते हैं तो यह बूटलूप हो जाएगा और रिकवरी में जाएगा। रिबूट करने से पहले अपने फ़ोन को अनप्लग करें।
 
-### You will need
+### आपको जरूरत होगी
 
 | ZIP | APKs |
 | :-: | :--: |
-| [KernelSU zip file](https://drive.google.com/file/d/1UUQe_5XH-9IBiz-SNp6I4fSyE1QQgtw4/view?usp=sharing) | [KernelSU manager (apk file)](https://github.com/tiann/KernelSU/releases/download/v0.7.6/KernelSU_v0.7.6_11458-release.apk) |
+| [KernelSU ज़िप फ़ाइल](https://drive.google.com/file/d/1UUQe_5XH-9IBiz-SNp6I4fSyE1QQgtw4/view?usp=sharing) | [KernelSU मैनेजर (apk फ़ाइल)](https://github.com/tiann/KernelSU/releases/download/v0.7.6/KernelSU_v0.7.6_11458-release.apk) |
 
-1.  ### You need to be in recovery mode; run `adb reboot recovery`
-2.  In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
+1.  ### रिकवरी मोड में होना आवश्यक है; `adb reboot recovery` चलाएं
+2.  रिकवरी में `Apply update > Apply from ADB` का चयन करें और `adb sideload kernelsu.zip` चलाएं।
 
-### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
+### यदि आपको "सिग्नेचर सत्यापन त्रुटि" मिलती है तो फिर भी जारी रखें, पैकेज फ्लैश हो जाएगा, इसका यही समान अन्य किसी भी ZIP के लिए भी है।
 
-3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
-4. The app should show like this indicating thaat everything has been done correctly:
+3. पूरा होने पर `Reboot system now` टैप करें। आपका फोन पुनः आरंभ होगा। KernelSu Manager apk फ़ाइल जोड़ने के स्थान पर जाएं और इसे इंस्टॉल करें।
+4. ऐप इस प्रकार दिखना चाहिए जिससे सब कुछ सही तरीके से किया गया है:
 <p align="center"><img src="https://i.imgur.com/XhOFSXP.png" height="700"></p>
 
-5. If you want to remove KernelSU root, extract the `custom-rom.zip` you downloaded to flash the ROM, find and move the `boot.img` to the folder where adb is and run these commands in a command prompt:
+5. यदि आप KernelSU रूट को हटाना चाहते हैं, तो आपको फ़्लैश करने के लिए डाउनलोड किए गए `custom-rom.zip` को निकालें, `boot.img` को खोजें और उसे वहां ले जाएं जहां एडबी है और निम्नलिखित कमांड प्रॉम्प्ट में इन कमांड्स को चलाएं:
    - `adb reboot bootloader`
    - `fastboot flash boot boot.img`
