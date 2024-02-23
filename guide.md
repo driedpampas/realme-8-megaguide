@@ -135,103 +135,102 @@ img src="https://i.imgur.com/lr7HIN0.png"></p>
 14. आगे बढ़ने से पहले, **सुनिश्चित करें कि आपने अपडेट किया है / RUI3 C.18 फ्लैश किया है**
  
 > [!IMPORTANT]
-> ## Only continue after updating to / flashing RUI3 C.18
+> ## केवल तभी जारी रखें जब आप RUI3 C.18 को अपडेट कर लेते हैं / फ़्लैश कर लेते हैं
 
 * * *
  
-# II. Patching `lk`- getting fastboot access and removing dm-verity and orange state warnings
+# II. `lk` को पैच करना - फास्टबूट एक्सेस प्राप्त करना और dm-verity और नारंगी स्थिति चेतावनियाँ हटाना
 > [!NOTE]
-> ### ❕ SKIP ONLY IF you unlocked with DEEP TESTING
+> ### ❕ केवल तभी छोड़ें अगर आपने गहरी जांच के साथ अनलॉक किया है
 
-1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-2. Open the console again in `MTK Client` folder
+1. [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) फ़ोल्डर में वापस जाएं
+2. `MTK Client` फ़ोल्डर में फिर से कंसोल खोलें
    <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
-3. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
-4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
+3. सुनिश्चित करें कि आपका फोन बंद है, **Vol+, Vol-** दोनों दबाएं और यूएसबी केबल को कनेक्ट करें।
+4. कमांड `python mtk r lk lk.bin` चलाएं। अब **MTK Client** फ़ोल्डर में एक `lk.bin` फ़ाइल होगी।
 	<p align="center"><img src="https://i.imgur.com/gL4Qpc2.png"></p>
-5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
+5. [इस वेबसाइट](https://lkpatcher.r0rt1z2.com/) पर जाएं। अपनी lk.bin फ़ाइल अपलोड करें और `lk-patched.bin` डाउनलोड किया जाएगा। इसे `MTK Client` फ़ोल्डर में ले जाएं। [**अगर आपको यह त्रुटि मिलती है तो नीचे देखें**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.imgur.com/HOve3Mv.png"></p>
-6. Run command `python mtk w lk lk-patched.bin`<br><br>
+6. कमांड `python mtk w lk lk-patched.bin` चलाएं<br><br>
 
 > [!IMPORTANT]
-> ### Check [Manual patching](https://github.com/driedpampas/realme-8-megaguide/wiki/Patching-LK-(alternative-method)) if you have issues with the website
+> ### [FAQ (अक्सर पूछे जाने वाले प्रश्न)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) की जाँच करें अगर कुछ काम नहीं कर रहा है या आपके पास सवाल हैं
 
-#### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
+# III. कस्टम रिकवरी और ROM का स्थापना
 
-# III. Installing  a Custom Recovery and ROM
+## पूर्वापेक्षित आवश्यकताएँ
+- [नवीनतम platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) - यदि आप पुराने platform-tools का उपयोग करते हैं, तो आपको त्रुटि मिलेगी `fastboot: usage: unknown reboot target recovery`
+- [QcomMtk-Driver](https://www.mediafire.com/file/nninaiiqy1e5csa/New+QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe) - ड्राइवर
+- ❗️ यदि आपको त्रुटि मिलती है: `fastboot: usage: unknown reboot target recovery`, तो यह adb स्थापक का उपयोग करें [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/releases/download/v1.0.8/ADB-and-Fastboot++_v1.0.8.exe)
+- केवल एक बार फ्लैश करें (आपको पुनः फ्लैश करने की आवश्यकता नहीं होनी चाहिए) - [vbmeta छवि](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img फ़ाइल
+- एक कस्टम रोम पैकेज - ROMs के लिए [टेलीग्राम समूह](https://t.me/Realme8AOSPGroup) की जांच करें
+- GAPPS पैकेज - Android 13 के लिए अनुशंसित [MindTheGApps](https://androidfilehost.com/?fid=4279422670115734716)
+- रिकवरी छवियों की जांच करें [/recovery.md](/recovery.md) के लिए
 
-## Prerequisites
-- [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) - you will get an error `fastboot: usage: unknown reboot target recovery` if you use old platform-tools
-- [QcomMtk-Driver](https://www.mediafire.com/file/nninaiiqy1e5csa/New+QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe) - driver
-- ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/releases/download/v1.0.8/ADB-and-Fastboot++_v1.0.8.exe)
-- only flash once (you should not need to reflash it) - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img file
-- a custom rom package - check out the [Telegram group](https://t.me/Realme8AOSPGroup) for ROMs
-- GAPPS package - recommended [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716)
-- check [recoveries](/recovery.md) for recovery images
+## 1. फास्टबूट में पुनरावर्तन करना
+   ### आपके डिवाइस को चालू होना चाहिए
+   1. **platform-tools** फ़ोल्डर में एक कमांड प्रोम्प्ट विंडो खोलें।
+   2. **अपने फोन** पर, Developer Options को सक्षम करें और USB Debugging को सक्षम करें।
+   3. platform-tools फ़ोल्डर में एक कमांड प्रोम्प्ट खोलें और `adb devices` चलाएं। फोन पर `Allow USB Debugging for ...` दिखाई देगा, `Always allow...` की जाँच करें और `Allow` दबाएं।
+   4. कमांड प्रोम्प्ट में `adb reboot boootloader` चलाएं। फोन त्वरितबूट एंड अनलॉक वेरिफाई ok लिखा होगा।
 
-## 1. Rebooting to fastboot
-   ### Your device needs to be turned on
-   1. Open a command prompt window in the **platform-tools** folder.
-   2. **On your phone**, enable Developer Options and enable USB Debugging.
-   3. In the platform-tools folder open a command prompt and run `adb devices`. You will see `Allow USB Debugging for ...` on phone, check `Always allow...` and hit `Allow`.
-   4. In the command prompt run `adb reboot boootloader`. Phone will reboot to a screen that says `fastboot_unlock_verify ok`.
+### ❗ यदि कुछ काम नहीं कर रहा है या आपके पास सवाल हैं तो [FAQ (अक्सर पूछे जाने वाले प्रश्न)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) की जाँच करें
 
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
-
-## 2. Installing custom recovery and sideloading custom rom
+## 2. कस्टम रिकवरी स्थापना और कस्टम रोम को साइडलोड करना
 
 > [!TIP]
-> #### ⚠️ If switching between custom roms skip step 2.
-> #### ⚠️ If the required recovery has not changed you may skip step 3.
+> #### ⚠️ कस्टम रोम्स के बीच स्विच करने पर चरण 2 को छोड़ें।
+> #### ⚠️ यदि आवश्यक रिकवरी नहीं बदली है तो आप चरण 3 को छोड़ सकते हैं।
    
-   1. Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
-   2. Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show 
+   1. `recovery.img` और `vbmeta.img` फ़ाइलों को **platform-tools** फ़ोल्डर में ले जाएं।
+   2. कमांड चलाएं `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`। यह दिखाई देना चाहिए
 		<p align="center"><img src="https://i.imgur.com/MZZyTBc.png"></p>
-   3. Run the command `fastboot flash recovery recovery.img`:
+   3. कमांड
+
+ चलाएं `fastboot flash recovery recovery.img`:
 		<p align="center"><img src="https://i.imgur.com/t7wYi3R.png"></p>
-   #### The phone should show `USB Transmission ok`
-   4. Now, reboot to recovery mode with the command `fastboot reboot recovery` 
+   #### फोन पर `USB Transmission ok` दिखना चाहिए
+   4. अब, कमांड चलाएं `fastboot reboot recovery` स्थानीय मोड में बूट करें
 		<p align="center"><img src="https://i.imgur.com/1zwXUmj.png"></p>
-   5. In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
+   5. रिकवरी में, `Factory reset > Format data/factory reset > Format data` पर जाएं। फैक्टरी रीसेट के बाद `Apply update > Apply from ADB` चुनें। आपको यह दिखाई देना चाहिए जब `adb devices` चलाएं:
  		<p align="center"><img src="https://i.imgur.com/MoiIS9k.png"></p>
-   6. Now run the command `adb sideload custom-rom.zip` (replace *custom-rom.zip* with custom rom package name). For example I flashed LeafOS 2:
+   6. अब कमांड चलाएं `adb sideload custom-rom.zip` (*custom-rom.zip* को कस्टम रोम पैकेज नाम के साथ बदलें)। उदाहरण के लिए मैंने LeafOS 2 को फ्लैश किया:
 		<p align="center"><img src="https://i.imgur.com/QZqi1e1.png"></p>
-   7. **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace *gapps.zip* with package name). 
+   7. **केवल** इस स्टेप को कस्टम रोम्स **बिना GAPPS / GMS** पर करें (रोम का विवरण जांचने के लिए)। पुनः `Apply update > Apply from ADB` चुनें और `adb sideload gapps.zip` (*gapps.zip* के साथ पैकेज नाम को बदलें)। 
 		<p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
-   #### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
-   9. Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
+   #### यदि आपको अपने फोन पर "हस्ताक्षर सत्यापन त्रुटि" मिलती है, तो `हां` पर क्लिक करें ताकि आगे बढ़ सकें, यह अन्य किसी भी अन्य ZIP के लिए भी लागू होता है।
+   9. पूरा होने के बाद, रिकवरी में वापस जाएं `Reboot system now`। फोन आपके कस्टम रोम में बूट हो जाएगा।
 
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+### ❗ यदि कुछ काम नहीं कर रहा है या आपके पास सवाल हैं तो [FAQ (अक्सर पूछे जाने वाले प्रश्न)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) की जाँच करें
 
-# IV. Rooting 
-## Go to [Rooting.md](/rooting.md)  
+# IV. रूट करना 
+## [Rooting.md](/rooting.md) पर जाएं
 * * *
-## More in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
-## Special thanks & credits
+## और [विकि](https://github.com/driedpampas/realme-8-megaguide/wiki) में अधिक
+## विशेष धन्यवाद और स्रोत
  
-> [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8  
-> [bkerler](https://twitter.com/viperbjk) - developer of [MtkClient](https://github.com/bkerler/mtkclient)  
-> [Roger](https://t.me/R0rt1z2) - creator of [lkpatcher](https://github.com/R0rt1z2/lkpatcher)  
-> [Haadi](https://t.me/Haadi786H) - RUI2 firmware  
-> [SGtriangle](https://t.me/SGtriangle) - RUI3 firmware  
-> [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 for RMX3085 developer  
-> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - provided KSU zip file, helped with wiki guides  
-> [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
-> [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide  
-> [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade  
-> [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/)  
+> [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - रियलमी 8 के लिए कर्नल बनाने के द्वारा सभी कुछ संभव बनाया  
+> [bkerler](https://twitter.com/viperbjk) - [MtkClient](https://github.com/bkerler/mtkclient) के डेवलपर  
+> [Roger](https://t.me/R0rt1z2) - [lkpatcher](https://github.com/R0rt1z2/lkpatcher) के निर्माता  
+> [Haadi](https://t.me/Haadi786H) - RUI2 फर्मवेयर  
+> [SGtriangle](https://t.me/SGtriangle) - RUI3 फर्मवेयर  
+> [HowWof](https://t.me/HowWof) - बहुत सारी सहायता, RMX3085 डेवलपर के लिए लीफ ओएस 2  
+> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - KSU ज़िप फ़ाइल प्रदान की, विकि गाइड के साथ मदद की  
+> [MrPotato6](https://t.me/MrPotato6) - मैजिस्क रूटिंग के लिए जानकारी और स्क्रीनशॉट  
+> [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - बैकअप गाइड के मूल पोस्टर  
+> [Zako Chan](https://t.me/zakolakov106/) - डाउनग्रेड के साथ चलन के बारे में जानकारी  
+> [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - [RUI2 अनलॉक गाइड](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/)  
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)  
 > [Magisk & Developers](https://github.com/topjohnwu/Magisk)  
 > [KernelSU & Developers](https://github.com/tiann/KernelSU)  
-> Banner and others via [Canva](https://canva.com) - Refer to [Canva's CLA](https://www.canva.com/policies/content-license-agreement/) for more info  
-> Text images made in [Drawing](https://maoschanz.github.io/drawing)  
+> बैनर और अन्य कैनवा के माध्यम से - अधिक जानकारी के लिए [कैनवा का CLA](https://www.canva.com/policies/content-license-agreement/) देखें  
+> टेक्स्ट छवियों बनाई गई [ड्रॉइंग](https://maoschanz.github.io/drawing) में  
 
-> Support in: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
+> समर्थन: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
  
-Witten by [me](https://dry.nl.eu.org/links) with 🫶.
+[मैं](https://dry.nl.eu.org/links) द्वारा लिखा गया 🫶 के साथ।
 
 * * *
-
-###### There is NO WARRANTY, to the extent permitted by law.
-###### Guide and Wiki (c) by @driedpampas, 2023-2024
-###### guide.md | Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
+###### इसके अधिकांश की नो वारंटी, जितनी कानून द्वारा प्राप्त होती है।
+###### गाइड और विकि (c) द्वारा @driedpampas, 2023-2024
+###### guide.md | CC-BY-SA 4.0 के तहत लाइसेंस प्राप्त करें। अधिक जानकारी के लिए [लाइसेंस](/LICENSE) की जाँच करें।
