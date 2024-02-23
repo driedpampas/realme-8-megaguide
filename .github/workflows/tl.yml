@@ -1,0 +1,12 @@
+            - name: Translate Markdown Action
+  # You may pin to the exact commit or the version.
+  # uses: camposdelima/translate-markdown@853ec922234cae169405b92c0b76c662e2e4b2f3
+  uses: camposdelima/translate-markdown@v0.0.6
+  with:
+    # The path you want to translate to
+    PATH: # optional
+    # The filepath, with path and filename, that you want to translate to
+    FILEPATH: # optional
+    # The Language you want to translate to
+    LANG: # optional
+          
