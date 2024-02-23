@@ -214,8 +214,8 @@ IV. [Rooting](/guide.md#iv-rooting)
 > [Roger](https://t.me/R0rt1z2) - creator of [lkpatcher](https://github.com/R0rt1z2/lkpatcher)  
 > [Haadi](https://t.me/Haadi786H) - RUI2 firmware  
 > [SGtriangle](https://t.me/SGtriangle) - RUI3 firmware  
-> [HowWof](https://t.me/HowWof) - A lot of help, Leaf OS 2 for RMX3085 developer  
-> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - provided KSU zip file, helped with wiki guides  
+> [HowWof](https://t.me/HowWof) - [KSUBuilder](https://github.com/HowWof/KernelSU_Builder) developer  
+> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with various things, including the guide and KSUBuilder | RUI4 debloated firmware (available only on Telegram)
 > [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide  
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade  
