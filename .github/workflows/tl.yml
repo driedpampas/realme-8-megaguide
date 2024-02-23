@@ -1,6 +1,7 @@
 name: Translate
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - hitl
