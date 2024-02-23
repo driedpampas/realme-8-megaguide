@@ -3,7 +3,7 @@ name: Translate
 on:
   push:
     branches:
-      - main
+      - hitl
 
 jobs:
   build:
