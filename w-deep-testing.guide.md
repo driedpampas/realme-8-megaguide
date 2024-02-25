@@ -60,7 +60,8 @@ I. [Unlocking the bootloader](/w-deep-testing.guide.md#i-unlocking)
 
 </div><br>
 
-> [!CAUTION] 9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
+> [!CAUTION] 
+> 9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
 
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
