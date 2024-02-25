@@ -63,7 +63,7 @@ I. [Unlocking the bootloader](/w-deep-testing.guide.md#i-unlocking)
 > [!CAUTION] 
 > 9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
 
-    <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
+<p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
 10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
