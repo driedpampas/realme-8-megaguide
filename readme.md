@@ -8,9 +8,6 @@
 > [!Tip]
 > # After backing up go to the [GUIDE](/guide.md)
 
-> [!warning]
-> ### Any video tutorials are not verified or supported. Do not whine about problems if you did not follow this guide.
-
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 * * *
 #### ai-translated versions maybe coming soon™️? 
