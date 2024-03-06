@@ -13,7 +13,7 @@
 #### more ai-translated versions maybe coming soon™️? 
 | Ai translated versions | Coming soon/Requests |
 | :--------------------: | :------------------: |
-| [hindi](guthub.com/driedpampas/realme-8-megaguide/tree/hi) | 🤫🤫🤫 |
+| [hindi](https://github.com/driedpampas/realme-8-megaguide/tree/hi) | 🤫🤫🤫 |
 
 <a href="https://star-history.com/#driedpampas/realme-8-megaguide&Date">
   <picture>
