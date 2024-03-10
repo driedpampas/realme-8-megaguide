@@ -69,8 +69,9 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 </div><br>
 
 > [!CAUTION]
->  9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
-	<p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
+>  9. Remember to have **`Download Only`** mode or **you will lose critical partitions**.
+   <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
+
 10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 	<p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
 11. If everything goes well, it should look like this
@@ -84,13 +85,13 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
    <p align="center"><img src="https://i.imgur.com/HfPsrpU.png"></p>
 4. Unlock the bootloader using command `python mtk da seccfg unlock`, the output should look like this
    <p align="center"><img src="https://i.imgur.com/Su8RtHk.png"></p>
+5. Reboot with `python mtk reset` or hold all hardware buttons until the phone reboots.
  
-
 > [!IMPORTANT]  
->   **After this, turn on your phone. First boot will take around 5-20 minutes.**
+>   **First boot will take around 5-20 minutes.**
 >   **You will see `dm-verity corruption` and `orange state` warnings. Press the *Power Button* to continue. These are normal and will be patched later in the guide.**
 
-5. Your bootloader is now unlocked.
+6. Set your phone up and enable **Developer Options** and verify that the bootloader is unlocked under `OEM unlocking`
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
@@ -119,9 +120,9 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.18 on your phone, click `Download`. [**No progress? Click me**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)
-    <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
+   <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
 13. If everything goes well, it should look like this:
-    <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p>
+   <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p>
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
