@@ -33,6 +33,7 @@
 1.  Move the `recovery.img` and `vbmeta.img` files to the **platform-tools** folder.
 2.  Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show
 <p align="center"><img src="https://i.imgur.com/MZZyTBc.png"></p>
+
 3.  Run the command `fastboot flash recovery recovery.img`:
 <p align="center"><img src="https://i.imgur.com/t7wYi3R.png"></p>
 
@@ -40,6 +41,7 @@
 
 4.  Now, reboot to recovery mode with the command `fastboot reboot recovery`
 <p align="center"><img src="https://i.imgur.com/1zwXUmj.png"></p>
+
 5.  In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
 <p align="center"><img src="https://i.imgur.com/MoiIS9k.png"></p>
 6.  Now run the command `adb sideload custom-rom.zip` (replace _custom-rom.zip_ with custom rom package name). For example I flashed LeafOS 2:
