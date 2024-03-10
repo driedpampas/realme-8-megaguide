@@ -27,7 +27,7 @@
 > [Haadi](https://t.me/Haadi786H) - RUI2 firmware  
 > [SGtriangle](https://t.me/SGtriangle) - RUI3 firmware  
 > [HowWof](https://t.me/HowWof) - [KSUBuilder](https://github.com/HowWof/KernelSU_Builder) developer  
-> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with various things, including the guide and KSUBuilder | RUI4 debloated firmware (available only on Telegram)
+> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with the guide and KSUBuilder | made RUI4 debloated firmware (available on Telegram)  
 > [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting  
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - backup guide inspo  
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade  
