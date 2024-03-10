@@ -28,14 +28,14 @@
 > [SGtriangle](https://t.me/SGtriangle) - RUI3 firmware  
 > [HowWof](https://t.me/HowWof) - [KSUBuilder](https://github.com/HowWof/KernelSU_Builder) developer  
 > [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with various things, including the guide and KSUBuilder | RUI4 debloated firmware (available only on Telegram)
-> [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting<br>
-> [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - original poster of backup guide  
+> [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting  
+> [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - backup guide inspo  
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade  
 > [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/)  
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)  
-> [Magisk & Developers](https://github.com/topjohnwu/Magisk)  
-> [KernelSU & Developers](https://github.com/tiann/KernelSU)  
-> Banner and others via [Canva](https://canva.com) - Refer to [Canva's CLA](https://www.canva.com/policies/content-license-agreement/) for more info  
+> [Magisk Developers & Contributors](https://github.com/topjohnwu/Magisk)  
+> [KernelSU Developers & Contributors](https://github.com/tiann/KernelSU)  
+> Banner made with [Canva](https://canva.com) - Refer to [Canva's CLA](https://www.canva.com/policies/content-license-agreement/) for more info  
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)  
 
 > Support in: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
