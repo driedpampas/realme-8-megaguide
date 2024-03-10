@@ -111,6 +111,7 @@ IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
 11. Remember to have `Download Only` mode
     <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
+
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.18 on your phone, click `Download`. [**No progress? Click me**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)
     <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
 13. If everything goes well, it should look like this:
