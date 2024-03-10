@@ -9,7 +9,7 @@
 - a custom rom package - check out the [Telegram group](https://t.me/Realme8AOSPGroup) for ROMs
 - GAPPS package - recommended [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716)
 
-## check [recoveries page](/recovery.md) for recovery images
+## check [recoveries page](/md/recovery.md) for recovery images
 
 ## 1. Rebooting to fastboot
 

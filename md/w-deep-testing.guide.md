@@ -9,17 +9,17 @@
 
 # Table of Contents
 
-0. [Back up](/w-deep-testing.guide.md#0-back-up-your-data)
+0. [Back up](/md/w-deep-testing.guide.md#0-back-up-your-data)
 
-I. [Unlocking the bootloader](/w-deep-testing.guide.md#i-unlocking)
+I. [Unlocking the bootloader](/md/w-deep-testing.guide.md#i-unlocking)
 
-1. [Installing Prerequisites](/w-deep-testing.guide.md#1-installing-prerequisites)
-2. [Flash RUI3 C.11](/w-deep-testing.guide.md#2-flash-rui3-c11)
-3. [Unlocking the bootloader](/w-deep-testing.guide.md#3-unlocking-the-bootloader)
-4. [Upgrade to RealmeUI 3](/w-deep-testing.guide.md#4-upgrade-to-realmeui-3)
+1. [Installing Prerequisites](/md/w-deep-testing.guide.md#1-installing-prerequisites)
+2. [Flash RUI3 C.11](/md/w-deep-testing.guide.md#2-flash-rui3-c11)
+3. [Unlocking the bootloader](/md/w-deep-testing.guide.md#3-unlocking-the-bootloader)
+4. [Upgrade to RealmeUI 3](/md/w-deep-testing.guide.md#4-upgrade-to-realmeui-3)
 
-III. [Installing a Custom ROM](/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
-IV. [Rooting](/w-deep-testing.guide.md#iv-rooting)  
+III. [Installing a Custom ROM](/md/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
+IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)  
 * * *
 # 0. Back up your system partitions
 
@@ -126,9 +126,9 @@ IV. [Rooting](/w-deep-testing.guide.md#iv-rooting)
 ---
 
 # III. Installing a Custom Recovery and ROM
-## Go to [Custom ROM Guide](/custom-rom.guide.md)
+## Go to [Custom ROM Guide](/md/custom-rom.guide.md)
 * * *
 # IV. Rooting 
-## Go to [Rooting](/rooting.md) 
+## Go to [Rooting](/md/rooting.md) 
 
 ###### w-deep-testing.guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.

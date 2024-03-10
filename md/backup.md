@@ -7,8 +7,8 @@
 * * *
 
 # Table of Contents
-I. [Backup](/backup.md#i-backup)
-II. [Restore](/backup.md#ii-restore)
+I. [Backup](/md/backup.md#i-backup)
+II. [Restore](/md/backup.md#ii-restore)
 
 ## Prerequisites
 - [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
@@ -37,6 +37,9 @@ II. [Restore](/backup.md#ii-restore)
 2. After the command finishes, check the folder to make sure the backup was made to the correct location and that there are *51 files*
 
 ![](https://i.imgur.com/HL49pJa.png)
+
+# You are ready. Continue with the [GUIDE](/md/w-deep-testing.guide.md)
+
 * * *
 # II. Restore
 ## To flash the entire backup back to your device use `python mtk wl (folder name)` in a command prompt. To only flash some files use `python mtk w (partition) (file name)`.
