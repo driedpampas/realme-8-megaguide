@@ -15,10 +15,20 @@ II. [Restore](/md/backup.md#ii-restore)
 
 ## Prerequisites
 
-- [USB2SER](https://drive.google.com/file/d/1_SWiU9Ip9-sf8D-7VVIxcfXUpjsKlAdz/view?usp=drive_link)
-- [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi)
-- [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
-- [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
+| Software | Drivers |
+|:-------: | :-----: |
+| [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) |
+| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) |
+
+
+---
+
+# Installing prerequisites
+### Mediatek USB
+1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
+2. Find the **.inf** file, right click and press install
+   <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
+3. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
 
 ---
 

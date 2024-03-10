@@ -42,12 +42,7 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 | [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) | |
 
 ## 1. Installing prerequisites
-1. ### Mediatek USB
-	1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
-	2. Find the **.inf** file, right click and press install
-   <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
- 3. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
- 4. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
+### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 
 ## 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
