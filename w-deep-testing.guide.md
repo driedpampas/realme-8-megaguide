@@ -18,6 +18,9 @@ I. [Unlocking the bootloader](/w-deep-testing.guide.md#i-unlocking)
 3. [Unlocking the bootloader](/w-deep-testing.guide.md#3-unlocking-the-bootloader)
 4. [Upgrade to RealmeUI 3](/w-deep-testing.guide.md#4-upgrade-to-realmeui-3)
 
+III. [Installing a Custom ROM](/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
+IV. [Rooting](/w-deep-testing.guide.md#iv-rooting)  
+* * *
 # 0. Back up your system partitions
 
 > [!CAUTION]
@@ -118,11 +121,14 @@ I. [Unlocking the bootloader](/w-deep-testing.guide.md#i-unlocking)
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
 > [!IMPORTANT]
->
 > ## Only continue after updating to / flashing RUI3 C.18
 
 ---
 
-# You may now continue with: [Installing a custom recovery and ROM](/guide.md#iii-installing--a-custom-recovery-and-rom)
+# III. Installing a Custom Recovery and ROM
+## Go to [Custom ROM Guide](/custom-rom.guide.md)
+* * *
+# IV. Rooting 
+## Go to [Rooting](/rooting.md) 
 
-###### w-deep-testing.guide.md | Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
+###### w-deep-testing.guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
