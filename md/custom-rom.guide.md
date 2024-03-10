@@ -44,8 +44,10 @@
 
 5.  In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
 <p align="center"><img src="https://i.imgur.com/MoiIS9k.png"></p>
+
 6.  Now run the command `adb sideload custom-rom.zip` (replace _custom-rom.zip_ with custom rom package name). For example I flashed LeafOS 2:
 <p align="center"><img src="https://i.imgur.com/QZqi1e1.png"></p>
+
 7.  **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace _gapps.zip_ with package name).
 <p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
 
