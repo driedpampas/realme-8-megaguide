@@ -1,7 +1,7 @@
 # Recovery info page
 
 ## Custom recoveries  
-###### firet three were made by [AshBorn](https://github.com/RipperHybrid)
+###### first three were made by [AshBorn](https://github.com/RipperHybrid)
 
 | Recovery name | RealmeUI compatibility | Download |
 | :-----------: | :--------------------: | :------: |
