@@ -52,7 +52,7 @@ II. [Restore](/md/backup.md#ii-restore)
 
 ![](https://i.imgur.com/HL49pJa.png)
 
-# You are ready. Continue with the [GUIDE](/md/w-deep-testing.guide.md)
+# You are ready. Continue with the [GUIDE](/md/landing.md)
 
 ---
 
@@ -67,7 +67,5 @@ II. [Restore](/md/backup.md#ii-restore)
 > ## ❗ ONLY FLASH YOUR OWN FIRMWARE OR THE FIRMWARE PROVIDED IN THE GUIDE (exclude `cdt_engineering` AND `opporeserve2` for those)
 
 ###### There is NO WARRANTY, to the extent permitted by law.
-
 ###### Guide and Wiki (c) by @driedpampas, 2023-2024
-
 ###### backup.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
