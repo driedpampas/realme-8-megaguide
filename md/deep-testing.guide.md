@@ -21,11 +21,10 @@ I. [Unlocking the bootloader](/md/w-deep-testing.guide.md#i-unlocking)
 III. [Installing a Custom ROM](/md/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
 IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)  
 * * *
-# 0. Back up your system partitions
 
+# 0. Back up your system partitions
 > [!CAUTION]
->
-> # HAVE YOU BACKED UP ALREADY? IF NOT FOLLOW THE [Backup guide (in wiki)](https://github.com/driedpampas/realme-8-megaguide/wiki/Back-up-your-data)
+> # HAVE YOU BACKED UP ALREADY? IF NOT FOLLOW THE [Backup guide](/md/backup.md)
 
 # I. Unlocking
 
