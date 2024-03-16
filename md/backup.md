@@ -1,4 +1,4 @@
-# This method makes a _firmware_ backup in case there is a need for restore or the system is bricked.
+# This method makes a _firmware_ backup in case IMEI is erased or system is bricked.
 
 > [!WARNING]
 >
