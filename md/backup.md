@@ -40,7 +40,7 @@ II. [Restore](/md/backup.md#ii-restore)
 
 1. Prepare a folder in which to store backed up partitions. For this example we'll use `firmware-backup`.
 
-2. Turn your phone off, hold both volume buttons, run this command `python mtk rl --skip userdata "firmware-backup"` and connect your phone to your computer.
+2. Turn your phone off, hold both volume buttons, run this command `python mtk rl --skip userdata,super "firmware-backup"` and connect your phone to your computer.
 
 ![](https://i.imgur.com/wBPSBxg.png)
 
@@ -58,7 +58,9 @@ II. [Restore](/md/backup.md#ii-restore)
 
 # II. Restore
 
-## To flash the entire backup back to your device use `python mtk wl (folder name)` in a command prompt. To only flash some files use `python mtk w (partition) (file name)`.
+1. Flash a firmmware package (example: [C.18](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link))
+
+2. Run `python mtk wl (folder name)` in a command prompt. (To only flash some files use `python mtk w (partition) (file name)`)
 
 > [!CAUTION]
 >
