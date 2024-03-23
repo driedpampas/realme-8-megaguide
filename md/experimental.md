@@ -95,6 +95,7 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
+
 ## 4. Upgrade to RealmeUI 3
 
 1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
@@ -132,24 +133,7 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 
 * * *
  
-# II. Patching `lk`- getting fastboot access and removing dm-verity and orange state warnings
-> [!NOTE]
-> ### ❕ SKIP ONLY IF you unlocked with DEEP TESTING
 
-1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-2. Open the console again in `MTK Client` folder
-   <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
-3. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
-4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
-	<p align="center"><img src="https://i.imgur.com/gL4Qpc2.png"></p>
-5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
-	<p align="center"><img src="https://i.imgur.com/HOve3Mv.png"></p>
-6. Run command `python mtk w lk lk-patched.bin`<br><br>
-
-> [!IMPORTANT]
-> ### Check [Manual patching](https://github.com/driedpampas/realme-8-megaguide/wiki/Patching-LK-(alternative-method)) if you have issues with the website
-
-#### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
 * * *
 # III. Installing a Custom Recovery and ROM
 ## Go to [Custom ROM Guide](/md/custom-rom.mtk-guide.md)
