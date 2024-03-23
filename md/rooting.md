@@ -18,7 +18,7 @@
 1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Run `python mtk r boot boot.img`. Turn your device off, hold down both **Vol+, Vol-** and connect the device to the computer.
 3. A `boot.img` file will be created in the folder. Turn your device on and copy the file to it.
-4. Navigate to where you donwnloaded the Magisk Manager apk file and install it.
+4. Navigate to where you downloaded the Magisk Manager apk file and install it.
 5. Open Magisk Manager and click install next to `Magisk`.
 <p align="center"><img src="https://i.imgur.com/CAbHxPv.png" width=400></p>
 
@@ -65,3 +65,5 @@
 5. If you want to remove KernelSU root, extract the `custom-rom.zip` you downloaded to flash the ROM, find and move the `boot.img` to the folder where adb is and run these commands in a command prompt:
    - `adb reboot bootloader`
    - `fastboot flash boot boot.img`
+
+###### rooting.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
