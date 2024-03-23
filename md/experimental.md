@@ -1,19 +1,7 @@
-> [!Warning]
->
-> ## **Make sure to read and do all of the steps to avoid your device being bricked.**
-
-### Website: [Guide Online](dry.nl.eu.org/guide) 🥳 (includes wiki posts)
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
-### Already unlocked? Skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
-
-#### Disclaimer:
-
-- NO WARRANTY, as permitted by law.
-- Not supported: Windows 7 (old Python version) & RealmeUI 4 (lk method patched).
-
-### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
+#### Disclaimer: NO WARRANTY, as permitted by law.
 
 # Table of Contents
 
@@ -42,11 +30,11 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 
 ## Prerequisites
 
-|                                              Software                                               |                                              Drivers                                               |                                                  Firmware                                                   |
-| :-------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-|   [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)    | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) |
-|           [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)            |      [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi)      | [C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) |
-| [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) |                                                                                                    |
+| Software | Drivers | Firmware |
+| :------: | :-----: | :------: |
+| [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) |
+| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | [C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) |
+| [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) | |
 
 ## 1. Installing prerequisites
 
@@ -75,9 +63,10 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 | ------------------------------- | ---------------------------------------- |
 | <img src="https://i.imgur.com/9Kp65P7.png" width="150"> | <img src="https://i.imgur.com/S6XOitJ.png" width="150"> |
 
-</div><br>
+</div>  
 
-> [!CAUTION] 9. Remember to have **`Download Only`** mode or **you will lose critical partitions**.
+> [!CAUTION] 
+> 9. Remember to have **`Download Only`** mode or **you will lose critical partitions**.
 
    <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
@@ -136,19 +125,11 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
 > [!IMPORTANT]
->
 > ## Only continue after updating to / flashing RUI3 C.18
 
 ---
 
-# II. Preparing for next step
-
-> [!TIP]
-> This method does not use fastboot. This means you will not have fastboot access at any point during this guide or in the future. We will focus on getting a custom recovery to boot and flash a CROM through it.
-
-## To boot into a custom recovery without fastboot access we'll root RealmeUI and use it to reboot to recovery. You will most likely need to re-root the custom rom to get recovery access.
-
-# III. Installing a Custom Recovery and ROM
+# II. Installing a Custom Recovery and ROM
 
 ## Prerequisites
 
@@ -174,12 +155,6 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 
 ## 2. Sideloading custom rom
 
-> [!TIP]
->
-> #### ⚠️ If switching between custom roms skip step 2.
->
-> #### ⚠️ If the required recovery has not changed you may skip step 3.
-
 1.  Open a command prompt window in the **platform-tools** folder.
 2.  **On your phone**, enable Developer Options and enable USB Debugging.
 3.  In the platform-tools folder open a command prompt and run `adb devices`. You will see `Allow USB Debugging for ...` on phone, check `Always allow...` and hit `Allow`.
@@ -196,19 +171,79 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 
 #### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
 
-9.  Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
+9.  Once finished, reboot to `system`. The phone will reboot into your Custom ROM.
 
 ---
 
-# IV. Rooting
+# III. Rooting
 
-## Go to [Rooting](/md/rooting.md)
+> [!IMPORTANT]
+>
+> ### Only use one method.
+>
+> | [Magisk](#with-magisk) | [KernelSU](#with-kernelsu) |
+> | :--------------------: | :------------------------: |
 
+# With Magisk
+### You will need
+
+| Software | APKs |
+| :------: | :--: |
+| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [Magisk Manager](https://github.com/topjohnwu/Magisk/releases/tag/v27.0) |
+| [platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) | |
+
+1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+2. Run `python mtk r boot boot.img`. Turn your device off, hold down both **Vol+, Vol-** and connect the device to the computer.
+3. A `boot.img` file will be created in the folder. Turn your device on and copy the file to it.
+4. Navigate to where you downloaded the Magisk Manager apk file and install it.
+5. Open Magisk Manager and click install next to `Magisk`.
+<p align="center"><img src="https://i.imgur.com/CAbHxPv.png" width=400></p>
+
+6. Select `Select and patch a file`. The file picker will open, Find and select the `boot.img` you extracted. Then tap `let's go`.
+<img src="https://i.imgur.com/4m7CJfB.png" height=131.830985915></p>
+
+7. When you see this screen, the patching is done and you will be given the path of the patched `.img file`. Copy that file to your computer in the `mtk-client` folder.  
+   ![](https://i.imgur.com/D9qyjbGm.png)
+
+8. In the `mtk-client` folder open a Command Prompt and run the command `python mtk w boot <<magisk patched file name.img>> `. After flashing run `python mtk reset`.
+11. The phone will restart and you are now rooted with Magisk!
+#### Note that you will get a prompt to reboot to finish the installation.
+
+### To remove Magisk root, select `Uninstall > Complete uninstall` in the Magisk Manager app.
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+# With KernelSU
+> [!WARNING]
+> #### ONLY WORKS ON CUSTOM ROMS
+
+> [!IMPORTANT]
+> #### If you keep your phone plugged in while rebooting when rooted with KSU it will bootloop and go to recovery. Unplug your phone before rebooting.
+
+### You will need
+
+> [!Tip]
+> #### Clicking on the zip file will redirect to another repo. Download any kernel zip ending in KernelSU-v{x.y.z}.zip
+> Refer to [Kernels](/kernels.md) for more info
+
+| ZIP | APKs |
+| :-: | :--: |
+| [KernelSU zip](https://github.com/HowWof/KernelSU_Builder/releases/latest) | [KSU manager APK](https://github.com/tiann/KernelSU/releases/download/v0.7.6/KernelSU_v0.7.6_11458-release.apk) |
+
+1.  ### You need to be in recovery mode; run `adb reboot recovery`
+2.  In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
+
+### If you get a "Signature verification error" continue anyways, the package will still flash, this goes the same to any other ZIPs you flash.
+
+3. When completed tap `Reboot system now`. Your phone will restart. Navigate to where you donwnloaded the KernelSu Manager apk file and install it.
+4. The app should show like this indicating thaat everything has been done correctly:
+<p align="center"><img src="https://i.imgur.com/XhOFSXP.png" height="700"></p>
+
+### If you want to remove KernelSU root:
+   - extract the `custom-rom.zip` you downloaded to flash the ROM, find and move the `boot.img` to the `mtk-client` folder
+   - make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
+   - run `python mtk w boot boot.img` then `python mtk reset`. The phone will restart and you are now unrooted.
 ---
 
 ## More in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
-
----
 
 ###### There is NO WARRANTY, to the extent permitted by law.
 ###### Guide and Wiki (c) by @driedpampas, 2023-2024

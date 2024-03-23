@@ -28,7 +28,7 @@
 7. When you see this screen, the patching is done and you will be given the path of the patched `.img file`. Copy that file to your computer in the `platform-tools` folder.  
    ![](https://i.imgur.com/D9qyjbGm.png)
 
-8. Connect your pphone to your computer and enable usb debugging on your phone 
+8. Connect your phone to your computer and enable usb debugging on your phone 
 9. In the `platform-tools` folder open a Command Prompt and run the command `adb devices`. Accept USB Debugging on your phone and run `adb reboot bootloader`. The phone will reboot to a `fastboot_unlock_verify ok` screen.
 10. Now in the cmd run the command `fastboot flash boot <<type magisk patched file name.img>>` and hit Enter. Once successfully transferred, run `fastboot reboot`
 11. The phone will restart and you are now rooted with Magisk!
