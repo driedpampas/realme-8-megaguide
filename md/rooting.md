@@ -51,7 +51,7 @@
 
 | ZIP | APKs |
 | :-: | :--: |
-| [KernelSU zip](https://github.com/HowWof/KernelSU_Builder/releases/latest) | [KSU manager APK](https://github.com/tiann/KernelSU/releases/download/v0.7.6/KernelSU_v0.7.6_11458-release.apk) |
+| [KernelSU zip](https://github.com/HowWof/KernelSU_Builder/releases/latest) | [KSU manager APK](https://github.com/tiann/KernelSU/releases/download/v0.9.2/KernelSU_v0.9.2_11682-release.apk) |
 
 1.  ### You need to be in recovery mode; run `adb reboot recovery`
 2.  In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
