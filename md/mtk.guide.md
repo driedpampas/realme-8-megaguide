@@ -14,17 +14,17 @@
 ### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
 
 # Table of Contents
-0. [Back up](/md/mtk-guide.md#0-back-up-your-data)
+0. [Back up](/md/mtk.guide.md#0-back-up-your-data)
 
-I. [Unlocking the bootloader](/md/mtk-guide.md#i-unlocking)
-1. [Installing Prerequisites](/md/mtk-guide.md#1-installing-prerequisites)
-2. [Downgrade to RUI2](/md/mtk-guide.md#2-downgrade-to-rui2)
-3. [Unlocking the bootloader](/md/mtk-guide.md#3-unlocking-the-bootloader)
-4. [Upgrade to RealmeUI 3](/md/mtk-guide.md#4-upgrade-to-realmeui-3)
+I. [Unlocking the bootloader](/md/mtk.guide.md#i-unlocking)
+1. [Installing Prerequisites](/md/mtk.guide.md#1-installing-prerequisites)
+2. [Downgrade to RUI2](/md/mtk.guide.md#2-downgrade-to-rui2)
+3. [Unlocking the bootloader](/md/mtk.guide.md#3-unlocking-the-bootloader)
+4. [Upgrade to RealmeUI 3](/md/mtk.guide.md#4-upgrade-to-realmeui-3)
 
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/md/mtk-guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
-III. [Installing a Custom ROM](/md/mtk-guide.md#iii-installing-a-custom-recovery-and-rom)  
-IV. [Rooting](/md/mtk-guide.md#iv-rooting)  
+II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/md/mtk.guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
+III. [Installing a Custom ROM](/md/mtk.guide.md#iii-installing-a-custom-recovery-and-rom)  
+IV. [Rooting](/md/mtk.guide.md#iv-rooting)  
 
 * * *
 
@@ -152,7 +152,7 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 #### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
 * * *
 # III. Installing a Custom Recovery and ROM
-## Go to [Custom ROM Guide](/md/custom-rom.mtk-guide.md)
+## Go to [Custom ROM Guide](/md/custom-rom.guide.md)
 * * *
 # IV. Rooting 
 ## Go to [Rooting](/md/rooting.md)  
