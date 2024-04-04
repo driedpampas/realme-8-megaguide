@@ -1,4 +1,5 @@
-![](https://repository-images.githubusercontent.com/673466903/8e5d0af8-1861-46dd-8358-2e3374654cfe)
+[//]: # "![](https://repository-images.githubusercontent.com/673466903/8e5d0af8-1861-46dd-8358-2e3374654cfe)"
+![](https://repository-images.githubusercontent.com/673466903/130160f7-3f55-45a8-9fec-bb79e0763082)
 
 ###### Version 10.02.24 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
@@ -35,7 +36,7 @@
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)  
 > [Magisk Developers & Contributors](https://github.com/topjohnwu/Magisk)  
 > [KernelSU Developers & Contributors](https://github.com/tiann/KernelSU)  
-> Banner made with [Canva](https://canva.com) - Refer to [Canva's CLA](https://www.canva.com/policies/content-license-agreement/) for more info  
+> Banner made by [Adi](t.me/adiLohar) in [ibisPaint X](https://ibispaint.com/product.jsp)  
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)  
 
 > Support in: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
