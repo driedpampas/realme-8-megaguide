@@ -42,13 +42,19 @@ IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
+
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this:
 <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
+
 4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable. You will see something like this:
 <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
+
 5. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe`
+
 6. Click on `Options > Option...` and make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
+
 <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
+
 7. Get [C.11 Firmware](https://drive.google.com/file/d/192KboBbW1eXzb6DWVlGAkGE-PEcgnHBJ/view?usp=sharing) and unpack it
 8. Load `MT6785_Android_scatter.txt` from the firmware's folder
    <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
@@ -69,8 +75,10 @@ IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
+
 11. If everything goes well, it should look like this
 <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p><br>
+
 12. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
 ## 3. Unlocking the bootloader with Deep Testing
@@ -108,6 +116,7 @@ IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) and unpack it
 10. Load `MT6785_Android_scatter.txt` from SG's firmware
 <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
+
 11. Remember to have `Download Only` mode
    <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
