@@ -3,20 +3,24 @@
 
 #### Disclaimer: NO WARRANTY, as permitted by law.
 
+> [!CAUTION]
+> # This is an experimental guide. If you are a normal user please go to [Landing page](/md/landing.md).
+
+* * *
 # Table of Contents
 
-0. [Back up](/md/mtk-guide.md#0-back-up-your-data)
+0. [Back up](/md/experimental.md#0-back-up-your-data)
 
-I. [Unlocking the bootloader](/md/mtk-guide.md#i-unlocking)
+I. [Unlocking the bootloader](/md/experimental.md#i-unlocking)
 
-1. [Installing Prerequisites](/md/mtk-guide.md#1-installing-prerequisites)
-2. [Downgrade to RUI2](/md/mtk-guide.md#2-downgrade-to-rui2)
-3. [Unlocking the bootloader](/md/mtk-guide.md#3-unlocking-the-bootloader)
-4. [Upgrade to RealmeUI 3](/md/mtk-guide.md#4-upgrade-to-realmeui-3)
+1. [Installing Prerequisites](/md/experimental.md#1-installing-prerequisites)
+2. [Downgrade to RUI2](/md/experimental.md#2-downgrade-to-rui2)
+3. [Unlocking the bootloader](/md/experimental.md#3-unlocking-the-bootloader)
+4. [Upgrade to RealmeUI 3](/md/experimental.md#4-upgrade-to-realmeui-3)
 
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/md/mtk-guide.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
-III. [Installing a Custom ROM](/md/mtk-guide.md#iii-installing-a-custom-recovery-and-rom)  
-IV. [Rooting](/md/mtk-guide.md#iv-rooting)
+II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/md/experimental.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
+III. [Installing a Custom ROM](/md/experimental.md#iii-installing-a-custom-recovery-and-rom)  
+IV. [Rooting](/md/experimental.md#iv-rooting)
 
 ---
 
@@ -247,4 +251,4 @@ IV. [Rooting](/md/mtk-guide.md#iv-rooting)
 
 ###### There is NO WARRANTY, to the extent permitted by law.
 ###### Guide and Wiki (c) by @driedpampas, 2023-2024
-###### mtk-guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### experimental.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
