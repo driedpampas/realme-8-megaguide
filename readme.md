@@ -36,7 +36,7 @@
 > [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)  
 > [Magisk Developers & Contributors](https://github.com/topjohnwu/Magisk)  
 > [KernelSU Developers & Contributors](https://github.com/tiann/KernelSU)  
-> Banner made by [Adi](t.me/adiLohar) in [ibisPaint X](https://ibispaint.com/product.jsp)  
+> Banner made by [Adi](https://youtube.com/@WDableu) in [ibisPaint X](https://ibispaint.com/product.jsp)  
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)  
 
 > Support in: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
