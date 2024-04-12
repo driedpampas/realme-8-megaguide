@@ -10,6 +10,6 @@
 
 * * *
 
-## [Experimental](/md/experimental.md) (do not use if you are a normal user)
+### [Experimental](/md/experimental.md) (do not use if you are a normal user)
 
 ###### landing.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
