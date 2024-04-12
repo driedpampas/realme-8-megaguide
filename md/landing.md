@@ -8,4 +8,6 @@
 # Lock:
 ## [Lock and revert guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Reverting) - redirects to wiki page
 
+## [Experimental](/md/experimental.md) (do not use if you are a normal user)
+
 ###### landing.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
