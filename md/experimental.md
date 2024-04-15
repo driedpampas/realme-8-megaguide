@@ -1,6 +1,3 @@
-
-### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
-
 #### Disclaimer: NO WARRANTY, as permitted by law.
 
 > [!CAUTION]
