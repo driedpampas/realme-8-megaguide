@@ -5,11 +5,11 @@
 # Start here: [Backing up](/md/backup.md)
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
-* * *
-#### more ai-translated versions maybe coming soon™️? 
-| Ai translated versions | Coming soon/Requests |
-| :--------------------: | :------------------: |
-| [hindi](https://github.com/driedpampas/realme-8-megaguide/tree/hi) | 🤫🤫🤫 |
+[//]: # "* * *"
+[//]: # "#### more ai-translated versions maybe coming soon™️?"
+[//]: # "| Ai translated versions | Coming soon/Requests |"
+[//]: # "| :--------------------: | :------------------: |"
+[//]: # "| [hindi](https://github.com/driedpampas/realme-8-megaguide/tree/hi) | 🤫🤫🤫 |"
 
 <a href="https://star-history.com/#driedpampas/realme-8-megaguide&Date">
   <picture>
@@ -42,4 +42,12 @@
  
 Witten by [me](https://dry.nl.eu.org/links) with 🫶.
 
-###### readme.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+All content (c) by [@driedpampas](https://dry.nl.eu.org/links) unless specified otherwise above.
+
+realme-8-megaguide is licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see <https://creativecommons.org/licenses/by-nc-sa/4.0/>.
+
+###### readme.md | Licensed under CC-BY-NC-SA 4.0 — check [license](/LICENSE) for more information.
