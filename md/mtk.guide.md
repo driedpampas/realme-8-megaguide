@@ -7,9 +7,8 @@
 
 #### Disclaimer:
 - NO WARRANTY, as permitted by law.
-- Not supported: Windows 7 (old Python version) & RealmeUI 4.
-
-### WARNING: RUI4 disables fastboot access if previously unlocked; upgrade to RUI3 until resolved.
+- Windows 7 is not supported.
+### If you are on RUI4 please update to F.09 or F.10 to ensure LKPatcher compatibility.
 
 # Table of Contents
 0. [Back up](/md/mtk.guide.md#0-back-up-your-data)

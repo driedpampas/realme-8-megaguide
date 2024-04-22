@@ -3,7 +3,7 @@
 
 # Unlock:
 ## [Deep testing](/md/deep-testing.guide.md) (*recommended*) - will work until the servers get shut down
-## [MTK client](/md/mtk.guide.md) - works no matter what | RUI4 is not supported
+## [MTK client](/md/mtk.guide.md) - works no matter what
 
 # Lock:
 ## [Lock and revert guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Reverting) - redirects to wiki page
