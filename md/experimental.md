@@ -46,13 +46,17 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
+
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this:
 <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
+
 4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable. You will see something like this:
 <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
+
 5. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe`
 6. Click on `Options > Option...` and make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
 <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
+
 7. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
 8. Load `scatter.txt` from Haadi's Firmware
 <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
@@ -73,8 +77,10 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
 
 10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
 <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
+
 11. If everything goes well, it should look like this
 <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p><br>
+
 12. Before doing anything, we'll **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
 
 ## 3. Unlocking the bootloader
@@ -118,6 +124,7 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
 
 12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.18 on your phone, click `Download`. [**No progress? Click me**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)
 <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
+
 13. If everything goes well, it should look like this:
 <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p>
 
@@ -172,7 +179,7 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
 
 #### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
 
-9.  Once finished, reboot to `system`. The phone will reboot into your Custom ROM.
+8.  Once finished, reboot to `system`. The phone will reboot into your Custom ROM.
 
 ---
 
@@ -207,7 +214,7 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
    ![](https://i.imgur.com/D9qyjbGm.png)
 
 8. In the `mtk-client` folder open a Command Prompt and run the command `python mtk w boot <<magisk patched file name.img>> `. After flashing run `python mtk reset`.
-11. The phone will restart and you are now rooted with Magisk!
+9. The phone will restart and you are now rooted with Magisk!
 #### Note that you will get a prompt to reboot to finish the installation.
 
 ### To remove Magisk root, select `Uninstall > Complete uninstall` in the Magisk Manager app.
