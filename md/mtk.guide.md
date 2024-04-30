@@ -3,7 +3,7 @@
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
-### Already unlocked? Skip to [Installing a Custom recovery and ROM](#iii-installing--a-custom-recovery-and-rom)
+### Already unlocked? Skip to [Installing a Custom recovery and ROM](/md/custom-rom.guide.md)
 
 #### Disclaimer:
 - NO WARRANTY, as permitted by law.
