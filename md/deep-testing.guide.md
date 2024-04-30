@@ -1,3 +1,14 @@
+> [!Warning]
+> ## **Make sure to read and do all of the steps to avoid your device being bricked.**
+
+### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
+
+### Already unlocked? Skip to [Installing a Custom recovery and ROM](/md/custom-rom.guide.md)
+
+#### Disclaimer:
+- NO WARRANTY, as permitted by law.
+- Windows 7 is not supported.
+
 ## Prerequisites
 
 | Software | Drivers | Firmware | APKs |
