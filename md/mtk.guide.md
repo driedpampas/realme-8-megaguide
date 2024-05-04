@@ -19,7 +19,7 @@ I. [Unlocking the bootloader](/md/mtk.guide.md#i-unlocking)
 3. [Unlocking the bootloader](/md/mtk.guide.md#3-unlocking-the-bootloader)
 4. [Upgrade to RealmeUI 3](/md/mtk.guide.md#4-upgrade-to-realmeui-3)
 
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/md/mtk.guide.md#ii-patching-lk---qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
+II. [Patching `lk`](/md/mtk.guide.md#ii-patching-lk)  
 III. [Installing a Custom ROM](/md/mtk.guide.md#iii-installing-a-custom-recovery-and-rom)  
 IV. [Rooting](/md/mtk.guide.md#iv-rooting)  
 
@@ -129,9 +129,10 @@ IV. [Rooting](/md/mtk.guide.md#iv-rooting)
 
 * * *
  
-# II. Patching `lk`- getting fastboot access and removing dm-verity and orange state warnings
-> [!NOTE]
-> ### ❕ SKIP ONLY IF you unlocked with DEEP TESTING
+# II. Patching `lk`
+
+> [!warning]
+> ## This is necessary for getting fastboot access and removing dm-verity and orange state warnings
 
 1. Go back to the [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 2. Open the console again in `MTK Client` folder
