@@ -29,8 +29,8 @@ I. [Unlocking the bootloader](/md/w-deep-testing.guide.md#i-unlocking)
 3. [Unlocking the bootloader](/md/w-deep-testing.guide.md#3-unlocking-the-bootloader)
 4. [Upgrade to RealmeUI 3](/md/w-deep-testing.guide.md#4-upgrade-to-realmeui-3)
 
-III. [Installing a Custom ROM](/md/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
-IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)  
+II. [Installing a Custom ROM](/md/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
+III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)  
 * * *
 
 # 0. Back up your system partitions
@@ -142,68 +142,9 @@ IV. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 > [!IMPORTANT]
 > ## Only continue after updating to / flashing RUI3 C.18
-
----
-
+* * *
 # III. Installing a Custom Recovery and ROM
-
-## Prerequisites
-
-- [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) - you will get an error `fastboot: usage: unknown reboot target recovery` if you use old platform-tools
-- [QcomMtk-Driver](https://www.mediafire.com/file/nninaiiqy1e5csa/New+QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe) - driver
-- ❗️ If you get an error: `fastboot: usage: unknown reboot target recovery` try this adb installer [ADB and Fastboot ++](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/releases/download/v1.0.8/ADB-and-Fastboot++_v1.0.8.exe)
-- only flash once (you should not need to reflash it) - [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) - vbmeta.img file
-- a custom rom package - check out the [Telegram group](https://t.me/Realme8AOSPGroup) for ROMs
-- GAPPS package - recommended [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716)
-
-## check [recoveries page](/md/recovery.md) for recovery images
-
-> [!TIP]
->
-> #### ⚠️ If switching between custom roms skip step 2.
->
-> #### ⚠️ If the required recovery has not changed you may skip step 3.
-
-1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-   <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
-3. Send the payload with `python mtk payload`. It should look like this:
-   <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
-4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
-5. MTK Client should output something like this:
-   <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
-6. Now run `pythoon mtk w recovery recovery.img` to flash the recovery.
-7. Run `python mtk w vbmeta vbmeta.img` to flash the vbmeta.
-8. Run `python mtk reset` and your phone will reboot. Click the power button to continue after dm-verity, then hold the power button until your phone resets. Watch the lower-left corner of the screen for when it reboots to recovery mode. 
-
-
-
-1.  Move the `recovery.img` and `vbmeta.img` files to the **mtk** folder.
-2.  Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show
-<p align="center"><img src="https://i.imgur.com/MZZyTBc.png"></p>
-
-3.  Run the command `fastboot flash recovery recovery.img`:
-<p align="center"><img src="https://i.imgur.com/t7wYi3R.png"></p>
-
-#### The phone should show `USB Transmission ok`
-
-4.  Now, reboot to recovery mode with the command `fastboot reboot recovery`
-<p align="center"><img src="https://i.imgur.com/1zwXUmj.png"></p>
-
-5.  In recovery, go to `Factory reset > Format data/factory reset > Format data`. **After** factory reset go back and select `Apply update > Apply from ADB`. You should see this when running `adb devices`:
-<p align="center"><img src="https://i.imgur.com/MoiIS9k.png"></p>
-
-6.  Now run the command `adb sideload custom-rom.zip` (replace _custom-rom.zip_ with custom rom package name). For example I flashed LeafOS 2:
-<p align="center"><img src="https://i.imgur.com/QZqi1e1.png"></p>
-
-7.  **ONLY** do this step on custom roms **WIHTOUT GAPPS / GMS** (check the rom's description to check). Select `Apply update > Apply from ADB` again and run `adb sideload gapps.zip` (replace _gapps.zip_ with package name).
-<p align="center"><img src="https://i.imgur.com/DUEMXrn.png"></p>
-
-#### If you get a "Signature verification error" on your phone, click `Yes` to continue anyways, this goes the same to any other ZIPs you flash.
-
-9.  Once finished, in the recovery go back to `Reboot system now`. The phone will reboot into your Custom ROM.
-
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
+## Go to [Custom ROM Guide](/md/custom-rom.guide.md)
 * * *
 # IV. Rooting 
 ## Go to [Rooting](/md/rooting.md) 
