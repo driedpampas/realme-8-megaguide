@@ -59,6 +59,4 @@
 
 ### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
 
-###### There is NO WARRANTY, to the extent permitted by law.
-###### Guide and Wiki (c) by @driedpampas, 2023-2024
 ###### custom-rom.guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.

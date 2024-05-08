@@ -3,6 +3,9 @@
 > [!CAUTION]
 > # This is an experimental guide. If you are a normal user please go to [Landing page](/md/landing.md).
 
+> [!INFO]
+> This guide completely ommits fastboot access. This is not recommended unless as the last-resort of last-resorts.
+
 * * *
 # Table of Contents
 
@@ -253,6 +256,4 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
 
 ## More in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
-###### There is NO WARRANTY, to the extent permitted by law.
-###### Guide and Wiki (c) by @driedpampas, 2023-2024
 ###### experimental.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.

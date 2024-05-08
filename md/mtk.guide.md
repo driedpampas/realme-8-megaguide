@@ -140,7 +140,7 @@ IV. [Rooting](/md/mtk.guide.md#iv-rooting)
 3. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 	<p align="center"><img src="https://i.imgur.com/gL4Qpc2.png"></p>
-5. Go to this [website](https://lkpatcher.r0rt1z2.com/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
+5. Go to this [website](http://lkpatcher.cxwof.dev/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
 	<p align="center"><img src="https://i.imgur.com/HOve3Mv.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
@@ -159,6 +159,4 @@ IV. [Rooting](/md/mtk.guide.md#iv-rooting)
 
 * * *
 
-###### There is NO WARRANTY, to the extent permitted by law.
-###### Guide and Wiki (c) by @driedpampas, 2023-2024
 ###### mtk-guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
