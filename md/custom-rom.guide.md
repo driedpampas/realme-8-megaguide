@@ -11,7 +11,8 @@
 
 | Custom ROM | GApps Package | Recovery |
 | :--------: | :-----------: | :------: |
-| check out the [Telegram group](https://t.me/Realme8AOSPGroup) | [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716) | [recoveries page](/md/recovery.md) |
+| new website: [Click here](https://realme8.dry.nl.eu.org) | Check for recommended GAPPS when downloading a rom! | also on the [new website](https://realme8.dry.nl.eu.org/Recoveries) |
+| check out the [Telegram group](https://t.me/Realme8AOSPGroup) | [MindTheGApps A13](https://androidfilehost.com/?fid=4279422670115734716) | [recoveries page](/md/recovery.md) |
 
 ## 1. Rebooting to fastboot
 
