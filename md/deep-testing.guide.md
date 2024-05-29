@@ -13,9 +13,9 @@
 
 | Software | Drivers | Firmware | APKs |
 | :------: | :-----: | :------: | :--: |
-| [Python](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [C.11 Firmware](https://drive.google.com/file/d/192KboBbW1eXzb6DWVlGAkGE-PEcgnHBJ/view?usp=sharing) | [Deep Testing](https://drive.google.com/file/d/1pESMmJef6Gm9YlJAE7OA_DDNnhFn3Jpz/view?usp=sharing) |
-| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | [C.18 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) |
-| [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) | |
+| [Python](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [C.18 Firmware](https://pixeldrain.com/u/29GRJJA6) | [Deep Testing](https://drive.google.com/file/d/1pESMmJef6Gm9YlJAE7OA_DDNnhFn3Jpz/view?usp=sharing) |
+| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | |
+| [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) |
 | [adb tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) |
 
 # Table of Contents
@@ -25,9 +25,8 @@
 I. [Unlocking the bootloader](/md/w-deep-testing.guide.md#i-unlocking)
 
 1. [Installing Prerequisites](/md/w-deep-testing.guide.md#1-installing-prerequisites)
-2. [Flash RUI3 C.11](/md/w-deep-testing.guide.md#2-flash-rui3-c11)
+2. [Flashing RUI3 C.18](/md/w-deep-testing.guide.md#2-flash-rui3-c18)
 3. [Unlocking the bootloader](/md/w-deep-testing.guide.md#3-unlocking-the-bootloader)
-4. [Upgrade to RealmeUI 3](/md/w-deep-testing.guide.md#4-upgrade-to-realmeui-3)
 
 II. [Installing a Custom ROM](/md/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
 III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)  
@@ -48,7 +47,7 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 2. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
 3. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 
-## 2. Flash RUI3 C.11
+## 2. Flash RUI3 C.18
 
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
@@ -66,25 +65,16 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 
-7. Get [C.11 Firmware](https://drive.google.com/file/d/192KboBbW1eXzb6DWVlGAkGE-PEcgnHBJ/view?usp=sharing) and unpack it
+7. Get [C.18 Firmware](https://pixeldrain.com/u/29GRJJA6) and unpack it
 8. Load `MT6785_Android_scatter.txt` from the firmware's folder
    <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
-
-<div align="center">
-	<p><img src="https://i.imgur.com/sYaIBIN.png"></p><p>Remember to uncheck:</p>
-	
-| opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
-| ------------------------------- | ---------------------------------------- |
-| <img src="https://i.imgur.com/9Kp65P7.png" width="150"> | <img src="https://i.imgur.com/S6XOitJ.png" width="150"> |
-
-</div><br>
 
 > [!CAUTION] 
 > 9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
 
 <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
-10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
+10. This process will take up to 15-20 minutes. To begin, click `Download` ([**No progress? Click me**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)). Make sure to not disconnect your phone.
 <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
 
 11. If everything goes well, it should look like this
@@ -108,40 +98,6 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 5. Press `Volume up` and the bootloader will be unlocked.
 
-## 4. Upgrade to RealmeUI 3 C.18
-
-### Either use below steps or update with settings ONLY TO C.18
-
-1. Go back to the folder of [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console again in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
-   <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
-3. Send the payload with `python mtk payload`. It should look like this:
-   <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
-4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
-5. MTK Client should output something like this:
-   <p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
-6. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) [flash_tool.exe]
-7. Click on `Options > Option...`
-8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
-   <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
-9. Get [SG's C.18 RUI3 Firmware](https://drive.google.com/file/d/1YHSIr4itg_5dPE2IbWAH9N8g6L5CGmaG/view?usp=drive_link) and unpack it
-10. Load `MT6785_Android_scatter.txt` from SG's firmware
-<p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
-
-11. Remember to have `Download Only` mode
-   <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
-
-12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes. To get C.18 on your phone, click `Download`. [**No progress? Click me**](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ)
-   <p align="center"><img src="https://i.imgur.com/uSXflCJ.png" width="300"></p>
-13. If everything goes well, it should look like this:
-   <p align="center"><img src="https://i.imgur.com/qeJWt3a.png" width="200"></p>
-
-### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ) if something does not work or you have questions
-
-14. Before continuing, you'll need to **WIPE the phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then select **Format Data**.
-
-> [!IMPORTANT]
-> ## Only continue after updating to / flashing RUI3 C.18
 * * *
 # III. Installing a Custom Recovery and ROM
 ## Go to [Custom ROM Guide](/md/custom-rom.guide.md)
@@ -149,4 +105,4 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 # IV. Rooting 
 ## Go to [Rooting](/md/rooting.md) 
 
-###### w-deep-testing.guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### deep-testing.guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
