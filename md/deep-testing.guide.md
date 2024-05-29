@@ -13,7 +13,7 @@
 
 | Software | Drivers | Firmware | APKs |
 | :------: | :-----: | :------: | :--: |
-| [Python](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [C.18 Firmware](https://pixeldrain.com/u/29GRJJA6) | [Deep Testing](https://drive.google.com/file/d/1pESMmJef6Gm9YlJAE7OA_DDNnhFn3Jpz/view?usp=sharing) |
+| [Python](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [C.18 Firmware](https://drive.google.com/uc?id=1MPLnD4ofrW50u8V4C5I5srGucHJg60XW&export=download) | [Deep Testing](https://drive.google.com/file/d/1pESMmJef6Gm9YlJAE7OA_DDNnhFn3Jpz/view?usp=sharing) |
 | [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | |
 | [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) |
 | [adb tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) |
@@ -65,7 +65,7 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 <p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 
-7. Get [C.18 Firmware](https://pixeldrain.com/u/29GRJJA6) and unpack it
+7. Get [C.18 Firmware](https://drive.google.com/uc?id=1MPLnD4ofrW50u8V4C5I5srGucHJg60XW&export=download) and unpack it
 8. Load `MT6785_Android_scatter.txt` from the firmware's folder
    <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
 
