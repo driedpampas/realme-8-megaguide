@@ -3,7 +3,7 @@
 
 # Unlock:
 ## [Deep testing](/md/deep-testing.guide.md) (*recommended*) - dependent on Realme's servers
-## [MTK client](/md/mtk.guide.md) - works no matter what
+## [MTK client - linux](/linux/mtk.guide.md) || [MTK client - Windows](/win/mtk.guide.md) - works no matter what
 
 # Lock:
 ## [Lock and revert guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Reverting)
