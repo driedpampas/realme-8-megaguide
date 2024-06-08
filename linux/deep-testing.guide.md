@@ -3,7 +3,7 @@
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
-### Already unlocked? Skip to [Installing a Custom recovery and ROM](/md/custom-rom.guide.md)
+### Already unlocked? Skip to [Installing a Custom recovery and ROM](/common/custom-rom.guide.md)
 
 #### Disclaimer:
 - NO WARRANTY, as permitted by law.
@@ -20,16 +20,16 @@
 
 # Table of Contents
 
-0. [Back up](/md/w-deep-testing.guide.md#0-back-up-your-data)
+0. [Back up](/linux/deep-testing.guide.md#0-back-up-your-data)
 
-I. [Unlocking the bootloader](/md/w-deep-testing.guide.md#i-unlocking)
+I. [Unlocking the bootloader](/linux/deep-testing.guide.md#i-unlocking)
 
-1. [Installing Prerequisites](/md/w-deep-testing.guide.md#1-installing-prerequisites)
-2. [Flashing RUI3 C.18](/md/w-deep-testing.guide.md#2-flash-rui3-c18)
-3. [Unlocking the bootloader](/md/w-deep-testing.guide.md#3-unlocking-the-bootloader)
+1. [Installing Prerequisites](/linux/deep-testing.guide.md#1-installing-prerequisites)
+2. [Flashing RUI3 C.18](/linux/deep-testing.guide.md#2-flash-rui3-c18)
+3. [Unlocking the bootloader](/linux/deep-testing.guide.md#3-unlocking-the-bootloader)
 
-II. [Installing a Custom ROM](/md/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
-III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)  
+II. [Installing a Custom ROM](/linux/deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
+III. [Rooting](/linux/deep-testing.guide.md#iv-rooting)  
 * * *
 
 # 0. Back up your system partitions
@@ -100,9 +100,9 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 * * *
 # III. Installing a Custom Recovery and ROM
-## Go to [Custom ROM Guide](/md/custom-rom.guide.md)
+## Go to [Custom ROM Guide](/common/custom-rom.guide.md)
 * * *
 # IV. Rooting 
-## Go to [Rooting](/md/rooting.md) 
+## Go to [Rooting](/common/rooting.md) 
 
 ###### deep-testing.guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.

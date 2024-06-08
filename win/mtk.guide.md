@@ -3,7 +3,7 @@
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
-### Already unlocked? Skip to [Installing a Custom recovery and ROM](/win/custom-rom.guide.md)
+### Already unlocked? Skip to [Installing a Custom recovery and ROM](/common/custom-rom.guide.md)
 
 #### Disclaimer:
 - NO WARRANTY, as permitted by law.
@@ -150,10 +150,10 @@ IV. [Rooting](/win/mtk.guide.md#iv-rooting)
 #### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
 * * *
 # III. Installing a Custom Recovery and ROM
-## Go to [Custom ROM Guide](/win/custom-rom.guide.md)
+## Go to [Custom ROM Guide](/common/custom-rom.guide.md)
 * * *
 # IV. Rooting 
-## Go to [Rooting](/win/rooting.md)  
+## Go to [Rooting](/common/rooting.md)  
 * * *
 ## More in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
 

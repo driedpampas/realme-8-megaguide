@@ -2,7 +2,7 @@
 ![](https://repository-images.githubusercontent.com/673466903/130160f7-3f55-45a8-9fec-bb79e0763082)
 ###### Version 04.04.24 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
-# Start here: [Backing up](/md/backup.md)
+# Start here: [Landing](/landing.md)
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 [//]: # "* * *"

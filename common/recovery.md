@@ -1,5 +1,7 @@
 # Recovery info page
 
+## (Check for downloads here)[https://realme8.dry.nl.eu.org/Recoveries]
+
 ## Custom recoveries  
 ###### first three were made by [AshBorn](https://github.com/RipperHybrid)
 

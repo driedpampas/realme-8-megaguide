@@ -1,7 +1,7 @@
 #### Disclaimer: NO WARRANTY, as permitted by law.
 
 > [!CAUTION]
-> # This is an experimental guide. If you are a normal user please go to [Landing page](/md/landing.md).
+> # This is an experimental guide. If you are a normal user please go to [Landing page](/common/landing.md).
 
 > [!INFO]
 > This guide completely ommits fastboot access. This is not recommended unless as the last-resort of last-resorts.
@@ -9,18 +9,18 @@
 * * *
 # Table of Contents
 
-0. [Back up](/md/experimental.md#0-back-up-your-data)
+0. [Back up](/common/experimental.md#0-back-up-your-data)
 
-I. [Unlocking the bootloader](/md/experimental.md#i-unlocking)
+I. [Unlocking the bootloader](/common/experimental.md#i-unlocking)
 
-1. [Installing Prerequisites](/md/experimental.md#1-installing-prerequisites)
-2. [Downgrade to RUI2](/md/experimental.md#2-downgrade-to-rui2)
-3. [Unlocking the bootloader](/md/experimental.md#3-unlocking-the-bootloader)
-4. [Upgrade to RealmeUI 3](/md/experimental.md#4-upgrade-to-realmeui-3)
+1. [Installing Prerequisites](/common/experimental.md#1-installing-prerequisites)
+2. [Downgrade to RUI2](/common/experimental.md#2-downgrade-to-rui2)
+3. [Unlocking the bootloader](/common/experimental.md#3-unlocking-the-bootloader)
+4. [Upgrade to RealmeUI 3](/common/experimental.md#4-upgrade-to-realmeui-3)
 
-II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/md/experimental.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
-III. [Installing a Custom ROM](/md/experimental.md#iii-installing-a-custom-recovery-and-rom)  
-IV. [Rooting](/md/experimental.md#iv-rooting)
+II. [Patching `lk` - qetting fastboot access and removing dm-verity and orange state](/common/experimental.md#ii-patching-lk--qetting-fastboot-access-and-removing-dm-verity-and-orange-state-warnings--skip-only-if-you-unlocked-with-deep-testing)  
+III. [Installing a Custom ROM](/common/experimental.md#iii-installing-a-custom-recovery-and-rom)  
+IV. [Rooting](/common/experimental.md#iv-rooting)
 
 ---
 
@@ -28,7 +28,7 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
 
 > [!CAUTION]
 >
-> # HAVE YOU BACKED UP ALREADY? IF NOT FOLLOW THE [Backup guide](/md/backup.md)
+> # HAVE YOU BACKED UP ALREADY? IF NOT FOLLOW THE [Backup guide](/common/backup.md)
 
 # I. Unlocking
 
@@ -150,7 +150,7 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
 
 | Custom ROM | GApps Package | Recovery |
 | :--------: | :-----------: | :------: |
-| check out the [Telegram group](https://t.me/Realme8AOSPGroup) | [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716) | [recoveries page](/md/recovery.md) |
+| check out the [Telegram group](https://t.me/Realme8AOSPGroup) | [MindTheGApps for Android 13](https://androidfilehost.com/?fid=4279422670115734716) | [recoveries page](/common/recovery.md) |
 
 ## 1. Installing custom recovery
 
@@ -161,7 +161,7 @@ IV. [Rooting](/md/experimental.md#iv-rooting)
    <p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
 4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 5. Run `python mtk w vbmeta vbmeta.img` to flash the vbmeta image.
-6. Run `python mtk w recovery recovery.img` to flash the custom recovery you downloaded from the [recoveries page](/md/recovery.md). Your phone might reset itself.
+6. Run `python mtk w recovery recovery.img` to flash the custom recovery you downloaded from the [recoveries page](/common/recovery.md). Your phone might reset itself.
 7. Run `python mtk reset`. After the phone reboots contiue to the next step.
 
 ## 2. Sideloading custom rom
