@@ -159,4 +159,4 @@ IV. [Rooting](/win/mtk.guide.md#iv-rooting)
 
 * * *
 
-###### mtk-guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### mtk-guide.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.

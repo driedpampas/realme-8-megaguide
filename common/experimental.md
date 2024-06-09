@@ -256,4 +256,4 @@ IV. [Rooting](/common/experimental.md#iv-rooting)
 
 ## More in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
-###### experimental.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### experimental.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.

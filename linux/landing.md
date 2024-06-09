@@ -10,6 +10,10 @@
 
 * * *
 
+# More:
+## [Flash Custom ROM & Recovery](/linux/custom-rom.guide.md)
+## [Root](/linux/rooting.md)
+
 #### [Experimental](/common/experimental.md) (do not use if you are a normal user)
 
-###### landing.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### landing.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.

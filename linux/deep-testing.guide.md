@@ -105,4 +105,4 @@ III. [Rooting](/linux/deep-testing.guide.md#iv-rooting)
 # IV. Rooting 
 ## Go to [Rooting](/common/rooting.md) 
 
-###### deep-testing.guide.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### deep-testing.guide.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.

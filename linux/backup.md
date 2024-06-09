@@ -10,8 +10,8 @@
 
 # Table of Contents
 
-I. [Backup](/md/backup.md#i-backup)  
-II. [Restore](/md/backup.md#ii-restore)
+I. [Backup](/linux/backup.md#i-backup)  
+II. [Restore](/linux/backup.md#ii-restore)
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ II. [Restore](/md/backup.md#ii-restore)
 
 ![](https://i.imgur.com/HL49pJa.png)
 
-# You are ready. Continue with the [GUIDE](/md/landing.md)
+# You are ready. Continue to [Landing](/linux/landing.md)
 
 ---
 
@@ -65,4 +65,4 @@ II. [Restore](/md/backup.md#ii-restore)
 >
 > ## ❗ ONLY FLASH YOUR OWN FIRMWARE OR THE FIRMWARE PROVIDED IN THE GUIDE (exclude `cdt_engineering` AND `opporeserve2` for those)
 
-###### backup.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### backup.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.

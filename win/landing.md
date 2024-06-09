@@ -10,4 +10,8 @@
 
 * * *
 
-###### landing.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+# More:
+## [Flash Custom ROM & Recovery](/win/custom-rom.guide.md)
+## [Root](/win/rooting.md)
+
+###### landing.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.

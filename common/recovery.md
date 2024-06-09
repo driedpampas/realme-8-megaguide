@@ -21,4 +21,4 @@
 | VoltageOS     | RUI 3, 4               | [Download](https://drive.google.com/file/d/1Kmml4urzwgiexMPDCOgggPooYRD_xE6e/view)       |
 | SparkOS       | RUI 3, 4               | [Download](https://drive.google.com/file/d/1kEUe9QnVFl3gw5GBfvOzbQ0kcZPsDb8e/view)       |
 
-###### recovery.md | Licensed under CC-BY-SA 4.0. Check [license](/LICENSE) for more information.
+###### recovery.md | Licensed under CC BY-NC-SA 4.0. Check [license](/LICENSE) for more information.

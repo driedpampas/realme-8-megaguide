@@ -12,10 +12,10 @@
 
 | Software | APKs |
 | :------: | :--: |
-| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [Magisk Manager](https://github.com/topjohnwu/Magisk/releases/tag/v27.0) |
+| [MTK Client](https://codeload.github.com/bkerler/mtkclient/zip/f9fe6ca65c93c2eb05adef7787069103c0d79763) | [Magisk Manager](https://github.com/topjohnwu/Magisk/releases/tag/v27.0) |
 | [platform-tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) | |
 
-1. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+1. Open the console in [MTK Client's](https://codeload.github.com/bkerler/mtkclient/zip/f9fe6ca65c93c2eb05adef7787069103c0d79763) folder
 2. Run `python mtk r boot boot.img`. Turn your device off, hold down both **Vol+, Vol-** and connect the device to the computer.
 3. A `boot.img` file will be created in the folder. Turn your device on and copy the file to it.
 4. Navigate to where you downloaded the Magisk Manager apk file and install it.
@@ -46,12 +46,11 @@
 ### You will need
 
 > [!Tip]
-> #### Clicking on the zip file will redirect to another repo. Download any kernel zip ending in KernelSU-v{x.y.z}.zip
-> Refer to [Kernels](/kernels.md) for more info
+> Refer to [Kernels](https://preview.realme8.dry.nl.eu.org/Kernels) for more info
 
 | ZIP | APKs |
 | :-: | :--: |
-| [KernelSU zip](https://github.com/HowWof/KernelSU_Builder/releases/latest) | [KSU manager APK](https://github.com/tiann/KernelSU/releases/download/v0.9.2/KernelSU_v0.9.2_11682-release.apk) |
+| [KernelSU zip](https://github.com/HowWof/KernelSU_Builder/releases/latest) | [KSU manager APK](https://github.com/tiann/KernelSU/releases/download/v1.0.0/KernelSU_v1.0.0_11874-release.apk) |
 
 1.  ### You need to be in recovery mode; run `adb reboot recovery`
 2.  In recovery select `Apply update > Apply from ADB` and run `adb sideload kernelsu.zip`.
@@ -66,4 +65,4 @@
    - `adb reboot bootloader`
    - `fastboot flash boot boot.img`
 
-###### rooting.md | Licensed under CC-BY-SA 4.0 — check [license](/LICENSE) for more information.
+###### rooting.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.
