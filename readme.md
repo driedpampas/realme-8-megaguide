@@ -1,6 +1,6 @@
 [//]: # "![](https://repository-images.githubusercontent.com/673466903/8e5d0af8-1861-46dd-8358-2e3374654cfe)"
 ![](https://repository-images.githubusercontent.com/673466903/130160f7-3f55-45a8-9fec-bb79e0763082)
-###### Version 04.04.24 feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
+###### Version 08.06.24 (commit e7c64a3) feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
 # Start here: [Landing](/landing.md)
 
