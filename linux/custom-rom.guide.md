@@ -3,9 +3,9 @@
 ## Prerequisites
 
 | Software | Images |
-| :------: | :-----: | :----: |
-| Please install from official software repositories before trying the manual download. [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) | [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) |
-| libusb ||
+| :------: | :-----: |
+| ADB (platform-tools) [latest platform-tools](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) | [vbmeta image](https://github.com/bengris32/releases/releases/download/arrow-1.1/vbmeta.img) |
+| libusb |
 
 | Custom ROM | GApps Package | Recovery |
 | :--------: | :-----------: | :------: |
