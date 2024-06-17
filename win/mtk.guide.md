@@ -56,7 +56,7 @@ IV. [Rooting](/win/mtk.guide.md#iv-rooting)
 8. Load `scatter.txt` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
 
-> [!CRITICAL]
+> [!IMPORTANT]
 > # Remember to uncheck:
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
 | --- | --- |
