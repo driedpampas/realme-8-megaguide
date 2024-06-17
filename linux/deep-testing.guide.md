@@ -40,17 +40,13 @@ III. [Rooting](/linux/deep-testing.guide.md#iv-rooting)
 
 ## 1. Installing prerequisites
 
-1. ### Mediatek USB
-   1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
-   2. Find the **.inf** file, right click and press install
-   <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
-2. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
-3. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
+1. Install `libusb`
+2. Verify that `python` installation is newer than **`3.9`**
 
 ## 2. Flash RUI3 C.18
 
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
-2. Open the console in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
+2. Open a terminal in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this:

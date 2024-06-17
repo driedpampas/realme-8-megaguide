@@ -39,7 +39,9 @@ IV. [Rooting](/linux/mtk.guide.md#iv-rooting)
 | [SP Flash tool](https://github.com/driedpampas/realme-8-megaguide/blob/main/linux/SP_Flash_Tool_v5.2044_Linux.tar.xz) | |
 
 ## 1. Installing prerequisites
-### Make sure Python is installed
+
+1. Install `libusb`
+2. Verify that `python` installation is newer than **`3.9`**
 
 ## 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
