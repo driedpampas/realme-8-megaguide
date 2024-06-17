@@ -24,12 +24,9 @@ II. [Restore](/linux/backup.md#ii-restore)
 ---
 
 # Installing prerequisites
-### Mediatek USB
-1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
-2. Find the **.inf** file, right click and press install
-   <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
-3. Install [USBDk](https://github.com/daynix/UsbDk/releases/)
-4. Download [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) and extract it. Then, run `pip3 install -r requirements.txt` in a Command Prompt to install all required dependencies
+
+1. Install `libusb`
+2. Verify that `python` installation is newer than **`3.9`**
 
 ---
 
