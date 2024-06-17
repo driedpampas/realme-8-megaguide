@@ -57,18 +57,15 @@ IV. [Rooting](/linux/mtk.guide.md#iv-rooting)
 7. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
 8. Load `scatter.txt` from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/VTwpXzC.png"></p>
-
-<div align="center">
-	<p><img src="https://i.imgur.com/sYaIBIN.png"></p><p>Remember to uncheck:</p>
 	
+> [!CRITICAL]
+> # Remember to uncheck:
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
-| ------------------------------- | ---------------------------------------- |
+| --- | --- |
 | <img src="https://i.imgur.com/9Kp65P7.png" width="150"> | <img src="https://i.imgur.com/S6XOitJ.png" width="150"> |
 
-</div><br>
-
 > [!CAUTION]
->  9. Remember to have **`Download Only`** mode or **you will lose critical partitions**.
+> # 9. Remember to have **`Download Only`** mode or _**you will lose critical partitions**_.
    <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
 
 10. Avoid moving your phone so as to not disconnect anything. This process will take up to 15-20 minutes. To get A.19 on your phone, click `Download`.
