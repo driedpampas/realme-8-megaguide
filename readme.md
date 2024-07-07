@@ -1,15 +1,9 @@
-[//]: # "![](https://repository-images.githubusercontent.com/673466903/8e5d0af8-1861-46dd-8358-2e3374654cfe)"
 ![](https://repository-images.githubusercontent.com/673466903/130160f7-3f55-45a8-9fec-bb79e0763082)
-###### Version 09.06.24 (commit b87888b) feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
+###### Version 17.06.24 (commit 1d57a59) feat. [Wiki](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
 # Start here: [Landing](/landing.md)
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
-[//]: # "* * *"
-[//]: # "#### more ai-translated versions maybe coming soon™️?"
-[//]: # "| Ai translated versions | Coming soon/Requests |"
-[//]: # "| :--------------------: | :------------------: |"
-[//]: # "| [hindi](https://github.com/driedpampas/realme-8-megaguide/tree/hi) | 🤫🤫🤫 |"
 
 <a href="https://star-history.com/#driedpampas/realme-8-megaguide&Date">
   <picture>
@@ -37,17 +31,10 @@
 > [KernelSU Developers & Contributors](https://github.com/tiann/KernelSU)  
 > Banner made by [Adi](https://youtube.com/@WDableu) in [ibisPaint X](https://ibispaint.com/product.jsp)  
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)  
-
-> Support in: [Realme 8 AOSP](https://t.me/Realme8AOSPGroup)
  
-Witten by [me](https://dry.nl.eu.org/links) with 🫶.
+Witten by [me](https://dry.nl.eu.org/links) with 🫶.  
+All content (c) by [@driedpampas](https://dry.nl.eu.org/links) unless specified otherwise.
 
-All content (c) by [@driedpampas](https://dry.nl.eu.org/links) unless specified otherwise above.
-
-realme-8-megaguide is licensed under a
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-
-You should have received a copy of the license along with this
-work. If not, see <https://creativecommons.org/licenses/by-nc-sa/4.0/>.
-
+##### realme-8-megaguide is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+##### You should have received a copy of the license along with this work. If not, see <https://creativecommons.org/licenses/by-nc-sa/4.0/>.
 ###### readme.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.
