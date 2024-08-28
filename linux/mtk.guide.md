@@ -7,8 +7,8 @@
 
 #### Disclaimer:
 - NO WARRANTY, as permitted by law.
-- Windows 7 is not supported.
-### If you are on RUI4 please update to F.09 or F.10 to ensure LKPatcher compatibility.
+
+### If you are on RUI4 please update to F.09 or higher to ensure LKPatcher compatibility.
 
 # Table of Contents
 0. [Back up](/linux/mtk.guide.md#0-back-up-your-data)

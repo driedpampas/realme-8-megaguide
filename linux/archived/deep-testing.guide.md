@@ -1,9 +1,11 @@
+# NO LONGER WORKS, REALME HAS REMOVED THE R8 FROM THE SERVERS
+
 > [!Warning]
 > ## **Make sure to read and do all of the steps to avoid your device being bricked.**
 
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
-### Already unlocked? Skip to [Installing a Custom recovery and ROM](/md/custom-rom.guide.md)
+### Already unlocked? Skip to [Installing a Custom recovery and ROM](/common/custom-rom.guide.md)
 
 #### Disclaimer:
 - NO WARRANTY, as permitted by law.
@@ -14,22 +16,22 @@
 | Software | Drivers | Firmware | APKs |
 | :------: | :-----: | :------: | :--: |
 | [Python](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5) | [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) | [C.18 Firmware](https://drive.google.com/uc?id=1MPLnD4ofrW50u8V4C5I5srGucHJg60XW&export=download) | [Deep Testing](https://drive.google.com/file/d/1pESMmJef6Gm9YlJAE7OA_DDNnhFn3Jpz/view?usp=sharing) |
-| [MTK Client](https://codeload.github.com/bkerler/mtkclient/zip/f9fe6ca65c93c2eb05adef7787069103c0d79763) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | |
+| [MTK Client](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) | [USBDk](https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi) | |
 | [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) |
 | [adb tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) |
 
 # Table of Contents
 
-0. [Back up](/md/w-deep-testing.guide.md#0-back-up-your-data)
+0. [Back up](/linux/deep-testing.guide.md#0-back-up-your-data)
 
-I. [Unlocking the bootloader](/md/w-deep-testing.guide.md#i-unlocking)
+I. [Unlocking the bootloader](/linux/deep-testing.guide.md#i-unlocking)
 
-1. [Installing Prerequisites](/md/w-deep-testing.guide.md#1-installing-prerequisites)
-2. [Flashing RUI3 C.18](/md/w-deep-testing.guide.md#2-flash-rui3-c18)
-3. [Unlocking the bootloader](/md/w-deep-testing.guide.md#3-unlocking-the-bootloader)
+1. [Installing Prerequisites](/linux/deep-testing.guide.md#1-installing-prerequisites)
+2. [Flashing RUI3 C.18](/linux/deep-testing.guide.md#2-flash-rui3-c18)
+3. [Unlocking the bootloader](/linux/deep-testing.guide.md#3-unlocking-the-bootloader)
 
-II. [Installing a Custom ROM](/md/w-deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)  
-III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)  
+II. [Installing a Custom ROM](/linux/deep-testing.guide.md#iii-installing-a-custom-recovery-and-rom)
+III. [Rooting](/linux/deep-testing.guide.md#iv-rooting)
 * * *
 
 # 0. Back up your system partitions
@@ -40,17 +42,13 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 ## 1. Installing prerequisites
 
-1. ### Mediatek USB
-   1. **Extract** and enter the folder of [Mediatek USB](https://drive.google.com/file/d/1UExJQxI1DmBGeDoYPul5YTXitOnsU6zx/view?usp=sharing) driver.
-   2. Find the **.inf** file, right click and press install
-   <p align="center"><img src="https://i.imgur.com/niVRaOn.png"></p>
-2. ### Install [USBDk](https://github.com/daynix/UsbDk/releases/)
-3. ### Install [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
+1. Install `libusb`
+2. Verify that `python` installation is newer than **`3.9`**
 
 ## 2. Flash RUI3 C.18
 
-1. **Extract** and enter the folder of [MTK Client archive](https://codeload.github.com/bkerler/mtkclient/zip/f9fe6ca65c93c2eb05adef7787069103c0d79763)
-2. Open the console in [MTK Client's](https://codeload.github.com/bkerler/mtkclient/zip/f9fe6ca65c93c2eb05adef7787069103c0d79763) folder
+1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
+2. Open a terminal in [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 <p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this:
@@ -69,7 +67,7 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 8. Load `MT6785_Android_scatter.txt` from the firmware's folder
    <p align="center"><img src="https://i.imgur.com/8APQvkx.png"></p>
 
-> [!CAUTION] 
+> [!CAUTION]
 > 9. Remember to have **`Download Only`** mode or **you will lose critical partitions**
 
 <p align="center"><img src="https://i.imgur.com/M3aUNBs.png" width="300"></p>
@@ -100,9 +98,9 @@ III. [Rooting](/md/w-deep-testing.guide.md#iv-rooting)
 
 * * *
 # III. Installing a Custom Recovery and ROM
-## Go to [Custom ROM Guide](/md/custom-rom.guide.md)
+## Go to [Custom ROM Guide](/common/custom-rom.guide.md)
 * * *
-# IV. Rooting 
-## Go to [Rooting](/md/rooting.md) 
+# IV. Rooting
+## Go to [Rooting](/common/rooting.md)
 
 ###### deep-testing.guide.md | Licensed under CC BY-NC-SA 4.0 — check [license](/LICENSE) for more information.
