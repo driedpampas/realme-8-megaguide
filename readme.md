@@ -14,23 +14,26 @@
  </picture>
 </a>
 
-## Special thanks & credits
+## Special thanks
  
-> [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Made everything possible by making the kernel for Realme 8  
-> [bkerler](https://twitter.com/viperbjk) - developer of [MtkClient](https://github.com/bkerler/mtkclient)  
-> [Roger](https://t.me/R0rt1z2) - creator of [lkpatcher](https://github.com/R0rt1z2/lkpatcher)  
+> [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Kernel dev  
+> [bkerler](https://twitter.com/viperbjk) - [MtkClient](https://github.com/bkerler/mtkclient) dev  
+> [Roger](https://t.me/R0rt1z2) - [lkpatcher](https://github.com/R0rt1z2/lkpatcher) dev  
 > [Haadi](https://t.me/Haadi786H) - RUI2 firmware  
 > [SGtriangle](https://t.me/SGtriangle) - RUI3 firmware  
-> [HowWof](https://t.me/HowWof) - [KSUBuilder](https://github.com/HowWof/KernelSU_Builder) developer  
-> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with the guide and KSUBuilder | made RUI4 debloated firmware (available on Telegram)  
-> [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting  
-> [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - backup guide inspo  
-> [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade  
-> [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/)  
-> [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)  
+> [HowWof](https://t.me/HowWof) - [KSUBuilder](https://github.com/HowWof/KernelSU_Builder) dev  
 > [Magisk Developers & Contributors](https://github.com/topjohnwu/Magisk)  
 > [KernelSU Developers & Contributors](https://github.com/tiann/KernelSU)  
+
+## Credits
+
+> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with the guide and KSUBuilder | made RUI4 debloated firmware (available on Telegram)  
+> [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting  
 > Banner made by [Adi](https://youtube.com/@WDableu) in [ibisPaint X](https://ibispaint.com/product.jsp)  
+> [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - backup guide inspo  
+> [Zako Chan](https://t.me/zakolakov106/) - downgrade info  
+> [Tony stark](https://forum.xda-developers.com/m/tony-stark.7582728/) - [RUI2 unlock guide](https://forum.xda-developers.com/t/guide-realme-8-unofficial-new-method-unlock-bootloader-flash-twrp-and-root-rmx3085.4386473/)  
+> [Original Custom ROM Guide](https://telegra.ph/Flash-LineageOS-on-Realme-8-06-05)  
 > Text images made in [Drawing](https://maoschanz.github.io/drawing)  
  
 Witten by [me](https://dry.nl.eu.org/links) with 🫶.  
