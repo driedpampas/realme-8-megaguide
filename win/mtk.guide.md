@@ -8,7 +8,7 @@
 #### Disclaimer:
 - NO WARRANTY, as permitted by law.
 - Windows 7 is not supported.
-### If you are on RUI4 please update to F.09 or F.10 to ensure LKPatcher compatibility.
+### If you are on RUI4 please update to F.09 or higher to ensure LKPatcher compatibility.
 
 # Table of Contents
 0. [Back up](/win/mtk.guide.md#0-back-up-your-data)
@@ -43,7 +43,7 @@ IV. [Rooting](/win/mtk.guide.md#iv-rooting)
 
 ## 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://codeload.github.com/bkerler/mtkclient/zip/f9fe6ca65c93c2eb05adef7787069103c0d79763)
-2. Open the console in [MTK Client's](https://codeload.github.com/bkerler/mtkclient/zip/f9fe6ca65c93c2eb05adef7787069103c0d79763) folder
+2. After extraction go into the folder 2 levels deep to find the `Requirements.txt` file. Now  open the console in the folder:
 	<p align="center"><img src="https://i.imgur.com/RJtobaI.png"></p>
 3. Get the needed libraries using command `python -m pip install -r requirements.txt`. Send the payload with `python mtk payload`. It should look like this: 
 	<p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
