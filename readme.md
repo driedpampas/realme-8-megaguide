@@ -14,6 +14,9 @@
  </picture>
 </a>
 
+## Disclaimer:
+Although I have switched to another device, I still own my Realme 8 so I will continue to support and update this guide as needed.
+
 ## Special thanks
  
 > [Ben](https://github.com/bengris32/android_kernel_realme_mt6785) - Kernel dev  
