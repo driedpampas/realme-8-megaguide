@@ -7,11 +7,11 @@
 ### Questions? Message [Realme 8 AOSP](https://t.me/Realme8AOSPGroup) on Telegram or start a new [Github Discussion](https://github.com/driedpampas/realme-8-megaguide/discussions/new/choose)
 
 <a href="https://star-history.com/#driedpampas/realme-8-megaguide&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date" />
-  </picture>
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=driedpampas/realme-8-megaguide&type=Date" />
+ </picture>
 </a>
 
 ## Special thanks & credits
