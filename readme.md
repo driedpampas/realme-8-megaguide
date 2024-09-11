@@ -30,7 +30,7 @@ Although I have switched to another device, I still own my Realme 8 so I will co
 
 ## Credits
 
-> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with the guide and KSUBuilder | made RUI4 debloated firmware (available on Telegram)  
+> [Ripper_Hybrid](https://t.me/Ripper_Hybrid) - helped with the guide and KSUBuilder | made RUI4 debloated firmware  
 > [MrPotato6](https://t.me/MrPotato6) - Info and screenshots for Magisk rooting  
 > Banner made by [Adi](https://youtube.com/@WDableu) in [ibisPaint X](https://ibispaint.com/product.jsp)  
 > [Nand kumar](https://forum.xda-developers.com/m/nand-kumar.8476267/) - backup guide inspo  
