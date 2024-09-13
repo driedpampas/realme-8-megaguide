@@ -3,7 +3,7 @@
 #### Looking for Deep Testing? It doesn't work anymore.
 
 # Unlock:
-## [MTK client](/win/mtk.guide.md) - works no matter what
+## [MTK client](/win/mtk.guide.md)
 
 # Lock:
 ## [Lock and revert guide](https://github.com/driedpampas/realme-8-megaguide/wiki/Reverting)
