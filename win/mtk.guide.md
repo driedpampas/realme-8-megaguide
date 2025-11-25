@@ -147,10 +147,10 @@ IV. [Rooting](/win/mtk.guide.md#iv-rooting)
 #### ❗ Check [FAQ (frequently asked questions)](https://github.com/driedpampas/realme-8-megaguide/wiki/FAQ#4-i-patched-my-lk-but-the-phone-still-says-fastboot_verify_fail) if something does not work or you have questions
 * * *
 # III. Installing a Custom Recovery and ROM
-## Go to [Custom ROM Guide](/common/custom-rom.guide.md)
+## Go to [Custom ROM Guide](/win/custom-rom.guide.md)
 * * *
 # IV. Rooting 
-## Go to [Rooting](/common/rooting.md)  
+## Go to [Rooting](/win/rooting.md)  
 * * *
 ## More in [WIKI](https://github.com/driedpampas/realme-8-megaguide/wiki)
 
