@@ -23,6 +23,8 @@
 <p align="center"><img src="https://i.imgur.com/CAbHxPv.png" width=400></p>
 
 6. Select `Select and patch a file`. The file picker will open, Find and select the `boot.img` you extracted. Then tap `let's go`.
+   > [!TIP]
+   > When patching with Magisk (v27/v28+) on MT6785 devices, leave the default options (`Preserve force encryption` checked) to prevent userdata encryption mismatch bootloops.
 <img src="https://i.imgur.com/4m7CJfB.png" height=131.830985915></p>
 
 7. When you see this screen, the patching is done and you will be given the path of the patched `.img file`. Copy that file to your computer in the `platform-tools` folder.  

@@ -31,8 +31,12 @@
 > #### ⚠️ If the required recovery has not changed you may skip step 3.
 
 1.  Prepare the `recovery.img` and `vbmeta.img`.
+    > [!IMPORTANT]
+    > * For Android 13 ROMs (e.g., PixelOS, LineageOS 20), ensure you use a compatible recovery like **TWRP 3.7.1+** or the ROM's official extracted `recovery.img` so that F2FS data formatting works properly.
 2.  Run the command `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`. It should show
 <p align="center"><img src="https://i.imgur.com/MZZyTBc.png"></p>
+    > [!TIP]
+    > The `--disable-verity --disable-verification` flags are essential to prevent Android Verified Boot (AVB) dm-verity corruption bootloops.
 
 3.  Run the command `fastboot flash recovery recovery.img`:
 <p align="center"><img src="https://i.imgur.com/t7wYi3R.png"></p>
