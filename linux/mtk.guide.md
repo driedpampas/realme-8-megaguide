@@ -40,8 +40,20 @@ IV. [Rooting](/linux/mtk.guide.md#iv-rooting)
 
 ## 1. Installing prerequisites
 
-1. Install `libusb`
-2. Verify that `python` installation is newer than **`3.9`**
+1. Install `libusb` and `libudev-dev` (`sudo apt install libusb-1.0-0-dev libudev-dev` on Debian/Ubuntu).
+2. Verify that `python` installation is newer than **`3.9`**.
+3. **Configure udev rules & prevent ModemManager conflicts (Crucial on Linux):**
+   * ModemManager often grabs the MediaTek USB port when connecting in BROM, disrupting the handshake. Temporarily stop or disable it:
+     ```bash
+     sudo systemctl stop ModemManager
+     ```
+   * Set up proper udev rules so root isn't required for USB serial access:
+     ```bash
+     sudo usermod -aG dialout,plugdev $USER
+     echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="0003", MODE="0666", GROUP="plugdev"' | sudo tee /etc/udev/rules.d/51-edl.rules
+     echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2000", MODE="0666", GROUP="plugdev"' | sudo tee -a /etc/udev/rules.d/51-edl.rules
+     sudo udevadm control --reload-rules && sudo udevadm trigger
+     ```
 
 ## 2. Downgrade to RUI2
 1. **Extract** and enter the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
@@ -51,7 +63,11 @@ IV. [Rooting](/linux/mtk.guide.md#iv-rooting)
 	<p align="center"><img src="https://i.imgur.com/WSQsVj1.png"></p>
 4. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable. You will see something like this:
 	<p align="center"><img src="https://i.imgur.com/lr7HIN0.png"></p>
-5. The phone is now in BROM mode. Run the [SP Flash tool](https://drive.google.com/file/d/11XeUnCYtARZg2kx7J2JWWeLULieSIYrx/view?usp=sharing) `flash_tool.exe`
+5. The phone is now in BROM mode. Extract and run [SP Flash Tool for Linux](https://github.com/driedpampas/realme-8-megaguide/blob/main/linux/SP_Flash_Tool_v5.2044_Linux.tar.xz):
+   ```bash
+   ./flash_tool
+   ```
+   *(Note: On modern Linux distros missing legacy `libpng12.so.0`, run `sudo apt install libpng12-0` via PPA/backports or run SP Flash Tool inside a lightweight Ubuntu 18.04/20.04 container)*.
 6. Click on `Options > Option...` and make sure the right **COM Port** is selected, UART enabled and baud rate is set to **921600**.
 	<p align="center"><img src="https://i.imgur.com/hnMsyeN.png"></p>
 7. Get [Haadi's A.19 RUI2 Firmware](https://drive.google.com/file/d/1Iy2hwZ0mHQtpHgpyRDRHMZv13FTTvups/view?usp=share_link) and unpack it
@@ -139,7 +155,13 @@ IV. [Rooting](/linux/mtk.guide.md#iv-rooting)
 3. Make sure your phone is powered off, hold down both **Vol+, Vol-** and connect the usb cable.
 4. Run  the command `python mtk r lk lk.bin`. There will now be a `lk.bin` file in **MTK Client** folder.
 	<p align="center"><img src="https://i.imgur.com/gL4Qpc2.png"></p>
-5. Go to this [website](http://lkpatcher.cxwof.dev/). Upload your lk.bin file and the `lk-patched.bin` will be downloaded. Move it to `MTK Client` folder. [**Check below if you get an error**](#if-you-get-this-error--could-not-find-the-lock-sequence-no-suitable-sequence-was-found)
+5. **Patch `lk.bin` (Removes Orange State warning & unlocks fastboot verification):**
+   * **Option A (Local Python CLI - Recommended & 100% Offline):**
+     ```bash
+     git clone https://github.com/R0rt1z2/lkpatcher.git
+     python lkpatcher/lkpatcher.py lk.bin lk-patched.bin
+     ```
+   * **Option B (Web GUI):** Go to [lkpatcher web](http://lkpatcher.cxwof.dev/). Upload your `lk.bin` file and download `lk-patched.bin`. Move it to your `MTK Client` folder.
 	<p align="center"><img src="https://i.imgur.com/HOve3Mv.png"></p>
 6. Run command `python mtk w lk lk-patched.bin`<br><br>
 
